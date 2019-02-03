@@ -1,0 +1,22 @@
+{
+    "bowl": {
+        "main": {
+            "modId": "_sys/root",
+            "fields": {
+                "main": [
+                    {
+                        "modId": "pickles2:base/text",
+                        "fields": {
+                            "main": {
+                                "src": "## Pickles 2 標準のモジュールセット\n\n汎用的なHTMLモジュール環境を提供します。\n",
+                                "editor": "markdown"
+                            }
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    }
+                ]
+            }
+        }
+    }
+}
