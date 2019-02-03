@@ -5,12 +5,27 @@
             "fields": {
                 "main": [
                     {
-                        "modId": "pickles2:base/text",
+                        "modId": "pickles2:basic/text",
                         "fields": {
                             "main": {
                                 "src": "## Pickles 2 標準のモジュールセット\n\n汎用的なHTMLモジュール環境を提供します。\n",
                                 "editor": "markdown"
                             }
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:basic/image",
+                        "fields": {
+                            "href": "",
+                            "image_src": {
+                                "resKey": "27711d1665540b402efea9d8bb894d9e",
+                                "path": "./index_files/resources/photo002-256px.gif",
+                                "resType": "",
+                                "webUrl": ""
+                            },
+                            "alt_text": ""
                         },
                         "anchor": "",
                         "dec": ""
