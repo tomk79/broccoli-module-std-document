@@ -342,7 +342,7 @@ return call_user_func( function(){
 
 	/** broccoliモジュールセットの登録 */
 	$conf->plugins->px2dt->paths_module_template = array(
-		'pickles2' => './../../..//modules/',
+		'pickles2' => './../../../modules/',
 	);
 
 	/** プロジェクト固有のモジュールセットの格納ディレクトリ */
