@@ -1,44 +1,51 @@
+@mixin px2-grid__col(){
+    margin: 0 1rem;
+    box-sizing: border-box;
+}
 .px2-grid {
     display: flex;
-    margin: 1rem -0.5rem;
+    flex-wrap: wrap;
+    margin: 1rem -1rem;
+    box-sizing: border-box;
+
     &__col-1of1{
-        margin: 0 0.5rem;
-        width: 100%;
+        @include px2-grid__col();
+        width: calc( 100% - 2rem );
     }
     &__col-1of2{
-        margin: 0 0.5rem;
-        width: 50%;
+        @include px2-grid__col();
+        width: calc( 50% - 2rem );
     }
     &__col-1of3{
-        margin: 0 0.5rem;
-        width: 33.33%;
+        @include px2-grid__col();
+        width: calc( 33.33% - 2rem );
     }
     &__col-2of3{
-        margin: 0 0.5rem;
-        width: 66.66%;
+        @include px2-grid__col();
+        width: calc( 66.66% - 2rem );
     }
     &__col-1of4{
-        margin: 0 0.5rem;
-        width: 25%;
+        @include px2-grid__col();
+        width: calc( 25% - 2rem );
     }
     &__col-1of5{
-        margin: 0 0.5rem;
-        width: 20%;
+        @include px2-grid__col();
+        width: calc( 20% - 2rem );
     }
     &__col-2of5{
-        margin: 0 0.5rem;
-        width: 40%;
+        @include px2-grid__col();
+        width: calc( 40% - 2rem );
     }
     &__col-3of5{
-        margin: 0 0.5rem;
-        width: 60%;
+        @include px2-grid__col();
+        width: calc( 60% - 2rem );
     }
     &__col-4of5{
-        margin: 0 0.5rem;
-        width: 80%;
+        @include px2-grid__col();
+        width: calc( 80% - 2rem );
     }
     &__col-1of6{
-        margin: 0 0.5rem;
-        width: 16.66%;
+        @include px2-grid__col();
+        width: calc( 16.66% - 2rem );
     }
 }

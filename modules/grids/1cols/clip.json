@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "modId": "pickles2:grids/grid",
+      "fields": {
+        "col": [
+          {
+            "modId": "pickles2:grids/grid",
+            "fields": {
+              "column-width": "1of1",
+              "main": [
+                {
+                  "modId": "pickles2:basics/text",
+                  "fields": {
+                    "main": {
+                      "src": "## Full Column\n\nSingle Column.\n",
+                      "editor": "markdown"
+                    }
+                  },
+                  "anchor": "",
+                  "dec": ""
+                }
+              ]
+            },
+            "subModName": "col",
+            "anchor": "",
+            "dec": ""
+          }
+        ]
+      }
+    }
+  ],
+  "resources": {}
+}
