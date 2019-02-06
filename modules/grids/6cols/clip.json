@@ -1,16 +1,16 @@
 {
   "data": [
     {
-      "modId": "pickles2:grids/grid",
+      "modId": ":grids/grid",
       "fields": {
         "col": [
           {
-            "modId": "pickles2:grids/grid",
+            "modId": ":grids/grid",
             "fields": {
               "column-width": "1of6",
               "main": [
                 {
-                  "modId": "pickles2:basics/text",
+                  "modId": ":basics/text",
                   "fields": {
                     "main": {
                       "src": "## Column 1\n\n1/6 Column.\n",
@@ -27,12 +27,12 @@
             "dec": ""
           },
           {
-            "modId": "pickles2:grids/grid",
+            "modId": ":grids/grid",
             "fields": {
               "column-width": "1of6",
               "main": [
                 {
-                  "modId": "pickles2:basics/text",
+                  "modId": ":basics/text",
                   "fields": {
                     "main": {
                       "src": "## Column 2\n\n2/6 Column.\n",
@@ -49,12 +49,12 @@
             "dec": ""
           },
           {
-            "modId": "pickles2:grids/grid",
+            "modId": ":grids/grid",
             "fields": {
               "column-width": "1of6",
               "main": [
                 {
-                  "modId": "pickles2:basics/text",
+                  "modId": ":basics/text",
                   "fields": {
                     "main": {
                       "src": "## Column 3\n\n3/6 Column.\n",
@@ -71,12 +71,12 @@
             "dec": ""
           },
           {
-            "modId": "pickles2:grids/grid",
+            "modId": ":grids/grid",
             "fields": {
               "column-width": "1of6",
               "main": [
                 {
-                  "modId": "pickles2:basics/text",
+                  "modId": ":basics/text",
                   "fields": {
                     "main": {
                       "src": "## Column 4\n\n4/6 Column.\n",
@@ -93,12 +93,12 @@
             "dec": ""
           },
           {
-            "modId": "pickles2:grids/grid",
+            "modId": ":grids/grid",
             "fields": {
               "column-width": "1of6",
               "main": [
                 {
-                  "modId": "pickles2:basics/text",
+                  "modId": ":basics/text",
                   "fields": {
                     "main": {
                       "src": "## Column 5\n\n5/6 Column.\n",
@@ -115,12 +115,12 @@
             "dec": ""
           },
           {
-            "modId": "pickles2:grids/grid",
+            "modId": ":grids/grid",
             "fields": {
               "column-width": "1of6",
               "main": [
                 {
-                  "modId": "pickles2:basics/text",
+                  "modId": ":basics/text",
                   "fields": {
                     "main": {
                       "src": "## Column 6\n\n6/6 Column.\n",
