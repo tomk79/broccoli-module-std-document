@@ -8,7 +8,7 @@
                         "modId": "pickles2:basics/text",
                         "fields": {
                             "main": {
-                                "src": "## 基本モジュール\n\n汎用的なHTMLモジュール環境を提供します。\n",
+                                "src": "## 基本モジュール\n\n汎用的なHTMLモジュール環境を提供します。\n\n- <a href=\"#\" class=\"px2-a px2-a--burette\">標準的なビュレット付きリンク</a>\n",
                                 "editor": "markdown"
                             }
                         },
@@ -539,6 +539,24 @@
                                         ]
                                     },
                                     "subModName": "col",
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "modId": "pickles2:utils/p",
+                        "fields": {
+                            "main": [
+                                {
+                                    "modId": "pickles2:basics/text",
+                                    "fields": {
+                                        "main": {
+                                            "src": "## 前後の自然なマージン\n\n`px2-p` は、段落要素と同じように前後に自然な改行を追加します。\n",
+                                            "editor": "markdown"
+                                        }
+                                    },
                                     "anchor": "",
                                     "dec": ""
                                 }
