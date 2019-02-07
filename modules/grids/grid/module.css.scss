@@ -5,7 +5,8 @@
 .px2-grid {
     display: flex;
     flex-wrap: wrap;
-    margin: 1rem -0.5rem;
+    margin: 1em -0.5rem;
+        // 上下のマージンはその場に表示される文字の大きさが基準になるべきなので、 rem ではなく em を採用する。
     box-sizing: border-box;
 
     &__col-1of1{
