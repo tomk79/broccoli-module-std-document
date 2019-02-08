@@ -1,0 +1,7 @@
+<div class="px2-media">
+  <div class="px2-media__media">{&{"module":{"name":"media", "label":"Media"}}&}</div>
+  {&{"input":{"type":"multitext","name":"caption","rows":3, "hidden":true}}&}
+  {& {"if":{"is_set":"caption"}} &}
+  <div class="px2-media__caption">{&{"echo":{"ref":"caption"}}&}</div>
+  {& "endif" &}
+</div>

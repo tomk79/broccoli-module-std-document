@@ -31,6 +31,59 @@
                         "dec": ""
                     },
                     {
+                        "modId": "pickles2:medias/float",
+                        "fields": {
+                            "lr": "r",
+                            "image-size": "1of2",
+                            "media": [
+                                {
+                                    "modId": "pickles2:medias/media",
+                                    "fields": {
+                                        "media": [
+                                            {
+                                                "modId": "pickles2:basics/image",
+                                                "fields": {
+                                                    "href": "",
+                                                    "image_src": {
+                                                        "resKey": "7edc06447e46ac594d576882423dd063",
+                                                        "path": "./index_files/resources/sun.jpg",
+                                                        "resType": "",
+                                                        "webUrl": ""
+                                                    },
+                                                    "alt_text": "お日様を撮影した写真"
+                                                },
+                                                "anchor": "",
+                                                "dec": ""
+                                            }
+                                        ],
+                                        "caption": {
+                                            "src": "画像はイメージです。",
+                                            "editor": "markdown"
+                                        }
+                                    },
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ],
+                            "body_rect": "-rect",
+                            "main": [
+                                {
+                                    "modId": "pickles2:basics/text",
+                                    "fields": {
+                                        "main": {
+                                            "src": "## テキストを挿入します。\n\nテキストを挿入します。\n\nテキストを挿入します。\n\nテキストを挿入します。\n\nテキストを挿入します。\n\nテキストを挿入します。\n\nテキストを挿入します。\n\nテキストを挿入します。\n\nテキストを挿入します。\n\nテキストを挿入します。\n",
+                                            "editor": "markdown"
+                                        }
+                                    },
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ]
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
                         "modId": "pickles2:basics/text",
                         "fields": {
                             "main": {
