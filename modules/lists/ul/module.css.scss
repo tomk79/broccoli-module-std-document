@@ -1,0 +1,35 @@
+// 水平リスト
+.px2-horizontal-list,
+.px2-horizontal-list>ul{
+  display: flex;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 0;
+
+  >ul>li ,
+  >li {
+    list-style-type: none;
+    padding-left: 0;
+    padding-right: 1em;
+    >p{
+      margin: 0;
+    }
+  }
+}
+
+// 注釈リスト
+.px2-note-list,
+.px2-note-list>ul{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 1em;
+  >li {
+    list-style-type: none;
+    text-indent: -1em;
+    color: #999;
+    font-size: 86%;
+    &::before{
+      content: "※";
+    }
+  }
+}

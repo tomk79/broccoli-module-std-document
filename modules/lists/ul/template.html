@@ -1,0 +1,10 @@
+{&{"input":{"type":"select","name":"class","options":[
+	{"value":"", "label":"標準リスト"},
+	{"value":"px2-horizontal-list", "label":"水平リスト"},
+	{"value":"px2-note-list", "label":"注釈リスト"}
+],"hidden":true}}&}
+<ul{&{"if":{"is_set":"class"}}&} class="{&{"echo":{"ref":"class"}}&}"{&"endif"&}>
+{&{"loop":{"name":"loop","label":"List items"}}&}
+	<li>{&{"input":{"type":"multitext","name":"text","label":"List item","default":{"editor":"text","src":"List Item"}}}&}</li>
+{&"endloop"&}
+</ul>

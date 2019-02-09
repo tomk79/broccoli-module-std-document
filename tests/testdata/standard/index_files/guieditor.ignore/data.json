@@ -16,6 +16,93 @@
                         "dec": ""
                     },
                     {
+                        "modId": "pickles2:lists/ul",
+                        "fields": {
+                            "class": "px2-horizontal-list",
+                            "loop": [
+                                {
+                                    "modId": "pickles2:lists/ul",
+                                    "fields": {
+                                        "text": {
+                                            "editor": "text",
+                                            "src": "List Item"
+                                        }
+                                    },
+                                    "subModName": "loop"
+                                },
+                                {
+                                    "modId": "pickles2:lists/ul",
+                                    "fields": {
+                                        "text": {
+                                            "editor": "text",
+                                            "src": "List Item"
+                                        }
+                                    },
+                                    "subModName": "loop"
+                                },
+                                {
+                                    "modId": "pickles2:lists/ul",
+                                    "fields": {
+                                        "text": {
+                                            "editor": "markdown",
+                                            "src": "List Item"
+                                        }
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ]
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:utils/p",
+                        "fields": {
+                            "main": [
+                                {
+                                    "modId": "pickles2:lists/ul",
+                                    "fields": {
+                                        "class": "",
+                                        "loop": [
+                                            {
+                                                "modId": "pickles2:lists/ul",
+                                                "fields": {
+                                                    "text": {
+                                                        "editor": "text",
+                                                        "src": "List Item"
+                                                    }
+                                                },
+                                                "subModName": "loop"
+                                            },
+                                            {
+                                                "modId": "pickles2:lists/ul",
+                                                "fields": {
+                                                    "text": {
+                                                        "editor": "text",
+                                                        "src": "List Item"
+                                                    }
+                                                },
+                                                "subModName": "loop"
+                                            },
+                                            {
+                                                "modId": "pickles2:lists/ul",
+                                                "fields": {
+                                                    "text": {
+                                                        "editor": "text",
+                                                        "src": "List Item"
+                                                    }
+                                                },
+                                                "subModName": "loop"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
                         "modId": "pickles2:medias/float",
                         "fields": {
                             "lr": "l",
@@ -26,7 +113,7 @@
                                     "fields": {
                                         "image_src": {
                                             "resKey": "fed8078277b58a9b44111dea262008ca",
-                                            "path": "./index_files/resources/tea.gif",
+                                            "path": "./index_files/resources/tea1.gif",
                                             "resType": "",
                                             "webUrl": ""
                                         },
@@ -69,7 +156,7 @@
                                     "fields": {
                                         "image_src": {
                                             "resKey": "0c3ecdb8d4ba2b5ba0b0da96c7fdca3d",
-                                            "path": "./index_files/resources/tea.gif",
+                                            "path": "./index_files/resources/tea2.gif",
                                             "resType": "",
                                             "webUrl": ""
                                         },
