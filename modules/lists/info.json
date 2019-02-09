@@ -1,3 +1,6 @@
 {
-    "name":"Lists"
+    "name":"Lists",
+    "sort":[
+        "ul"
+    ]
 }

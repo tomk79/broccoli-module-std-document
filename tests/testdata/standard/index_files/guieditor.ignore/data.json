@@ -735,6 +735,43 @@
                                 }
                             ]
                         }
+                    },
+                    {
+                        "modId": "pickles2:lists/changelog",
+                        "fields": {
+                            "header": {
+                                "editor": "markdown",
+                                "src": "更新履歴"
+                            },
+                            "loop": [
+                                {
+                                    "modId": "pickles2:lists/changelog",
+                                    "fields": {
+                                        "date": "2019-02-10",
+                                        "contents": {
+                                            "src": "- list 1\n- list 2",
+                                            "editor": "markdown"
+                                        }
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:lists/changelog",
+                                    "fields": {
+                                        "date": "2019-02-11",
+                                        "contents": {
+                                            "src": "更新しました。",
+                                            "editor": "markdown"
+                                        }
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ]
+                        }
                     }
                 ]
             },
