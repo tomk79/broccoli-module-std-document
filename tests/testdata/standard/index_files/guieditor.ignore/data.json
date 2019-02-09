@@ -16,48 +16,23 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:basics/image",
-                        "fields": {
-                            "href": "",
-                            "image_src": {
-                                "resKey": "27711d1665540b402efea9d8bb894d9e",
-                                "path": "./index_files/resources/photo002-256px.gif",
-                                "resType": "",
-                                "webUrl": ""
-                            },
-                            "alt_text": ""
-                        },
-                        "anchor": "",
-                        "dec": ""
-                    },
-                    {
                         "modId": "pickles2:medias/float",
                         "fields": {
-                            "lr": "r",
-                            "image-size": "1of2",
+                            "lr": "l",
+                            "image-size": "1of3",
                             "media": [
                                 {
-                                    "modId": "pickles2:medias/media",
+                                    "modId": "pickles2:medias/image-media",
                                     "fields": {
-                                        "media": [
-                                            {
-                                                "modId": "pickles2:basics/image",
-                                                "fields": {
-                                                    "href": "",
-                                                    "image_src": {
-                                                        "resKey": "7edc06447e46ac594d576882423dd063",
-                                                        "path": "./index_files/resources/sun.jpg",
-                                                        "resType": "",
-                                                        "webUrl": ""
-                                                    },
-                                                    "alt_text": "お日様を撮影した写真"
-                                                },
-                                                "anchor": "",
-                                                "dec": ""
-                                            }
-                                        ],
+                                        "image_src": {
+                                            "resKey": "fed8078277b58a9b44111dea262008ca",
+                                            "path": "./index_files/resources/tea.gif",
+                                            "resType": "",
+                                            "webUrl": ""
+                                        },
+                                        "alt_text": "ティーバッグの袋",
                                         "caption": {
-                                            "src": "画像はイメージです。",
+                                            "src": "使用したあとのティーバッグの袋",
                                             "editor": "markdown"
                                         }
                                     },
@@ -71,7 +46,50 @@
                                     "modId": "pickles2:basics/text",
                                     "fields": {
                                         "main": {
-                                            "src": "## テキストを挿入します。\n\nテキストを挿入します。\n\nテキストを挿入します。\n\nテキストを挿入します。\n\nテキストを挿入します。\n\nテキストを挿入します。\n\nテキストを挿入します。\n\nテキストを挿入します。\n\nテキストを挿入します。\n\nテキストを挿入します。\n",
+                                            "src": "## Float Media Block\n\nこのモジュールは、テキストを回り込むメディア表示領域を作成します。\n\n回り込む方向を右か左のいずれかで選択します。 メディアの大きさは、幅 1/2、1/3、1/4 のサイズから選択することができます。\n\nまた、テキスト領域を回り込むか、矩形とするかを選択することもできます。\n",
+                                            "editor": "markdown"
+                                        }
+                                    },
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ]
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:medias/float",
+                        "fields": {
+                            "lr": "r",
+                            "image-size": "1of3",
+                            "media": [
+                                {
+                                    "modId": "pickles2:medias/image-media",
+                                    "fields": {
+                                        "image_src": {
+                                            "resKey": "0c3ecdb8d4ba2b5ba0b0da96c7fdca3d",
+                                            "path": "./index_files/resources/tea.gif",
+                                            "resType": "",
+                                            "webUrl": ""
+                                        },
+                                        "alt_text": "ティーバッグの袋",
+                                        "caption": {
+                                            "src": "使用したあとのティーバッグの袋",
+                                            "editor": "markdown"
+                                        }
+                                    },
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ],
+                            "body_rect": "-rect",
+                            "main": [
+                                {
+                                    "modId": "pickles2:basics/text",
+                                    "fields": {
+                                        "main": {
+                                            "src": "## Float Media Block\n\nこのモジュールは、テキストを回り込むメディア表示領域を作成します。\n\n回り込む方向を右か左のいずれかで選択します。 メディアの大きさは、幅 1/2、1/3、1/4 のサイズから選択することができます。\n\nまた、テキスト領域を回り込むか、矩形とするかを選択することもできます。\n",
                                             "editor": "markdown"
                                         }
                                     },
