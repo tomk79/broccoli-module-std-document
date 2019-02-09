@@ -103,6 +103,31 @@
                         }
                     },
                     {
+                        "modId": "pickles2:notice/notice",
+                        "fields": {
+                            "type": "px2-notice--info",
+                            "heading": {
+                                "src": "",
+                                "editor": "markdown"
+                            },
+                            "main": [
+                                {
+                                    "modId": "pickles2:basics/text",
+                                    "fields": {
+                                        "main": {
+                                            "src": "お知らせいたします。\n\n- list 1\n- list 2",
+                                            "editor": "markdown"
+                                        }
+                                    },
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ]
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
                         "modId": "pickles2:medias/float",
                         "fields": {
                             "lr": "l",
