@@ -1,2 +1,30 @@
 .px2-tabs{
+	&__tabs{
+		display: flex;
+		border-bottom: 1px solid #dee2e6;
+		div{
+			display: block;
+			width: auto;
+			height: 100%;
+			margin-bottom: -1px;
+			box-sizing: border-box;
+		}
+		a{
+			display: block;
+			width: auto;
+			height: 100%;
+			border: 1px solid transparent;
+			border-top-left-radius: 0.3em;
+			border-top-right-radius: 0.3em;
+			padding: 0.5em 1em;
+			&.px2-tabs--active{
+				color: #666;
+				text-decoration: none;
+				background-color: #fff;
+				border-color: #dee2e6 #dee2e6 #fff;
+			}
+		}
+	}
+	&__contents{
+	}
 }

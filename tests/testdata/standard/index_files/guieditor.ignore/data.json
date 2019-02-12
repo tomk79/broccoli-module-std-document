@@ -84,7 +84,9 @@
                                                         "src": "List Item"
                                                     }
                                                 },
-                                                "subModName": "loop"
+                                                "subModName": "loop",
+                                                "anchor": "",
+                                                "dec": ""
                                             },
                                             {
                                                 "modId": "pickles2:lists/ul",

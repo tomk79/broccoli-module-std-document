@@ -6,7 +6,7 @@ return function( $html, $supply ){
     $data = $supply['data']; // モジュールに入力されたデータが供給される。
     $src_tabs = '';
     foreach($data->fields->loop as $loop){
-        $src_tabs .= '<div><a>'.htmlspecialchars($loop->fields->{'tab-label'}).'</a></div>';
+        $src_tabs .= '<div><a href="javascript:;">'.htmlspecialchars($loop->fields->{'tab-label'}).'</a></div>';
     }
 
     /* ここに $html を加工するコードを書く。 */
