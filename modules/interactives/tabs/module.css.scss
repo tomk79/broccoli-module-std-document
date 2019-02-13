@@ -1,4 +1,7 @@
 .px2-tabs{
+	margin-top: 1em;
+	margin-bottom: 1em;
+
 	&__tabs{
 		display: flex;
 		border-bottom: 1px solid #dee2e6;
@@ -7,6 +10,7 @@
 			width: auto;
 			height: 100%;
 			margin-bottom: -1px;
+			margin-right: 2px;
 			box-sizing: border-box;
 		}
 		a{
@@ -22,9 +26,18 @@
 				text-decoration: none;
 				background-color: #fff;
 				border-color: #dee2e6 #dee2e6 #fff;
+				&:hover{
+					border-bottom-color: #fff;
+				}
+			}
+			&:hover{
+				border-color: #dee2e6;
 			}
 		}
 	}
 	&__contents{
+		border: 1px solid #dee2e6;
+		border-top: none;
+		padding: 1rem;
 	}
 }
