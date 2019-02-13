@@ -105,6 +105,79 @@
                         }
                     },
                     {
+                        "modId": "pickles2:interactives/accordion",
+                        "fields": {
+                            "loop": [
+                                {
+                                    "modId": "pickles2:interactives/accordion",
+                                    "fields": {
+                                        "accordion-label": "アコーディオンサンプル1",
+                                        "main": [
+                                            {
+                                                "modId": "pickles2:basics/text",
+                                                "fields": {
+                                                    "main": {
+                                                        "src": "アコーディオン その1。\n",
+                                                        "editor": "markdown"
+                                                    }
+                                                },
+                                                "anchor": "",
+                                                "dec": ""
+                                            }
+                                        ]
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:interactives/accordion",
+                                    "fields": {
+                                        "accordion-label": "アコーディオンサンプル2",
+                                        "main": [
+                                            {
+                                                "modId": "pickles2:basics/text",
+                                                "fields": {
+                                                    "main": {
+                                                        "src": "アコーディオン その2。\n",
+                                                        "editor": "markdown"
+                                                    }
+                                                },
+                                                "anchor": "",
+                                                "dec": ""
+                                            }
+                                        ]
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:interactives/accordion",
+                                    "fields": {
+                                        "accordion-label": "アコーディオンサンプル3",
+                                        "main": [
+                                            {
+                                                "modId": "pickles2:basics/text",
+                                                "fields": {
+                                                    "main": {
+                                                        "src": "アコーディオン その3。\n",
+                                                        "editor": "markdown"
+                                                    }
+                                                },
+                                                "anchor": "",
+                                                "dec": ""
+                                            }
+                                        ]
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ]
+                        }
+                    },
+                    {
                         "modId": "pickles2:interactives/tabs",
                         "fields": {
                             "loop": [

@@ -1,2 +1,23 @@
 .px2-accordion{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    &__unit{
+        border: 1px solid #999;
+    }
+    &__label{
+        a{
+            display:block;
+            padding: 0.3em 1em;
+            background-color: #eee;
+            color: #666;
+
+        }
+    }
+    &__content{
+        margin: 1rem;
+        display: none;
+    }
+    &--active &__content{
+        display: block;
+    }
 }
