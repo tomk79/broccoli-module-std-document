@@ -15,7 +15,7 @@ window.addEventListener('load', function(e){
 
 		for(var idxTab = 0; idxTab < tabs.length; idxTab ++){
 			(function(idxTab, tab, content, tabs, contents){
-				console.log(idxTab);
+				// console.log(idxTab);
 				tab.addEventListener('click', function(e){
 					for(var idx2 = 0; idx2 < tabs.length; idx2 ++){
 						tabs[idx2].classList.remove('px2-tabs--active');
