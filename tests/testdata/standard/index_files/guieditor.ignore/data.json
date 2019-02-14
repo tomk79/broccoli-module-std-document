@@ -105,6 +105,59 @@
                         }
                     },
                     {
+                        "modId": "pickles2:interactives/carousel",
+                        "fields": {
+                            "loop": [
+                                {
+                                    "modId": "pickles2:interactives/carousel",
+                                    "fields": {
+                                        "main": [
+                                            {
+                                                "modId": "pickles2:basics/image",
+                                                "fields": {
+                                                    "href": "",
+                                                    "image_src": {
+                                                        "resKey": "3ce3c32b2d5c975e45b8f77e261504d0",
+                                                        "path": "./index_files/resources/photo008.jpg",
+                                                        "resType": "",
+                                                        "webUrl": ""
+                                                    },
+                                                    "alt_text": "南の海とパラソル"
+                                                },
+                                                "anchor": "",
+                                                "dec": ""
+                                            }
+                                        ]
+                                    },
+                                    "subModName": "loop"
+                                },
+                                {
+                                    "modId": "pickles2:interactives/carousel",
+                                    "fields": {
+                                        "main": [
+                                            {
+                                                "modId": "pickles2:basics/image",
+                                                "fields": {
+                                                    "href": "",
+                                                    "image_src": {
+                                                        "resKey": "65a17f37e15783834e39fe7d078313a0",
+                                                        "path": "./index_files/resources/photo010.jpg",
+                                                        "resType": "",
+                                                        "webUrl": ""
+                                                    },
+                                                    "alt_text": "南の島のレストラン"
+                                                },
+                                                "anchor": "",
+                                                "dec": ""
+                                            }
+                                        ]
+                                    },
+                                    "subModName": "loop"
+                                }
+                            ]
+                        }
+                    },
+                    {
                         "modId": "pickles2:interactives/accordion",
                         "fields": {
                             "loop": [
