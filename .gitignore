@@ -1,5 +1,6 @@
 composer.phar
-/vendor/
 composer.lock
+/vendor/
+/node_modules/
 tests/testdata/standard/px-files/_sys/ram/
 tests/testdata/standard/common/px_resources/

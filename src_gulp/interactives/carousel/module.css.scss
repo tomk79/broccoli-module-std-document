@@ -1,0 +1,16 @@
+.px2-carousel{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    &__contents{
+        display: inline-block;
+        overflow: hidden;
+    }
+    &__content{
+        line-height: 1;
+        vertical-align: bottom;
+        img{
+            width: 100%;
+            line-height: 1;
+        }
+    }
+}
