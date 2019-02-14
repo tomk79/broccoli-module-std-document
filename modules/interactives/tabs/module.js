@@ -8,10 +8,10 @@ window.addEventListener('load', function(e){
 			tabs[idx2].classList.remove('px2-tabs--active');
 		}
 		for(var idx2 = 0; idx2 < contents.length; idx2 ++){
-			contents[idx2].style.display = 'none';
+			contents[idx2].classList.remove('px2-tabs--active');
 		}
 		tabs[0].classList.add('px2-tabs--active');
-		contents[0].style.display = 'block';
+		contents[0].classList.add('px2-tabs--active');
 
 		for(var idxTab = 0; idxTab < tabs.length; idxTab ++){
 			(function(idxTab, tab, content, tabs, contents){
@@ -21,10 +21,10 @@ window.addEventListener('load', function(e){
 						tabs[idx2].classList.remove('px2-tabs--active');
 					}
 					for(var idx2 = 0; idx2 < contents.length; idx2 ++){
-						contents[idx2].style.display = 'none';
+						contents[idx2].classList.remove('px2-tabs--active');
 					}
 					tab.classList.add('px2-tabs--active');
-					content.style.display = 'block';
+					content.classList.add('px2-tabs--active');
 				});
 			})(idxTab, tabs[idxTab], contents[idxTab], tabs, contents);
 		}

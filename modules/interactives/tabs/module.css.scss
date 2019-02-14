@@ -21,6 +21,7 @@
 			border-top-left-radius: 0.3em;
 			border-top-right-radius: 0.3em;
 			padding: 0.5em 1em;
+
 			&.px2-tabs--active{
 				color: #666;
 				text-decoration: none;
@@ -39,5 +40,11 @@
 		border: 1px solid #dee2e6;
 		border-top: none;
 		padding: 1rem;
+	}
+	&__content{
+		display: none;
+		&.px2-tabs--active{
+			display: block;
+		}
 	}
 }
