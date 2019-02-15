@@ -22,7 +22,7 @@ gulp.task('carousel', function(){
 
 // src 中のすべての拡張子を監視して処理
 gulp.task("watch", function() {
-	gulp.watch(["src/**/*"], _tasks);
+	gulp.watch(["src_gulp/**/*"], _tasks);
 });
 
 

@@ -136,6 +136,25 @@
                                     "fields": {
                                         "main": [
                                             {
+                                                "modId": "pickles2:basics/text",
+                                                "fields": {
+                                                    "main": {
+                                                        "src": "もじもじテキスト。\n",
+                                                        "editor": "markdown"
+                                                    }
+                                                },
+                                                "anchor": "",
+                                                "dec": ""
+                                            }
+                                        ]
+                                    },
+                                    "subModName": "loop"
+                                },
+                                {
+                                    "modId": "pickles2:interactives/carousel",
+                                    "fields": {
+                                        "main": [
+                                            {
                                                 "modId": "pickles2:basics/image",
                                                 "fields": {
                                                     "href": "",
@@ -146,6 +165,31 @@
                                                         "webUrl": ""
                                                     },
                                                     "alt_text": "南の島のレストラン"
+                                                },
+                                                "anchor": "",
+                                                "dec": ""
+                                            }
+                                        ]
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:interactives/carousel",
+                                    "fields": {
+                                        "main": [
+                                            {
+                                                "modId": "pickles2:basics/image",
+                                                "fields": {
+                                                    "href": "",
+                                                    "image_src": {
+                                                        "resKey": "6e1f8161f04be979bab9802d1a8f07db",
+                                                        "path": "./index_files/resources/photo003.jpg",
+                                                        "resType": "",
+                                                        "webUrl": ""
+                                                    },
+                                                    "alt_text": ""
                                                 },
                                                 "anchor": "",
                                                 "dec": ""

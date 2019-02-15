@@ -3,4 +3,16 @@ window.addEventListener('load', function(e){
 	for(var idx = 0; idx < carouselModules.length; idx ++){
 		// console.log(idx);
 	}
+	tns({
+		container: '.px2-carousel .px2-carousel__contents',
+		items: 1,
+		slideBy: 'page',
+		nav: true,
+		controlsText: ['＜', '＞'],
+		autoplay: true,
+		autoplayHoverPause: true,
+		autoplayButtonOutput: false,
+		lazyload: true,
+		nested: 'inner'
+	});
 });

@@ -4,13 +4,65 @@
     &__contents{
         display: inline-block;
         overflow: hidden;
-    }
-    &__content{
-        line-height: 1;
-        vertical-align: bottom;
         img{
+            line-height: 1;
+            vertical-align: bottom;
             width: 100%;
             line-height: 1;
+        }
+    }
+
+    .tns-outer {
+        width: auto;
+        margin: 0 auto;
+        position: relative;
+    }
+    .tns-inner {
+        position: relative;
+    }
+    .tns-nav {
+        text-align: center;
+    }
+    .tns-nav > button {
+        width: 27px;
+        height: 9px;
+        margin: 0 5px;
+        padding: 0;
+        border: 0;
+        border-radius: 5px;
+        background: #eee;
+    }
+    .tns-nav > button.tns-nav-active {
+        background: #666;
+    }
+    .tns-controls {
+        button[data-controls="prev"],
+        button[data-controls="next"] {
+            position: absolute;
+            z-index: 2;
+            top: 50%;
+            width: 30px;
+            height: 30px;
+            margin-top: -15px;
+            padding: 0;
+            border: none;
+            border-radius: 50%;
+            outline: none;
+            opacity: 0.9;
+            background: #fff;
+            color: #999;
+            line-height: 30px;
+            text-align: center;
+        }
+        button[data-controls="prev"]:hover,
+        button[data-controls="next"]:hover {
+            background: #ddd;
+        }
+        button[data-controls="prev"] {
+            left: 10px;
+        }
+        button[data-controls="next"] {
+            right: 10px;
         }
     }
 }
