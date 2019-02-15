@@ -2,8 +2,8 @@ window.addEventListener('load', function(e){
 	var tabModules = document.querySelectorAll('.px2-tabs');
 	for(var idx = 0; idx < tabModules.length; idx ++){
 		// console.log(idx);
-		var tabs = tabModules[idx].querySelectorAll('.px2-tabs__tabs a');
-		var contents = tabModules[idx].querySelectorAll('.px2-tabs__contents .px2-tabs__content');
+		var tabs = tabModules[idx].querySelectorAll(':scope > .px2-tabs__tabs > div > a');
+		var contents = tabModules[idx].querySelectorAll(':scope > .px2-tabs__contents > .px2-tabs__content');
 		for(var idx2 = 0; idx2 < tabs.length; idx2 ++){
 			tabs[idx2].classList.remove('px2-tabs--active');
 		}
