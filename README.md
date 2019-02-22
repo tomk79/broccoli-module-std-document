@@ -1,14 +1,13 @@
-# broccoli-module-pickles2
+# Broccoli Module: Standard Document
 
-### tomk79/broccoli-module-pickles2 v0.0.1 (リリース日未定)
+### tomk79/broccoli-module-std-document v0.0.1 (リリース日未定)
 
 - Initial release.
 
 
 ## ライセンス - License
 
-Copyright (c)2001-2019 Tomoya Koyanagi, and Pickles 2 Project<br />
-MIT License https://opensource.org/licenses/mit-license.php
+MIT License
 
 
 ## 作者 - Author

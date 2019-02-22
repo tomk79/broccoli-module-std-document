@@ -1,5 +1,5 @@
 {
-    "name": "tomk79/broccoli-module-pickles2",
+    "name": "tomk79/broccoli-module-std-document",
     "description": "",
     "keywords": ["broccoli","pickles2"],
     "license": "MIT",
@@ -23,13 +23,5 @@
     "autoload": {
         "files": [
         ]
-    },
-    "extra": {
-        "px2package": {
-            "name": "Get start \"Pickles 2\" !",
-            "type": "project",
-            "path": ".px_execute.php",
-            "path_homedir": "px-files/"
-        }
     }
 }
