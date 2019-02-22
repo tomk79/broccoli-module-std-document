@@ -4,7 +4,7 @@ window.addEventListener('load', function(e){
 		// console.log(idx);
 	}
 	tns({
-		container: '.px2-carousel .px2-carousel__contents',
+		container: '.px2-carousel .tns-outer',
 		items: 1,
 		slideBy: 'page',
 		nav: true,

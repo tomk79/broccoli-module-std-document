@@ -198,10 +198,14 @@
                                             }
                                         ]
                                     },
-                                    "subModName": "loop"
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
                                 }
                             ]
-                        }
+                        },
+                        "anchor": "",
+                        "dec": ""
                     },
                     {
                         "modId": "pickles2:interactives/accordion",
