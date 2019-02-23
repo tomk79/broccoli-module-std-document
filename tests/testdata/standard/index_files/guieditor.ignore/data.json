@@ -5,6 +5,66 @@
             "fields": {
                 "main": [
                     {
+                        "modId": "pickles2:interactives/carousel",
+                        "fields": {
+                            "loop": [
+                                {
+                                    "modId": "pickles2:interactives/carousel",
+                                    "fields": {
+                                        "href": "",
+                                        "target": "",
+                                        "image_src": {
+                                            "resKey": "cb2c961728913c647891c63c2f29cff0",
+                                            "path": "./index_files/resources/photo002-256px.jpg",
+                                            "resType": "",
+                                            "webUrl": ""
+                                        },
+                                        "alt_text": ""
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:interactives/carousel",
+                                    "fields": {
+                                        "href": "https://pickles2.pxt.jp/",
+                                        "target": "_blank",
+                                        "image_src": {
+                                            "resKey": "01a7b016610001998bfea6f9467bd773",
+                                            "path": "./index_files/resources/photo007-360x480px.jpg",
+                                            "resType": "",
+                                            "webUrl": ""
+                                        },
+                                        "alt_text": ""
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:interactives/carousel",
+                                    "fields": {
+                                        "href": "https://www.pxt.jp/",
+                                        "target": "",
+                                        "image_src": {
+                                            "resKey": "7ed7c59a7910cf7820cf22721a303ec9",
+                                            "path": "./index_files/resources/photo009.jpg",
+                                            "resType": "",
+                                            "webUrl": ""
+                                        },
+                                        "alt_text": ""
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ]
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
                         "modId": "pickles2:basics/text",
                         "fields": {
                             "main": {
@@ -105,107 +165,6 @@
                                 }
                             ]
                         }
-                    },
-                    {
-                        "modId": "pickles2:interactives/carousel",
-                        "fields": {
-                            "loop": [
-                                {
-                                    "modId": "pickles2:interactives/carousel",
-                                    "fields": {
-                                        "main": [
-                                            {
-                                                "modId": "pickles2:basics/image",
-                                                "fields": {
-                                                    "href": "",
-                                                    "image_src": {
-                                                        "resKey": "3ce3c32b2d5c975e45b8f77e261504d0",
-                                                        "path": "./index_files/resources/photo008.jpg",
-                                                        "resType": "",
-                                                        "webUrl": ""
-                                                    },
-                                                    "alt_text": "南の海とパラソル"
-                                                },
-                                                "anchor": "",
-                                                "dec": ""
-                                            }
-                                        ]
-                                    },
-                                    "subModName": "loop"
-                                },
-                                {
-                                    "modId": "pickles2:interactives/carousel",
-                                    "fields": {
-                                        "main": [
-                                            {
-                                                "modId": "pickles2:basics/text",
-                                                "fields": {
-                                                    "main": {
-                                                        "src": "もじもじテキスト。\n",
-                                                        "editor": "markdown"
-                                                    }
-                                                },
-                                                "anchor": "",
-                                                "dec": ""
-                                            }
-                                        ]
-                                    },
-                                    "subModName": "loop"
-                                },
-                                {
-                                    "modId": "pickles2:interactives/carousel",
-                                    "fields": {
-                                        "main": [
-                                            {
-                                                "modId": "pickles2:basics/image",
-                                                "fields": {
-                                                    "href": "",
-                                                    "image_src": {
-                                                        "resKey": "65a17f37e15783834e39fe7d078313a0",
-                                                        "path": "./index_files/resources/photo010.jpg",
-                                                        "resType": "",
-                                                        "webUrl": ""
-                                                    },
-                                                    "alt_text": "南の島のレストラン"
-                                                },
-                                                "anchor": "",
-                                                "dec": ""
-                                            }
-                                        ]
-                                    },
-                                    "subModName": "loop",
-                                    "anchor": "",
-                                    "dec": ""
-                                },
-                                {
-                                    "modId": "pickles2:interactives/carousel",
-                                    "fields": {
-                                        "main": [
-                                            {
-                                                "modId": "pickles2:basics/image",
-                                                "fields": {
-                                                    "href": "",
-                                                    "image_src": {
-                                                        "resKey": "6e1f8161f04be979bab9802d1a8f07db",
-                                                        "path": "./index_files/resources/photo003.jpg",
-                                                        "resType": "",
-                                                        "webUrl": ""
-                                                    },
-                                                    "alt_text": ""
-                                                },
-                                                "anchor": "",
-                                                "dec": ""
-                                            }
-                                        ]
-                                    },
-                                    "subModName": "loop",
-                                    "anchor": "",
-                                    "dec": ""
-                                }
-                            ]
-                        },
-                        "anchor": "",
-                        "dec": ""
                     },
                     {
                         "modId": "pickles2:interactives/accordion",

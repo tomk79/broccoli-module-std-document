@@ -4,15 +4,8 @@ window.addEventListener('load', function(e){
 		// console.log(idx);
 	}
 	tns({
-		container: '.px2-carousel .tns-outer',
-		items: 1,
-		slideBy: 'page',
+		container: '.px2-carousel .px2-carousel__contents',
 		nav: true,
-		controlsText: ['＜', '＞'],
-		autoplay: true,
-		autoplayHoverPause: true,
-		autoplayButtonOutput: false,
-		lazyload: true,
-		nested: 'inner'
+		controlsText: ['＜', '＞']
 	});
 });
