@@ -9,7 +9,7 @@ return function( $html, $supply ){
         $src_tabs .= '<div><a href="javascript:;">'.htmlspecialchars($loop->fields->{'tab-label'}).'</a></div>';
     }
 
-    /* ここに $html を加工するコードを書く。 */
+    // 置換
     $html = preg_replace(
         '/'.preg_quote('<div class="px2-tabs__tabs"></div>', '/').'/s',
         '<div class="px2-tabs__tabs">'.$src_tabs.'</div>',
