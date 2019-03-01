@@ -1,6 +1,6 @@
 # Broccoli Module: Standard Document
 
-### tomk79/broccoli-module-std-document v0.0.1 (リリース日未定)
+### tomk79/broccoli-module-std-document v0.0.1 (2019年3月2日)
 
 - Initial release.
 
