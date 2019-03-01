@@ -14,8 +14,8 @@
                                         "href": "",
                                         "target": "",
                                         "image_src": {
-                                            "resKey": "cb2c961728913c647891c63c2f29cff0",
-                                            "path": "./index_files/resources/photo002-256px.jpg",
+                                            "resKey": "43bd5827b6f5eb8ab0961da68fa56304",
+                                            "path": "./index_files/resources/photo008.jpg",
                                             "resType": "",
                                             "webUrl": ""
                                         },
@@ -28,28 +28,28 @@
                                 {
                                     "modId": "pickles2:interactives/carousel",
                                     "fields": {
-                                        "href": "https://pickles2.pxt.jp/",
-                                        "target": "_blank",
-                                        "image_src": {
-                                            "resKey": "01a7b016610001998bfea6f9467bd773",
-                                            "path": "./index_files/resources/photo007-360x480px.jpg",
-                                            "resType": "",
-                                            "webUrl": ""
-                                        },
-                                        "alt_text": ""
-                                    },
-                                    "subModName": "loop",
-                                    "anchor": "",
-                                    "dec": ""
-                                },
-                                {
-                                    "modId": "pickles2:interactives/carousel",
-                                    "fields": {
-                                        "href": "https://www.pxt.jp/",
+                                        "href": "",
                                         "target": "",
                                         "image_src": {
-                                            "resKey": "7ed7c59a7910cf7820cf22721a303ec9",
-                                            "path": "./index_files/resources/photo009.jpg",
+                                            "resKey": "afe34da4d42217799af826c780e6f95c",
+                                            "path": "./index_files/resources/photo009-800x600px-png8.png",
+                                            "resType": "",
+                                            "webUrl": ""
+                                        },
+                                        "alt_text": ""
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:interactives/carousel",
+                                    "fields": {
+                                        "href": "",
+                                        "target": "",
+                                        "image_src": {
+                                            "resKey": "a4747d4f047db5b8948e416ac996a91f",
+                                            "path": "./index_files/resources/photo010.jpg",
                                             "resType": "",
                                             "webUrl": ""
                                         },
@@ -60,9 +60,7 @@
                                     "dec": ""
                                 }
                             ]
-                        },
-                        "anchor": "",
-                        "dec": ""
+                        }
                     },
                     {
                         "modId": "pickles2:basics/text",
