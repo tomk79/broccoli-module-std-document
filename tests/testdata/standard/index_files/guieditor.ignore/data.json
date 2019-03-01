@@ -63,10 +63,16 @@
                         }
                     },
                     {
+                        "modId": "pickles2:basics/hr",
+                        "fields": [],
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
                         "modId": "pickles2:basics/text",
                         "fields": {
                             "main": {
-                                "src": "## 基本モジュール\n\n汎用的なHTMLモジュール環境を提供します。\n\n- <a href=\"#\" class=\"px2-a px2-a--burette\">標準的なビュレット付きリンク</a>\n",
+                                "src": "## 基本モジュール\n\n汎用的なHTMLモジュール環境を提供します。\n\n- <a href=\"#\" class=\"px2-a\">標準的なビュレット付きリンク</a>\n",
                                 "editor": "markdown"
                             }
                         },
@@ -160,6 +166,30 @@
                                     },
                                     "anchor": "",
                                     "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:lists/changelog",
+                                    "fields": {
+                                        "header": {
+                                            "editor": "markdown",
+                                            "src": "更新履歴"
+                                        },
+                                        "loop": [
+                                            {
+                                                "modId": "pickles2:lists/changelog",
+                                                "fields": {
+                                                    "date": "2014年11月21日",
+                                                    "contents": {
+                                                        "src": "マルチテキスト対応。",
+                                                        "editor": "markdown"
+                                                    }
+                                                },
+                                                "subModName": "loop",
+                                                "anchor": "",
+                                                "dec": ""
+                                            }
+                                        ]
+                                    }
                                 }
                             ]
                         }
