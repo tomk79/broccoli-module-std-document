@@ -1,9 +1,8 @@
 // Utilities
 
 // Links
-.px2-a{}
-.px2-a.px2-a--burette{
-	&:before{
+.px2-a {
+	&:before {
 		content:' ';
 		width:0;
 		height:0;

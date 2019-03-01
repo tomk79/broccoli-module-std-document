@@ -2,6 +2,8 @@
     "name": "Basic Modules",
     "sort":[
         "text",
-        "image"
+        "image",
+        "table",
+        "hr"
     ]
 }
