@@ -69,6 +69,10 @@
                         "dec": ""
                     },
                     {
+                        "modId": "pickles2:lists/index",
+                        "fields": []
+                    },
+                    {
                         "modId": "pickles2:basics/text",
                         "fields": {
                             "main": {
