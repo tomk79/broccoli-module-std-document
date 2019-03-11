@@ -628,25 +628,23 @@
                             "image-size": "1of3",
                             "media": [
                                 {
-                                    "modId": "pickles2:medias/image-media",
+                                    "modId": "pickles2:basics/image",
                                     "fields": {
+                                        "href": "",
+                                        "target": "",
                                         "image_src": {
-                                            "resKey": "0c3ecdb8d4ba2b5ba0b0da96c7fdca3d",
-                                            "path": "./index_files/resources/tea2.gif",
+                                            "resKey": "1f7b722f6b93e5ce16d40471bae0171e",
+                                            "path": "./index_files/resources/photo002-256px.gif",
                                             "resType": "",
                                             "webUrl": ""
                                         },
-                                        "alt_text": "ティーバッグの袋",
-                                        "caption": {
-                                            "src": "使用したあとのティーバッグの袋",
-                                            "editor": "markdown"
-                                        }
+                                        "alt_text": ""
                                     },
                                     "anchor": "",
                                     "dec": ""
                                 }
                             ],
-                            "body_rect": "-rect",
+                            "body_rect": "",
                             "main": [
                                 {
                                     "modId": "pickles2:basics/text",

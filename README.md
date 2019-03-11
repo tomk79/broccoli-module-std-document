@@ -3,6 +3,7 @@
 ### tomk79/broccoli-module-std-document v0.0.2 (リリース日未定)
 
 - `:lists/index` を追加。
+- `:medias/image-media` を削除。 別のパッケージ `broccoli-module-medias` に移管する。
 
 ### tomk79/broccoli-module-std-document v0.0.1 (2019年3月2日)
 
