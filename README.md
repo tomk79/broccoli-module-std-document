@@ -1,5 +1,9 @@
 # Broccoli Module: Standard Document
 
+### tomk79/broccoli-module-std-document v0.0.3 (リリース日未定)
+
+- `:medias/image-media` を復活。 別のパッケージ `broccoli-module-medias` は、拡張モジュール集の1つと位置づけ、画像メディアは基本パッケージに含むことにする。
+
 ### tomk79/broccoli-module-std-document v0.0.2 (2019年3月12日)
 
 - `:lists/index` を追加。
