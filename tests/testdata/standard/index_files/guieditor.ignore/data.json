@@ -1207,15 +1207,19 @@
                                     "modId": "pickles2:basics/text",
                                     "fields": {
                                         "main": {
-                                            "src": "## 前後の自然なマージン\n\n`px2-p` は、段落要素と同じように前後に自然な改行を追加します。\n",
+                                            "src": "## 前後の自然なマージン\n\n`px2-p` は、段落要素と同じように前後に自然な改行を追加します。\n\n段落ユーティリティは、テキストの左右寄せの指定もできます。\n",
                                             "editor": "markdown"
                                         }
                                     },
                                     "anchor": "",
                                     "dec": ""
                                 }
-                            ]
-                        }
+                            ],
+                            "text-align": " px2-text-align-center",
+                            "paragraph": "px2-p"
+                        },
+                        "anchor": "",
+                        "dec": ""
                     },
                     {
                         "modId": "pickles2:lists/changelog",

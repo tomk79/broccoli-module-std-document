@@ -1,5 +1,9 @@
 # Broccoli Module: Standard Document
 
+### tomk79/broccoli-module-std-document v0.0.4 (リリース日未定)
+
+- `:utils/p` で、前後のマージンの有無と、テキストの左右寄せを選択できるようになった。
+
 ### tomk79/broccoli-module-std-document v0.0.3 (2019年4月8日)
 
 - `:medias/image-media` を復活。 別のパッケージ `broccoli-module-medias` は、拡張モジュール集の1つと位置づけ、画像メディアは基本パッケージに含むことにする。
