@@ -12,10 +12,55 @@
     clear: both;
   }
 
+  .px2-float-media__r1of1 {
+    float: right;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .px2-float-media__c1of1 {
+    float: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .px2-float-media__l1of1 {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .px2-float-media__r2of3 {
+    float: right;
+    width: 66%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .px2-float-media__c2of3 {
+    float: none;
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .px2-float-media__l2of3 {
+    float: left;
+    width: 66%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
   .px2-float-media__r1of2 {
     float: right;
     width: 50%;
     margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .px2-float-media__c1of2 {
+    float: none;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 20px;
   }
   .px2-float-media__l1of2 {
@@ -24,10 +69,18 @@
     margin-right: 20px;
     margin-bottom: 20px;
   }
+
   .px2-float-media__r1of3 {
     float: right;
     width: 33%;
     margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .px2-float-media__c1of3 {
+    float: none;
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 20px;
   }
   .px2-float-media__l1of3 {
@@ -36,10 +89,18 @@
     margin-right: 20px;
     margin-bottom: 20px;
   }
+
   .px2-float-media__r1of4 {
     float: right;
     width: 25%;
     margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .px2-float-media__c1of4 {
+    float: none;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 20px;
   }
   .px2-float-media__l1of4 {
@@ -48,9 +109,21 @@
     margin-right: 20px;
     margin-bottom: 20px;
   }
+
+  .px2-float-media__l1of1 img,
+  .px2-float-media__l2of3 img,
   .px2-float-media__l1of2 img,
   .px2-float-media__l1of3 img,
   .px2-float-media__l1of4 img,
+
+  .px2-float-media__c1of1 img,
+  .px2-float-media__c2of3 img,
+  .px2-float-media__c1of2 img,
+  .px2-float-media__c1of3 img,
+  .px2-float-media__c1of4 img,
+
+  .px2-float-media__r1of1 img,
+  .px2-float-media__r2of3 img,
   .px2-float-media__r1of2 img,
   .px2-float-media__r1of3 img,
   .px2-float-media__r1of4 img {

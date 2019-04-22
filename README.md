@@ -3,6 +3,7 @@
 ### tomk79/broccoli-module-std-document v0.0.4 (リリース日未定)
 
 - `:utils/p` で、前後のマージンの有無と、テキストの左右寄せを選択できるようになった。
+- `:medias/float` のメディアレイアウトのパターンに、 Center と フルカラム を追加。
 
 ### tomk79/broccoli-module-std-document v0.0.3 (2019年4月8日)
 
