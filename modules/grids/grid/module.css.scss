@@ -50,7 +50,8 @@
         width: calc( 16.66% - 1rem );
     }
 
-    @media all and (max-width: 680px) {
+    @media all and (max-width: 768px) {
+        // "sm" on Bootstrap 4
         &__col-1of5,
         &__col-2of5,
         &__col-3of5,
@@ -60,7 +61,7 @@
         }
     }
 
-    @media all and (max-width: 560px) {
+    @media all and (max-width: 660px) {
         &__col-1of4,
         &__col-3of4,
         &__col-1of5,
@@ -72,7 +73,8 @@
         }
     }
 
-    @media all and (max-width: 440px) {
+    @media all and (max-width: 544px) {
+        // "xs" on Bootstrap 4
         &__col-1of3,
         &__col-2of3,
         &__col-1of4,
@@ -86,7 +88,7 @@
         }
     }
 
-    @media all and (max-width: 390px) {
+    @media all and (max-width: 440px) {
         &__col-1of2,
         &__col-1of3,
         &__col-2of3,
