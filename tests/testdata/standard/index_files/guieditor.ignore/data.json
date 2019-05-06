@@ -73,6 +73,51 @@
                         "fields": []
                     },
                     {
+                        "modId": "pickles2:headings/hx",
+                        "fields": {
+                            "hx": "2",
+                            "main": "見出しレベル2",
+                            "shoulder": [
+                                {
+                                    "modId": "pickles2:lists/ul",
+                                    "fields": {
+                                        "class": "px2-horizontal-list",
+                                        "loop": [
+                                            {
+                                                "modId": "pickles2:lists/ul",
+                                                "fields": {
+                                                    "text": {
+                                                        "editor": "markdown",
+                                                        "src": "[List Item 1](javascript:alert(123);)"
+                                                    }
+                                                },
+                                                "subModName": "loop",
+                                                "anchor": "",
+                                                "dec": ""
+                                            },
+                                            {
+                                                "modId": "pickles2:lists/ul",
+                                                "fields": {
+                                                    "text": {
+                                                        "editor": "markdown",
+                                                        "src": "[List Item 2](javascript:alert(456);)"
+                                                    }
+                                                },
+                                                "subModName": "loop",
+                                                "anchor": "",
+                                                "dec": ""
+                                            }
+                                        ]
+                                    },
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ]
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
                         "modId": "pickles2:basics/text",
                         "fields": {
                             "main": {
@@ -644,7 +689,7 @@
                                     "dec": ""
                                 }
                             ],
-                            "body_rect": "-rect",
+                            "body_rect": "",
                             "main": [
                                 {
                                     "modId": "pickles2:basics/text",
@@ -680,6 +725,17 @@
                                     "dec": ""
                                 }
                             ]
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:basics/text",
+                        "fields": {
+                            "main": {
+                                "src": "## Heading h2\n\n### Heading h3\n\n#### Heading h4\n\n##### Heading h5\n\n###### Heading h6\n",
+                                "editor": "markdown"
+                            }
                         },
                         "anchor": "",
                         "dec": ""
@@ -737,7 +793,7 @@
                                                 "modId": "pickles2:basics/text",
                                                 "fields": {
                                                     "main": {
-                                                        "src": "## Column 1\n\nLeft Column.\n",
+                                                        "src": "### Column 1\n\nLeft Column.\n",
                                                         "editor": "markdown"
                                                     }
                                                 },
@@ -759,7 +815,7 @@
                                                 "modId": "pickles2:basics/text",
                                                 "fields": {
                                                     "main": {
-                                                        "src": "## Column 2\n\nRight Column.\n",
+                                                        "src": "### Column 2\n\nRight Column.\n",
                                                         "editor": "markdown"
                                                     }
                                                 },
@@ -788,7 +844,7 @@
                                                 "modId": "pickles2:basics/text",
                                                 "fields": {
                                                     "main": {
-                                                        "src": "## Column 1\n\nLeft Column.\n",
+                                                        "src": "#### Column 1\n\nLeft Column.\n",
                                                         "editor": "markdown"
                                                     }
                                                 },
@@ -810,7 +866,7 @@
                                                 "modId": "pickles2:basics/text",
                                                 "fields": {
                                                     "main": {
-                                                        "src": "## Column 2\n\nCenter Column.\n",
+                                                        "src": "#### Column 2\n\nCenter Column.\n",
                                                         "editor": "markdown"
                                                     }
                                                 },
@@ -832,7 +888,7 @@
                                                 "modId": "pickles2:basics/text",
                                                 "fields": {
                                                     "main": {
-                                                        "src": "## Column 3\n\nRight Column.\n",
+                                                        "src": "#### Column 3\n\nRight Column.\n",
                                                         "editor": "markdown"
                                                     }
                                                 },
@@ -861,7 +917,7 @@
                                                 "modId": "pickles2:basics/text",
                                                 "fields": {
                                                     "main": {
-                                                        "src": "## Column 1\n\n1/4 Column.\n",
+                                                        "src": "##### Column 1\n\n1/4 Column.\n",
                                                         "editor": "markdown"
                                                     }
                                                 },
@@ -883,7 +939,7 @@
                                                 "modId": "pickles2:basics/text",
                                                 "fields": {
                                                     "main": {
-                                                        "src": "## Column 2\n\n2/4 Column.\n",
+                                                        "src": "##### Column 2\n\n2/4 Column.\n",
                                                         "editor": "markdown"
                                                     }
                                                 },
@@ -905,7 +961,7 @@
                                                 "modId": "pickles2:basics/text",
                                                 "fields": {
                                                     "main": {
-                                                        "src": "## Column 3\n\n3/4 Column.\n",
+                                                        "src": "##### Column 3\n\n3/4 Column.\n",
                                                         "editor": "markdown"
                                                     }
                                                 },
@@ -927,7 +983,7 @@
                                                 "modId": "pickles2:basics/text",
                                                 "fields": {
                                                     "main": {
-                                                        "src": "## Column 4\n\n4/4 Column.\n",
+                                                        "src": "##### Column 4\n\n4/4 Column.\n",
                                                         "editor": "markdown"
                                                     }
                                                 },
@@ -956,7 +1012,7 @@
                                                 "modId": "pickles2:basics/text",
                                                 "fields": {
                                                     "main": {
-                                                        "src": "## Column 1\n\n1/5 Column.\n",
+                                                        "src": "###### Column 1\n\n1/5 Column.\n",
                                                         "editor": "markdown"
                                                     }
                                                 },
@@ -978,7 +1034,7 @@
                                                 "modId": "pickles2:basics/text",
                                                 "fields": {
                                                     "main": {
-                                                        "src": "## Column 2\n\n2/5 Column.\n",
+                                                        "src": "###### Column 2\n\n2/5 Column.\n",
                                                         "editor": "markdown"
                                                     }
                                                 },
@@ -1000,7 +1056,7 @@
                                                 "modId": "pickles2:basics/text",
                                                 "fields": {
                                                     "main": {
-                                                        "src": "## Column 3\n\n3/5 Column.\n",
+                                                        "src": "###### Column 3\n\n3/5 Column.\n",
                                                         "editor": "markdown"
                                                     }
                                                 },
@@ -1022,7 +1078,7 @@
                                                 "modId": "pickles2:basics/text",
                                                 "fields": {
                                                     "main": {
-                                                        "src": "## Column 4\n\n4/5 Column.\n",
+                                                        "src": "###### Column 4\n\n4/5 Column.\n",
                                                         "editor": "markdown"
                                                     }
                                                 },
@@ -1044,7 +1100,7 @@
                                                 "modId": "pickles2:basics/text",
                                                 "fields": {
                                                     "main": {
-                                                        "src": "## Column 5\n\n5/5 Column.\n",
+                                                        "src": "###### Column 5\n\n5/5 Column.\n",
                                                         "editor": "markdown"
                                                     }
                                                 },

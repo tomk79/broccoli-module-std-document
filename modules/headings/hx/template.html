@@ -1,0 +1,12 @@
+{&{"input":{"type":"select","name":"hx","label":"見出しレベル","options":[
+	{"value":"2", "label":"h2"},
+	{"value":"3", "label":"h3"},
+	{"value":"4", "label":"h4"},
+	{"value":"5", "label":"h5"},
+	{"value":"6", "label":"h6"}
+],"default":"2","hidden":true}}&}
+{&{"input":{"type":"text","name":"main","label":"見出し","rows":1,"hidden":true}}&}
+<div class="px2-h{&{"echo":{"ref":"hx"}}&}">
+<div class="px2-h{&{"echo":{"ref":"hx"}}&}__shoulder">{&{"module":{"name":"shoulder", "label":"ショルダーメニュー"}}&}</div>
+<h{&{"echo":{"ref":"hx"}}&}>{&{"echo":{"ref":"main"}}&}</h{&{"echo":{"ref":"hx"}}&}>
+</div>
