@@ -220,7 +220,7 @@
                                     "modId": "pickles2:lists/changelog",
                                     "fields": {
                                         "header": {
-                                            "editor": "markdown",
+                                            "editor": "text",
                                             "src": "更新履歴"
                                         },
                                         "loop": [
@@ -238,7 +238,9 @@
                                                 "dec": ""
                                             }
                                         ]
-                                    }
+                                    },
+                                    "anchor": "",
+                                    "dec": ""
                                 }
                             ]
                         }
