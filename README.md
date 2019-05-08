@@ -6,6 +6,7 @@
 - `:medias/float` のメディアレイアウトのパターンに、 Center と フルカラム を追加。
 - 新しいカテゴリ `:headings` を追加。
 - ブレイクポイントを見直し、小さい画面への対応が改善された。
+- `:interactives` カテゴリを削除した。(`tomk79/broccoli-module-interact` へ分離移管)
 
 ### tomk79/broccoli-module-std-document v0.0.3 (2019年4月8日)
 
