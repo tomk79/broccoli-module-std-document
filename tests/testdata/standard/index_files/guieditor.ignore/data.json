@@ -44,7 +44,52 @@
                                     "anchor": "",
                                     "dec": ""
                                 }
-                            ]
+                            ],
+                            "sub": "副見出し"
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:headings/hx",
+                        "fields": {
+                            "hx": "3",
+                            "main": "見出しレベル3",
+                            "sub": "",
+                            "shoulder": []
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:headings/hx",
+                        "fields": {
+                            "hx": "4",
+                            "main": "見出しレベル4",
+                            "sub": "見出しレベル4",
+                            "shoulder": []
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:headings/hx",
+                        "fields": {
+                            "hx": "5",
+                            "main": "見出しレベル5",
+                            "sub": "見出しレベル5",
+                            "shoulder": []
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:headings/hx",
+                        "fields": {
+                            "hx": "6",
+                            "main": "見出しレベル6",
+                            "sub": "見出しレベル6",
+                            "shoulder": []
                         },
                         "anchor": "",
                         "dec": ""
