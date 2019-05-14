@@ -4,7 +4,7 @@
 
 HTML や Markdown テキストの扱いに慣れているユーザーにとって記述しやすいインターフェイスで入力できます。
 
-例: Markdown での記述例
+## Markdown での標準リスト記述例
 
 ```markdown
 - List item 1
@@ -12,12 +12,32 @@ HTML や Markdown テキストの扱いに慣れているユーザーにとっ�
 - List item 3
 ```
 
-例: HTML での記述例
+## HTML での標準リスト記述例
 
 ```html
 <ul>
     <li>List item 1</li>
     <li>List item 2</li>
     <li>List item 3</li>
+</ul>
+```
+
+## 水平リスト
+
+```html
+<ul class="px2-horizontal-list">
+	<li>水平リストアイテム1</li>
+	<li>水平リストアイテム2</li>
+	<li>水平リストアイテム3</li>
+</ul>
+```
+
+## 注釈リスト
+
+```html
+<ul class="px2-note-list">
+	<li>注釈リストアイテム1</li>
+	<li>注釈リストアイテム2</li>
+	<li>注釈リストアイテム3</li>
 </ul>
 ```
