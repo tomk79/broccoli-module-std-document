@@ -1,4 +1,5 @@
 {
+    "id": "std-document",
     "name": "Standard Document Modules",
     "type": "module",
     "path": "modules/"
