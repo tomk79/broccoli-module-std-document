@@ -1,5 +1,7 @@
 # Broccoli Module: Standard Document
 
+## 更新履歴 - Change log
+
 ### tomk79/broccoli-module-std-document v0.0.4 (リリース日未定)
 
 - `:utils/p` で、前後のマージンの有無と、テキストの左右寄せを選択できるようになった。
@@ -7,6 +9,7 @@
 - 新しいカテゴリ `:headings` を追加。
 - ブレイクポイントを見直し、小さい画面への対応が改善された。
 - `:interactives` カテゴリを削除した。(`tomk79/broccoli-module-interact` へ分離移管)
+- その他の細かい修正。
 
 ### tomk79/broccoli-module-std-document v0.0.3 (2019年4月8日)
 
