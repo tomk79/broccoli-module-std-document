@@ -2,6 +2,10 @@
 
 ## 更新履歴 - Change log
 
+### tomk79/broccoli-module-std-document v0.0.5 (リリース日未定)
+
+- 更新履歴モジュール(`:utils/changelog`) が普通の文字サイズになり、より汎用的に使えるようになった。
+
 ### tomk79/broccoli-module-std-document v0.0.4 (2019年6月11日)
 
 - `:utils/p` で、前後のマージンの有無と、テキストの左右寄せを選択できるようになった。

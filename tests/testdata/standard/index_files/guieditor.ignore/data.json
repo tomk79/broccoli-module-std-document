@@ -931,7 +931,7 @@
                         "fields": {
                             "header": {
                                 "editor": "markdown",
-                                "src": "更新履歴"
+                                "src": "## 更新履歴"
                             },
                             "loop": [
                                 {
@@ -961,7 +961,9 @@
                                     "dec": ""
                                 }
                             ]
-                        }
+                        },
+                        "anchor": "",
+                        "dec": ""
                     }
                 ]
             },
