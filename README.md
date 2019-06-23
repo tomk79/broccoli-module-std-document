@@ -6,6 +6,7 @@
 
 - 更新履歴モジュール(`:utils/changelog`) が普通の文字サイズになり、より汎用的に使えるようになった。
 - `:utils/p` を ユーティリティブロック に改名。物理名は変更なし。
+- 説明リスト `:lists/dl` を追加。
 
 ### tomk79/broccoli-module-std-document v0.0.4 (2019年6月11日)
 

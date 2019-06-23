@@ -964,6 +964,45 @@
                         },
                         "anchor": "",
                         "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:lists/dl",
+                        "fields": {
+                            "dl-loop": [
+                                {
+                                    "modId": "pickles2:lists/dl",
+                                    "fields": {
+                                        "dt": {
+                                            "src": "説明用語1",
+                                            "editor": "markdown"
+                                        },
+                                        "dd": {
+                                            "src": "用語説明。\n",
+                                            "editor": "markdown"
+                                        }
+                                    },
+                                    "subModName": "dl-loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:lists/dl",
+                                    "fields": {
+                                        "dt": {
+                                            "src": "説明用語2",
+                                            "editor": "markdown"
+                                        },
+                                        "dd": {
+                                            "src": "用語説明。\n",
+                                            "editor": "markdown"
+                                        }
+                                    },
+                                    "subModName": "dl-loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ]
+                        }
                     }
                 ]
             },
