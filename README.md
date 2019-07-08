@@ -2,7 +2,7 @@
 
 ## 更新履歴 - Change log
 
-### tomk79/broccoli-module-std-document v0.0.5 (リリース日未定)
+### tomk79/broccoli-module-std-document v0.0.5 (2019年7月9日)
 
 - 更新履歴モジュール(`:utils/changelog`) が普通の文字サイズになり、より汎用的に使えるようになった。
 - `:utils/p` を ユーティリティブロック に改名。物理名は変更なし。
