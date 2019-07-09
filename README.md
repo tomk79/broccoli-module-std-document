@@ -4,6 +4,7 @@
 
 ### tomk79/broccoli-module-std-document v0.1.0 (リリース日未定)
 
+- 基本モジュールに リンク を追加。
 - 一部モジュールのサムネイルとREADMEを更新。
 
 ### tomk79/broccoli-module-std-document v0.0.5 (2019年7月9日)

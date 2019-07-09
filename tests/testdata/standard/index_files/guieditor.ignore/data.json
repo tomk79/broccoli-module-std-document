@@ -251,6 +251,17 @@
                                     },
                                     "anchor": "",
                                     "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:basics/a",
+                                    "fields": {
+                                        "href": "https://pickles2.pxt.jp/",
+                                        "label": "テストリンク",
+                                        "class": "px2-a",
+                                        "target": "_blank"
+                                    },
+                                    "anchor": "",
+                                    "dec": ""
                                 }
                             ]
                         },
