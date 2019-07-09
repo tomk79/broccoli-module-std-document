@@ -2,6 +2,10 @@
 
 ## 更新履歴 - Change log
 
+### tomk79/broccoli-module-std-document v0.1.0 (リリース日未定)
+
+- 一部モジュールのサムネイルとREADMEを更新。
+
 ### tomk79/broccoli-module-std-document v0.0.5 (2019年7月9日)
 
 - 更新履歴モジュール(`:utils/changelog`) が普通の文字サイズになり、より汎用的に使えるようになった。
