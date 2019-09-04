@@ -2,7 +2,7 @@
 
 ## 更新履歴 - Change log
 
-### tomk79/broccoli-module-std-document v0.1.1 (リリース日未定)
+### tomk79/broccoli-module-std-document v0.1.1 (2019年9月4日)
 
 - `:basics/a` で、 ターゲットウィンドウを選択式に変更した。
 
