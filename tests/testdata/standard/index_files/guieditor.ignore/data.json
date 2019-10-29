@@ -1014,6 +1014,111 @@
                                 }
                             ]
                         }
+                    },
+                    {
+                        "modId": "pickles2:utils/p",
+                        "fields": {
+                            "paragraph": "px2-p",
+                            "text-align": "",
+                            "__error__": "",
+                            "main": [
+                                {
+                                    "modId": "pickles2:basics/text",
+                                    "fields": {
+                                        "main": {
+                                            "src": "文字。とても大きい。",
+                                            "editor": "markdown"
+                                        }
+                                    },
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ],
+                            "font-size": " px2-font-size-ll"
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:utils/p",
+                        "fields": {
+                            "paragraph": "px2-p",
+                            "text-align": "",
+                            "__error__": "",
+                            "main": [
+                                {
+                                    "modId": "pickles2:basics/text",
+                                    "fields": {
+                                        "main": {
+                                            "src": "文字。少し大きい。",
+                                            "editor": "markdown"
+                                        }
+                                    },
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ],
+                            "font-size": " px2-font-size-l"
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:basics/text",
+                        "fields": {
+                            "main": {
+                                "src": "文字。普通。",
+                                "editor": "markdown"
+                            }
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:utils/p",
+                        "fields": {
+                            "paragraph": "px2-p",
+                            "text-align": "",
+                            "font-size": " px2-font-size-s",
+                            "main": [
+                                {
+                                    "modId": "pickles2:basics/text",
+                                    "fields": {
+                                        "main": {
+                                            "src": "文字。少し小さい。",
+                                            "editor": "markdown"
+                                        }
+                                    },
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ]
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:utils/p",
+                        "fields": {
+                            "paragraph": "px2-p",
+                            "text-align": "",
+                            "font-size": " px2-font-size-ss",
+                            "main": [
+                                {
+                                    "modId": "pickles2:basics/text",
+                                    "fields": {
+                                        "main": {
+                                            "src": "文字。とても小さい。",
+                                            "editor": "markdown"
+                                        }
+                                    },
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ]
+                        },
+                        "anchor": "",
+                        "dec": ""
                     }
                 ]
             },
