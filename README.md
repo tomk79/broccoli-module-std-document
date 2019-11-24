@@ -5,6 +5,7 @@
 ### tomk79/broccoli-module-std-document v0.1.3 (リリース日未定)
 
 - ユーティリティ `.px2-font-size-ll`, `.px2-font-size-l`, `.px2-font-size-s`, `.px2-font-size-ss` を追加。
+- `.px2-vertical-list` を追加。
 
 ### tomk79/broccoli-module-std-document v0.1.2 (2019年10月9日)
 
