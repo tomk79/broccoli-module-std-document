@@ -6,6 +6,8 @@
 
 - ユーティリティ `.px2-font-size-ll`, `.px2-font-size-l`, `.px2-font-size-s`, `.px2-font-size-ss` を追加。
 - `.px2-vertical-list` を追加。
+- `.px2-horizontal-list` のオプション `.px2-horizontal-list--left`, `.px2-horizontal-list--center`, `.px2-horizontal-list--right` を追加。
+- その他いくつかのスタイリング調整など。
 
 ### tomk79/broccoli-module-std-document v0.1.2 (2019年10月9日)
 

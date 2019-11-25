@@ -49,6 +49,17 @@ ul{
 		}
 	}
 }
+.px2-horizontal-list{
+	&--left{
+		justify-content: flex-start;
+	}
+	&--center{
+		justify-content: center;
+	}
+	&--right{
+		justify-content: flex-end;
+	}
+}
 
 // 注釈リスト
 .px2-note-list,
