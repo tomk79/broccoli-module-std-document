@@ -110,6 +110,22 @@
                         "dec": ""
                     },
                     {
+                        "modId": "pickles2:basics/button",
+                        "fields": {
+                            "onclick": {
+                                "src": "alert(123);\nalert(\"html attributes\");",
+                                "lang": "javascript"
+                            },
+                            "label": "標準的ボタン",
+                            "intention": "px2-btn--primary",
+                            "sizing": "px2-btn--lg",
+                            "display": "",
+                            "btntype": "submit"
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
                         "modId": "pickles2:basics/hr",
                         "fields": [],
                         "anchor": "",

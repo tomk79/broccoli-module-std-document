@@ -2,6 +2,10 @@
 
 ## 更新履歴 - Change log
 
+### tomk79/broccoli-module-std-document v0.1.4 (リリース日未定)
+
+- ボタンモジュール `.px2-btn` を追加。
+
 ### tomk79/broccoli-module-std-document v0.1.3 (2019年12月13日)
 
 - ユーティリティ `.px2-font-size-ll`, `.px2-font-size-l`, `.px2-font-size-s`, `.px2-font-size-ss` を追加。
