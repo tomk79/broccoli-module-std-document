@@ -19,5 +19,5 @@
     {"value":"button", "label":"ボタン"},
     {"value":"submit", "label":"送信ボタン"}
 ]}}&}
-{&{"input":{"type":"script","lang":"javascript","name":"onclick","escape":"html","hidden":true,"label":"ボタンアクション"}}&}
+{&{"input":{"type":"script","lang":"javascript","name":"onclick","escape":"html_attr_text","hidden":true,"label":"ボタンアクション"}}&}
 <button{&{"if":{"is_set":"onclick"}}&} onclick="{&{"echo":{"ref":"onclick"}}&}"{&"endif"&}{&{"if":{"is_set":"btntype"}}&} type="{&{"echo":{"ref":"btntype"}}&}"{&"endif"&} class="px2-btn{&{"if":{"is_set":"intention"}}&} {&{"echo":{"ref":"intention"}}&}{&"endif"&}{&{"if":{"is_set":"sizing"}}&} {&{"echo":{"ref":"sizing"}}&}{&"endif"&}{&{"if":{"is_set":"display"}}&} {&{"echo":{"ref":"display"}}&}{&"endif"&}">{&{"echo":{"ref":"label"}}&}</button>
