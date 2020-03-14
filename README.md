@@ -2,7 +2,7 @@
 
 ## 更新履歴 - Change log
 
-### tomk79/broccoli-module-std-document v0.1.4 (リリース日未定)
+### tomk79/broccoli-module-std-document v0.1.4 (2020年3月14日)
 
 - ボタンモジュール `.px2-btn` を追加。
 
