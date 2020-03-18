@@ -7,7 +7,7 @@
 	{"value":"px2-horizontal-list px2-horizontal-list--right", "label":"水平リスト (右寄せ)"},
 	{"value":"px2-note-list", "label":"注釈リスト"}
 ],"hidden":true}}&}
-<ul{&{"if":{"is_set":"class"}}&} class="{&{"echo":{"ref":"class"}}&}"{&"endif"&}>
+<ul{&{"if":{"is_set":"class"}}&} class="{&{"echo":{"ref":"class"}}&}"{&"endif"&}{&{"if":{"cond":[["is_mode:canvas"]]}}&} style="padding-top: 3px;"{&"endif"&}>
 {&{"loop":{"name":"loop","label":"リストアイテム"}}&}
 	<li>{&{"input":{"type":"multitext","name":"text","label":"リストアイテム","default":{"editor":"text","src":"List Item"}}}&}</li>
 {&"endloop"&}

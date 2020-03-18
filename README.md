@@ -2,6 +2,10 @@
 
 ## 更新履歴 - Change log
 
+### tomk79/broccoli-module-std-document v0.1.5 (リリース日未定)
+
+- モジュールの上端に、わずかにスペースを開けるようにしたことで、上へのドロップがしやすくなった。
+
 ### tomk79/broccoli-module-std-document v0.1.4 (2020年3月14日)
 
 - ボタンモジュール `.px2-btn` を追加。
