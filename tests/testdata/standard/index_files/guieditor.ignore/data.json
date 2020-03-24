@@ -370,7 +370,7 @@
                                     "modId": "pickles2:basics/image",
                                     "fields": {
                                         "href": "",
-                                        "target": "",
+                                        "target": "_blank",
                                         "image_src": {
                                             "resKey": "cce7fc0133231ebe4c7e984336a67656",
                                             "path": "./index_files/resources/photo002.gif",
