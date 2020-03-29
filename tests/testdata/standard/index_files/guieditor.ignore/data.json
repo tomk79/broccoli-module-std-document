@@ -65,20 +65,24 @@
                                             {
                                                 "modId": "pickles2:lists/ul-links",
                                                 "fields": {
-                                                    "href": "",
-                                                    "target": "",
-                                                    "text": "Link Item"
+                                                    "href": "https://github.com/pickles2",
+                                                    "target": "_blank",
+                                                    "label": "Pickles 2 on Github"
                                                 },
-                                                "subModName": "loop"
+                                                "subModName": "loop",
+                                                "anchor": "",
+                                                "dec": ""
                                             },
                                             {
                                                 "modId": "pickles2:lists/ul-links",
                                                 "fields": {
-                                                    "href": "",
+                                                    "href": "javascript:alert('Clicked 2');",
                                                     "target": "",
-                                                    "text": "Link Item"
+                                                    "label": "Link Item"
                                                 },
-                                                "subModName": "loop"
+                                                "subModName": "loop",
+                                                "anchor": "",
+                                                "dec": ""
                                             }
                                         ]
                                     },
@@ -518,7 +522,7 @@
                                     "modId": "pickles2:lists/ul-links",
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。');",
-                                        "text": "Link List Item",
+                                        "label": "Link List Item",
                                         "target": ""
                                     },
                                     "subModName": "loop",
@@ -530,7 +534,7 @@
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。2');",
                                         "target": "",
-                                        "text": "Link Item 2"
+                                        "label": "Link Item 2"
                                     },
                                     "subModName": "loop",
                                     "anchor": "",
@@ -550,7 +554,7 @@
                                     "modId": "pickles2:lists/ul-links",
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。');",
-                                        "text": "Link List Item",
+                                        "label": "Link List Item",
                                         "target": ""
                                     },
                                     "subModName": "loop",
@@ -562,7 +566,7 @@
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。2');",
                                         "target": "",
-                                        "text": "Link Item 2"
+                                        "label": "Link Item 2"
                                     },
                                     "subModName": "loop",
                                     "anchor": "",
@@ -573,7 +577,7 @@
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。3');",
                                         "target": "",
-                                        "text": "Link Item"
+                                        "label": "Link Item"
                                     },
                                     "subModName": "loop",
                                     "anchor": "",
@@ -593,7 +597,7 @@
                                     "modId": "pickles2:lists/ul-links",
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。');",
-                                        "text": "Link List Item",
+                                        "label": "Link List Item",
                                         "target": ""
                                     },
                                     "subModName": "loop",
@@ -605,7 +609,7 @@
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。2');",
                                         "target": "",
-                                        "text": "Link Item 2"
+                                        "label": "Link Item 2"
                                     },
                                     "subModName": "loop",
                                     "anchor": "",
@@ -614,9 +618,9 @@
                                 {
                                     "modId": "pickles2:lists/ul-links",
                                     "fields": {
-                                        "href": "javascript:alert('クリックしました。3');",
-                                        "target": "",
-                                        "text": "Link Item"
+                                        "href": "https://github.com/broccoli-html-editor",
+                                        "target": "_blank",
+                                        "label": "Broccoli on Github"
                                     },
                                     "subModName": "loop",
                                     "anchor": "",
@@ -636,7 +640,7 @@
                                     "modId": "pickles2:lists/ul-links",
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。');",
-                                        "text": "Link List Item",
+                                        "label": "Link List Item",
                                         "target": ""
                                     },
                                     "subModName": "loop",
@@ -648,7 +652,7 @@
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。2');",
                                         "target": "",
-                                        "text": "Link Item 2"
+                                        "label": "Link Item 2"
                                     },
                                     "subModName": "loop",
                                     "anchor": "",
@@ -659,7 +663,7 @@
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。3');",
                                         "target": "",
-                                        "text": "Link Item"
+                                        "label": "Link Item"
                                     },
                                     "subModName": "loop",
                                     "anchor": "",
