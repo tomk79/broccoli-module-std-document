@@ -235,6 +235,73 @@
                         "dec": ""
                     },
                     {
+                        "modId": "pickles2:utils/p",
+                        "fields": {
+                            "paragraph": "px2-p",
+                            "text-align": " px2-text-align-center",
+                            "font-size": "",
+                            "main": [
+                                {
+                                    "modId": "pickles2:basics/a",
+                                    "fields": {
+                                        "href": "javascript:alert('クリックしました。');",
+                                        "label": "標準ボタン風リンク",
+                                        "class": "px2-btn",
+                                        "target": ""
+                                    },
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:basics/a",
+                                    "fields": {
+                                        "href": "javascript:alert('クリックしました。');",
+                                        "label": "プライマリボタン風リンク",
+                                        "class": "px2-btn px2-btn--primary",
+                                        "target": ""
+                                    },
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:basics/a",
+                                    "fields": {
+                                        "href": "javascript:alert('クリックしました。');",
+                                        "label": "セカンダリボタン風リンク",
+                                        "class": "px2-btn px2-btn--secondary",
+                                        "target": ""
+                                    },
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:basics/a",
+                                    "fields": {
+                                        "href": "javascript:alert('クリックしました。');",
+                                        "label": "危険ボタン風リンク",
+                                        "class": "px2-btn px2-btn--danger",
+                                        "target": ""
+                                    },
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:basics/a",
+                                    "fields": {
+                                        "href": "javascript:alert('クリックしました。');",
+                                        "label": "ダウンロードボタン風リンク",
+                                        "class": "px2-btn px2-btn--download",
+                                        "target": ""
+                                    },
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ]
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
                         "modId": "pickles2:basics/hr",
                         "fields": [],
                         "anchor": "",
