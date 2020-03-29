@@ -56,7 +56,36 @@
                             "hx": "3",
                             "main": "見出しレベル3",
                             "sub": "",
-                            "shoulder": []
+                            "shoulder": [
+                                {
+                                    "modId": "pickles2:lists/ul-links",
+                                    "fields": {
+                                        "class": "px2-horizontal-list px2-horizontal-list--right",
+                                        "loop": [
+                                            {
+                                                "modId": "pickles2:lists/ul-links",
+                                                "fields": {
+                                                    "href": "",
+                                                    "target": "",
+                                                    "text": "Link Item"
+                                                },
+                                                "subModName": "loop"
+                                            },
+                                            {
+                                                "modId": "pickles2:lists/ul-links",
+                                                "fields": {
+                                                    "href": "",
+                                                    "target": "",
+                                                    "text": "Link Item"
+                                                },
+                                                "subModName": "loop"
+                                            }
+                                        ]
+                                    },
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ]
                         },
                         "anchor": "",
                         "dec": ""
@@ -475,6 +504,243 @@
                                     },
                                     "anchor": "",
                                     "dec": ""
+                                }
+                            ]
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:lists/ul-links",
+                        "fields": {
+                            "loop": [
+                                {
+                                    "modId": "pickles2:lists/ul-links",
+                                    "fields": {
+                                        "href": "javascript:alert('クリックしました。');",
+                                        "text": "Link List Item",
+                                        "target": ""
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:lists/ul-links",
+                                    "fields": {
+                                        "href": "javascript:alert('クリックしました。2');",
+                                        "target": "",
+                                        "text": "Link Item 2"
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ],
+                            "class": ""
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:lists/ul-links",
+                        "fields": {
+                            "loop": [
+                                {
+                                    "modId": "pickles2:lists/ul-links",
+                                    "fields": {
+                                        "href": "javascript:alert('クリックしました。');",
+                                        "text": "Link List Item",
+                                        "target": ""
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:lists/ul-links",
+                                    "fields": {
+                                        "href": "javascript:alert('クリックしました。2');",
+                                        "target": "",
+                                        "text": "Link Item 2"
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:lists/ul-links",
+                                    "fields": {
+                                        "href": "javascript:alert('クリックしました。3');",
+                                        "target": "",
+                                        "text": "Link Item"
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ],
+                            "class": "px2-horizontal-list px2-horizontal-list--right"
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:lists/ul-links",
+                        "fields": {
+                            "loop": [
+                                {
+                                    "modId": "pickles2:lists/ul-links",
+                                    "fields": {
+                                        "href": "javascript:alert('クリックしました。');",
+                                        "text": "Link List Item",
+                                        "target": ""
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:lists/ul-links",
+                                    "fields": {
+                                        "href": "javascript:alert('クリックしました。2');",
+                                        "target": "",
+                                        "text": "Link Item 2"
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:lists/ul-links",
+                                    "fields": {
+                                        "href": "javascript:alert('クリックしました。3');",
+                                        "target": "",
+                                        "text": "Link Item"
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ],
+                            "class": "px2-vertical-list"
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:lists/ul-links",
+                        "fields": {
+                            "loop": [
+                                {
+                                    "modId": "pickles2:lists/ul-links",
+                                    "fields": {
+                                        "href": "javascript:alert('クリックしました。');",
+                                        "text": "Link List Item",
+                                        "target": ""
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:lists/ul-links",
+                                    "fields": {
+                                        "href": "javascript:alert('クリックしました。2');",
+                                        "target": "",
+                                        "text": "Link Item 2"
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:lists/ul-links",
+                                    "fields": {
+                                        "href": "javascript:alert('クリックしました。3');",
+                                        "target": "",
+                                        "text": "Link Item"
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ],
+                            "class": "px2-horizontal-list px2-horizontal-list--center"
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:lists/ul-module",
+                        "fields": {
+                            "class": "",
+                            "loop": [
+                                {
+                                    "modId": "pickles2:lists/ul-module",
+                                    "fields": {
+                                        "modules": [
+                                            {
+                                                "modId": "pickles2:basics/a",
+                                                "fields": {
+                                                    "href": "javascript:alert('クリックしました。');",
+                                                    "label": "List Item (link module)",
+                                                    "class": "px2-a",
+                                                    "target": ""
+                                                },
+                                                "anchor": "",
+                                                "dec": ""
+                                            }
+                                        ]
+                                    },
+                                    "subModName": "loop"
+                                },
+                                {
+                                    "modId": "pickles2:lists/ul-module",
+                                    "fields": {
+                                        "modules": [
+                                            {
+                                                "modId": "pickles2:basics/text",
+                                                "fields": {
+                                                    "main": {
+                                                        "src": "List Item (module)",
+                                                        "editor": "markdown"
+                                                    }
+                                                },
+                                                "anchor": "",
+                                                "dec": ""
+                                            },
+                                            {
+                                                "modId": "pickles2:lists/ul",
+                                                "fields": {
+                                                    "class": "",
+                                                    "loop": [
+                                                        {
+                                                            "modId": "pickles2:lists/ul",
+                                                            "fields": {
+                                                                "text": {
+                                                                    "editor": "text",
+                                                                    "src": "List Item"
+                                                                }
+                                                            },
+                                                            "subModName": "loop"
+                                                        },
+                                                        {
+                                                            "modId": "pickles2:lists/ul",
+                                                            "fields": {
+                                                                "text": {
+                                                                    "editor": "text",
+                                                                    "src": "List Item"
+                                                                }
+                                                            },
+                                                            "subModName": "loop"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "subModName": "loop"
                                 }
                             ]
                         },
