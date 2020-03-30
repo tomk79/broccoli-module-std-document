@@ -16,14 +16,14 @@ return call_user_func( function(){
 	$conf->name = 'broccoli module Pickles 2';
 
 	/** コピーライト表記 */
-	$conf->copyright = 'Pickles 2 Project';
+	$conf->copyright = 'Pickles Project';
 
 	/**
 	 * スキーマ
 	 * 本番環境のスキーマ
 	 * (例: http, https)
 	 */
-	$conf->scheme = 'http';
+	$conf->scheme = 'https';
 
 	/**
 	 * ドメイン
