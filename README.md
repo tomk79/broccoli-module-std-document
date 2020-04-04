@@ -2,7 +2,7 @@
 
 ## 更新履歴 - Change log
 
-### tomk79/broccoli-module-std-document v0.1.5 (リリース日未定)
+### tomk79/broccoli-module-std-document v0.1.5 (2020年4月4日)
 
 - モジュールの上端に、わずかにスペースを開けるようにしたことで、上へのドロップがしやすくなった。
 - 画像モジュールのターゲットウィンドウをセレクトボックスによる選択式に変更した。
