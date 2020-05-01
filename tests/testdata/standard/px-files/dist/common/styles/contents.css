@@ -7,6 +7,9 @@
    * module: pickles2:basics/button
    */
   /**
+   * module: pickles2:basics/image
+   */
+  /**
    * module: pickles2:basics/table
    */
   /**
@@ -160,6 +163,8 @@
   .contents .px2-btn--block {
     display: block;
     width: 100%; }
+  .contents .px2-image img {
+    max-width: 100%; }
   .contents table.px2-table {
     border: none;
     border-collapse: collapse;
