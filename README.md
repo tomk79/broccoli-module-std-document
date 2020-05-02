@@ -2,6 +2,10 @@
 
 ## 更新履歴 - Change log
 
+### tomk79/broccoli-module-std-document v0.1.6 (リリース日未定)
+
+- リンクモジュールで、標準ビュレットスタイルをデフォルトに設定した。
+
 ### tomk79/broccoli-module-std-document v0.1.5 (2020年4月4日)
 
 - モジュールの上端に、わずかにスペースを開けるようにしたことで、上へのドロップがしやすくなった。
