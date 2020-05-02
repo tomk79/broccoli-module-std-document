@@ -1,78 +1,87 @@
 {
-  "data": [
-    {
+ "data": [
+  {
+   "modId": ":grids/grid",
+   "fields": {
+    "col": [
+     {
       "modId": ":grids/grid",
       "fields": {
-        "col": [
-          {
-            "modId": ":grids/grid",
-            "fields": {
-              "column-width": "1of3",
-              "main": [
-                {
-                  "modId": ":basics/text",
-                  "fields": {
-                    "main": {
-                      "src": "## Column 1\n\nLeft Column.\n",
-                      "editor": "markdown"
-                    }
-                  },
-                  "anchor": "",
-                  "dec": ""
-                }
-              ]
-            },
-            "subModName": "col",
-            "anchor": "",
-            "dec": ""
+       "column-width": "1of3",
+       "main": [
+        {
+         "modId": ":basics/text",
+         "fields": {
+          "main": {
+           "src": "## Column 1\n\nLeft Column.\n",
+           "editor": "markdown"
           },
-          {
-            "modId": ":grids/grid",
-            "fields": {
-              "column-width": "1of3",
-              "main": [
-                {
-                  "modId": ":basics/text",
-                  "fields": {
-                    "main": {
-                      "src": "## Column 2\n\nCenter Column.\n",
-                      "editor": "markdown"
-                    }
-                  },
-                  "anchor": "",
-                  "dec": ""
-                }
-              ]
-            },
-            "subModName": "col",
-            "anchor": "",
-            "dec": ""
+          "paragraph": "px2-p",
+          "text-align": "",
+          "font-size": ""
+         },
+         "anchor": "",
+         "dec": ""
+        }
+       ]
+      },
+      "subModName": "col",
+      "anchor": "",
+      "dec": ""
+     },
+     {
+      "modId": ":grids/grid",
+      "fields": {
+       "column-width": "1of3",
+       "main": [
+        {
+         "modId": ":basics/text",
+         "fields": {
+          "main": {
+           "src": "## Column 2\n\nCenter Column.\n",
+           "editor": "markdown"
           },
-          {
-            "modId": ":grids/grid",
-            "fields": {
-              "column-width": "1of3",
-              "main": [
-                {
-                  "modId": ":basics/text",
-                  "fields": {
-                    "main": {
-                      "src": "## Column 3\n\nRight Column.\n",
-                      "editor": "markdown"
-                    }
-                  },
-                  "anchor": "",
-                  "dec": ""
-                }
-              ]
-            },
-            "subModName": "col",
-            "anchor": "",
-            "dec": ""
-          }
-        ]
-      }
-    }
-  ],
-  "resources": {}
+          "paragraph": "px2-p",
+          "text-align": "",
+          "font-size": ""
+         },
+         "anchor": "",
+         "dec": ""
+        }
+       ]
+      },
+      "subModName": "col",
+      "anchor": "",
+      "dec": ""
+     },
+     {
+      "modId": ":grids/grid",
+      "fields": {
+       "column-width": "1of3",
+       "main": [
+        {
+         "modId": ":basics/text",
+         "fields": {
+          "main": {
+           "src": "## Column 3\n\nRight Column.\n",
+           "editor": "markdown"
+          },
+          "paragraph": "px2-p",
+          "text-align": "",
+          "font-size": ""
+         },
+         "anchor": "",
+         "dec": ""
+        }
+       ]
+      },
+      "subModName": "col",
+      "anchor": "",
+      "dec": ""
+     }
+    ]
+   }
+  }
+ ],
+ "resources": {}
 }
