@@ -1500,7 +1500,8 @@
                                 }
                             ],
                             "text-align": " px2-text-align-center",
-                            "paragraph": "px2-p"
+                            "paragraph": "px2-p",
+                            "font-size": ""
                         },
                         "anchor": "",
                         "dec": ""

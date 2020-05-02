@@ -1,4 +1,34 @@
 {
     "name": "画像 - Image",
+    "interface": {
+        "fields": {
+            "href": {
+                "fieldType":"input",
+                "type":"href",
+                "rows":1,
+                "label":"リンク"
+            },
+            "target": {
+                "fieldType":"input",
+                "type":"select",
+                "label":"ターゲットウィンドウ",
+                "options":[
+                    {"value":"", "label":"デフォルト"},
+                    {"value":"_blank", "label":"新規ウィンドウ (_blank)"}
+                ]
+            },
+            "image_src": {
+                "fieldType":"input",
+                "type":"image",
+                "label":"画像"
+            },
+            "alt_text": {
+                "fieldType":"input",
+                "type":"html_attr_text",
+                "label":"代替テキスト",
+                "rows":1
+            }
+        }
+    },
     "areaSizeDetection": "deep"
 }

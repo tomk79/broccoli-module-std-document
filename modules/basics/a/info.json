@@ -26,7 +26,8 @@
                     {"value":"px2-btn px2-btn--secondary", "label":"セカンダリボタン風"},
                     {"value":"px2-btn px2-btn--danger", "label":"危険ボタン風"},
                     {"value":"px2-btn px2-btn--download", "label":"ダウンロードボタン風"}
-                ]
+                ],
+                "default": "px2-a"
             },
             "target": {
                 "fieldType": "input",

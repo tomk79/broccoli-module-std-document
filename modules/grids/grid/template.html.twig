@@ -1,0 +1,6 @@
+<div class="px2-grid"{% if _ENV.mode == 'canvas' %} style="padding-top: 3px;"{% endif %}>
+{% for row in col %}
+{{ loopitem_start('col') }}
+    <div class="px2-grid__col-{{ row["column-width"] }}"{% if _ENV.mode == 'canvas' %} style="padding-top: 3px;"{% endif %}>{{ row.main }}</div>
+{{ loopitem_end() }}{% endfor %}{{ appender('col') }}
+</div>
