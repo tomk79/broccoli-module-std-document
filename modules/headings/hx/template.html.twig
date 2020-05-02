@@ -1,0 +1,8 @@
+<div class="px2-h{{ hx }}">
+{% if _ENV.mode == 'canvas' %}<div style="height: 3px;"></div>{% endif %}
+{% if shoulder %}
+<div class="px2-h{{ hx }}__shoulder">{{ shoulder }}</div>
+{% endif %}
+<h{{ hx }}>{{ main }}{% if sub %} <small>{{ sub }}</small>{% endif %}</h{{ hx }}>
+{% if _ENV.mode == 'canvas' %}<div style="height: 0px; clear: both;"></div>{% endif %}
+</div>
