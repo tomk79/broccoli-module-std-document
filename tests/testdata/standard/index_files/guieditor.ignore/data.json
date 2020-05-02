@@ -138,7 +138,9 @@
                                 "src": "## 基本モジュール\n\n汎用的なHTMLモジュール環境を提供します。\n\n- <a href=\"javascript:;\" class=\"px2-a\">標準的なビュレット付きリンク</a>\n",
                                 "editor": "markdown"
                             },
-                            "text-align": ""
+                            "text-align": "",
+                            "paragraph": "px2-p",
+                            "font-size": ""
                         },
                         "anchor": "",
                         "dec": ""
@@ -965,7 +967,10 @@
                                                     "main": {
                                                         "src": "## Full Column\n\nSingle Column.\n",
                                                         "editor": "markdown"
-                                                    }
+                                                    },
+                                                    "paragraph": "px2-p",
+                                                    "text-align": "",
+                                                    "font-size": ""
                                                 },
                                                 "anchor": "",
                                                 "dec": ""
@@ -1814,6 +1819,76 @@
                             },
                             "alt_text": "中央揃え画像配置のサンプル",
                             "align": "center",
+                            "paragraph": "px2-p"
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:basics/text",
+                        "fields": {
+                            "main": {
+                                "src": "とても大きい文字。",
+                                "editor": "markdown"
+                            },
+                            "font-size": "ll",
+                            "text-align": "",
+                            "paragraph": "px2-p"
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:basics/text",
+                        "fields": {
+                            "main": {
+                                "src": "大きい文字。",
+                                "editor": "markdown"
+                            },
+                            "font-size": "l",
+                            "text-align": "",
+                            "paragraph": "px2-p"
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:basics/text",
+                        "fields": {
+                            "main": {
+                                "src": "普通の文字。",
+                                "editor": "markdown"
+                            },
+                            "font-size": "",
+                            "text-align": "",
+                            "paragraph": "px2-p"
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:basics/text",
+                        "fields": {
+                            "main": {
+                                "src": "小さい文字。",
+                                "editor": "markdown"
+                            },
+                            "font-size": "s",
+                            "text-align": "",
+                            "paragraph": "px2-p"
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:basics/text",
+                        "fields": {
+                            "main": {
+                                "src": "とても小さい文字。",
+                                "editor": "markdown"
+                            },
+                            "font-size": "ss",
+                            "text-align": "",
                             "paragraph": "px2-p"
                         },
                         "anchor": "",

@@ -38,6 +38,17 @@
                     {"value":"_blank", "label":"新規ウィンドウ (_blank)"}
                 ]
             },
+            "paragraph": {
+                "fieldType":"input",
+                "type":"select",
+                "label":"前後の自然なマージン",
+                "display":"radio",
+                "options": [
+                    {"value":"", "label":"なし"},
+                    {"value":"px2-p", "label":"前後の自然なマージン"}
+                ],
+                "default":"px2-p"
+            },
             "align": {
                 "fieldType":"input",
                 "type":"select",
@@ -49,17 +60,6 @@
                     {"value":"center", "label":"中央揃え"},
                     {"value":"right", "label":"右揃え"}
                 ]
-            },
-            "paragraph": {
-                "fieldType":"input",
-                "type":"select",
-                "label":"前後の自然なマージン",
-                "display":"radio",
-                "options": [
-                    {"value":"", "label":"なし"},
-                    {"value":"px2-p", "label":"前後の自然なマージン"}
-                ],
-                "default":"px2-p"
             }
         }
     }
