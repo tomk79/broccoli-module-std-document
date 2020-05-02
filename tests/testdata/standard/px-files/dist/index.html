@@ -114,19 +114,19 @@
 <span id="hash_基本モジュール"></span><h2>基本モジュール</h2>
 <p>汎用的なHTMLモジュール環境を提供します。</p>
 <ul>
-<li><a href="#" class="px2-a">標準的なビュレット付きリンク</a></li>
+<li><a href="javascript:;" class="px2-a">標準的なビュレット付きリンク</a></li>
 </ul>
 
 </div>
-<div class="px2-p px2-text-align-center"><div>
+<div class="px2-p px2-text-align-center"><div class="px2-text-align-left">
 <button onclick="alert('OK');" type="button" class="px2-btn">標準ボタン</button>
 </div>
-<div>
+<div class="px2-text-align-right">
 <button onclick="
 alert(&quot;html attributes&quot;);
 return false;" type="submit" class="px2-btn px2-btn--primary px2-btn--lg">プライマリボタン</button>
 </div>
-<div>
+<div class="px2-text-align-center">
 <button type="button" class="px2-btn px2-btn--secondary">セカンダリ</button>
 </div>
 <div>
@@ -136,10 +136,16 @@ return false;" type="submit" class="px2-btn px2-btn--primary px2-btn--lg">プラ
 <button type="button" class="px2-btn px2-btn--download">ダウンロード</button>
 </div>
 </div>
-<div class="px2-p px2-text-align-center"><div>
+<div class="px2-p px2-text-align-center"><div class="px2-text-align-center">
+<a href="javascript:alert('クリックしました。');">標準的なテストリンク</a>
+</div>
+<div class="px2-text-align-right">
+<a href="javascript:alert('Clicked');" class="px2-a">標準ビュレット付きのリンク</a>
+</div>
+<div class="px2-text-align-left">
 <a href="javascript:alert('クリックしました。');" class="px2-btn">標準ボタン風リンク</a>
 </div>
-<div>
+<div class="px2-text-align-right">
 <a href="javascript:alert('クリックしました。');" class="px2-btn px2-btn--primary">プライマリボタン風リンク</a>
 </div>
 <div>
@@ -152,6 +158,24 @@ return false;" type="submit" class="px2-btn px2-btn--primary px2-btn--lg">プラ
 <a href="javascript:alert('クリックしました。');" class="px2-btn px2-btn--download">ダウンロードボタン風リンク</a>
 </div>
 </div>
+<ul class="px2-horizontal-list px2-horizontal-list--right">
+
+	<li><div>
+<a href="javascript:alert('Clicked');" class="px2-a">リンク</a>
+</div>
+</li>
+
+	<li><div>
+<a href="javascript:alert('クリックしました。');" class="px2-a">リンク</a>
+</div>
+</li>
+
+	<li><div>
+<a href="javascript:alert('Clicked');" class="px2-a">リンク</a>
+</div>
+</li>
+
+</ul>
 <hr />
 <ul class="px2-horizontal-list">
 
@@ -200,8 +224,7 @@ return false;" type="submit" class="px2-btn px2-btn--primary px2-btn--lg">プラ
 <div class="px2-float-media">
   <div class="px2-float-media__l1of3">
     <div class="px2-image">
-<img src="./index_files/resources/photo002.gif" alt="" />
-</div>
+<img src="./index_files/resources/photo002.gif" alt="" /></div>
   </div>
   <div class="px2-float-media__body">
     <div>
@@ -709,6 +732,8 @@ return false;" type="submit" class="px2-btn px2-btn--primary px2-btn--lg">プラ
 
 </div>
 </div>
+<div class="px2-image px2-text-align-center">
+<img src="./index_files/resources/sample-image-center.gif" alt="中央揃え画像配置のサンプル" /></div>
 </div>
 	</div>
 </div>

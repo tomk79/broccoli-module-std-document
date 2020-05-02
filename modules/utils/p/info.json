@@ -16,13 +16,13 @@
             "text-align": {
                 "fieldType":"input",
                 "type":"select",
-                "label":"テキスト寄せ",
+                "label":"行の揃え位置",
                 "display":"radio",
                 "options": [
-                    {"value":"", "label":"継承"},
-                    {"value":" px2-text-align-left", "label":"左寄せ"},
-                    {"value":" px2-text-align-center", "label":"中央寄せ"},
-                    {"value":" px2-text-align-right", "label":"右寄せ"}
+                    {"value":"", "label":"指定しない (親要素の組み方に従う)"},
+                    {"value":" px2-text-align-left", "label":"左揃え"},
+                    {"value":" px2-text-align-center", "label":"中央揃え"},
+                    {"value":" px2-text-align-right", "label":"右揃え"}
                 ]
             },
             "font-size": {

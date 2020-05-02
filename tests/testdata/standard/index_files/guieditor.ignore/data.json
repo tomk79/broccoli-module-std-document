@@ -135,9 +135,10 @@
                         "modId": "pickles2:basics/text",
                         "fields": {
                             "main": {
-                                "src": "## 基本モジュール\n\n汎用的なHTMLモジュール環境を提供します。\n\n- <a href=\"#\" class=\"px2-a\">標準的なビュレット付きリンク</a>\n",
+                                "src": "## 基本モジュール\n\n汎用的なHTMLモジュール環境を提供します。\n\n- <a href=\"javascript:;\" class=\"px2-a\">標準的なビュレット付きリンク</a>\n",
                                 "editor": "markdown"
-                            }
+                            },
+                            "text-align": ""
                         },
                         "anchor": "",
                         "dec": ""
@@ -160,7 +161,8 @@
                                         "onclick": {
                                             "src": "alert('OK');",
                                             "lang": "javascript"
-                                        }
+                                        },
+                                        "align": "left"
                                     },
                                     "anchor": "",
                                     "dec": ""
@@ -176,7 +178,8 @@
                                         "intention": "px2-btn--primary",
                                         "sizing": "px2-btn--lg",
                                         "display": "",
-                                        "btntype": "submit"
+                                        "btntype": "submit",
+                                        "align": "right"
                                     },
                                     "anchor": "",
                                     "dec": ""
@@ -192,7 +195,8 @@
                                         "onclick": {
                                             "src": "",
                                             "lang": "javascript"
-                                        }
+                                        },
+                                        "align": "center"
                                     },
                                     "anchor": "",
                                     "dec": ""
@@ -245,9 +249,34 @@
                                     "modId": "pickles2:basics/a",
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。');",
+                                        "label": "標準的なテストリンク",
+                                        "class": "",
+                                        "target": "",
+                                        "align": "center"
+                                    },
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:basics/a",
+                                    "fields": {
+                                        "href": "javascript:alert('Clicked');",
+                                        "label": "標準ビュレット付きのリンク",
+                                        "class": "px2-a",
+                                        "target": "",
+                                        "align": "right"
+                                    },
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:basics/a",
+                                    "fields": {
+                                        "href": "javascript:alert('クリックしました。');",
                                         "label": "標準ボタン風リンク",
                                         "class": "px2-btn",
-                                        "target": ""
+                                        "target": "",
+                                        "align": "left"
                                     },
                                     "anchor": "",
                                     "dec": ""
@@ -258,7 +287,8 @@
                                         "href": "javascript:alert('クリックしました。');",
                                         "label": "プライマリボタン風リンク",
                                         "class": "px2-btn px2-btn--primary",
-                                        "target": ""
+                                        "target": "",
+                                        "align": "right"
                                     },
                                     "anchor": "",
                                     "dec": ""
@@ -295,6 +325,76 @@
                                     },
                                     "anchor": "",
                                     "dec": ""
+                                }
+                            ]
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:lists/ul-module",
+                        "fields": {
+                            "class": "px2-horizontal-list px2-horizontal-list--right",
+                            "loop": [
+                                {
+                                    "modId": "pickles2:lists/ul-module",
+                                    "fields": {
+                                        "modules": [
+                                            {
+                                                "modId": "pickles2:basics/a",
+                                                "fields": {
+                                                    "href": "javascript:alert('Clicked');",
+                                                    "label": "リンク",
+                                                    "class": "px2-a",
+                                                    "target": "",
+                                                    "align": ""
+                                                },
+                                                "anchor": "",
+                                                "dec": ""
+                                            }
+                                        ]
+                                    },
+                                    "subModName": "loop"
+                                },
+                                {
+                                    "modId": "pickles2:lists/ul-module",
+                                    "fields": {
+                                        "modules": [
+                                            {
+                                                "modId": "pickles2:basics/a",
+                                                "fields": {
+                                                    "href": "javascript:alert('クリックしました。');",
+                                                    "label": "リンク",
+                                                    "class": "px2-a",
+                                                    "target": "",
+                                                    "align": ""
+                                                },
+                                                "anchor": "",
+                                                "dec": ""
+                                            }
+                                        ]
+                                    },
+                                    "subModName": "loop"
+                                },
+                                {
+                                    "modId": "pickles2:lists/ul-module",
+                                    "fields": {
+                                        "modules": [
+                                            {
+                                                "modId": "pickles2:basics/a",
+                                                "fields": {
+                                                    "href": "javascript:alert('Clicked');",
+                                                    "label": "リンク",
+                                                    "class": "px2-a",
+                                                    "target": "",
+                                                    "align": ""
+                                                },
+                                                "anchor": "",
+                                                "dec": ""
+                                            }
+                                        ]
+                                    },
+                                    "subModName": "loop"
                                 }
                             ]
                         },
@@ -506,7 +606,8 @@
                                             "header_col": "1",
                                             "cell_renderer": "text",
                                             "renderer": "simplify"
-                                        }
+                                        },
+                                        "align": ""
                                     },
                                     "anchor": "",
                                     "dec": ""
@@ -1685,6 +1786,23 @@
                                     "dec": ""
                                 }
                             ]
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:basics/image",
+                        "fields": {
+                            "href": "",
+                            "target": "",
+                            "image_src": {
+                                "resKey": "380dd303edd927d18f2618a6fd98ed9d",
+                                "path": "./index_files/resources/sample-image-center.gif",
+                                "resType": "",
+                                "webUrl": ""
+                            },
+                            "alt_text": "中央揃え画像配置のサンプル",
+                            "align": "center"
                         },
                         "anchor": "",
                         "dec": ""
