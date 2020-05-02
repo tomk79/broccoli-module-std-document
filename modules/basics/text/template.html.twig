@@ -1,3 +1,6 @@
-<div{% if _context["text-align"] %} class="px2-text-align-{{ _context["text-align"] }}"{% endif %}>
+<div{% if
+    _ENV.vars["text-align"]
+    or _ENV.vars.paragraph
+%} class="{% if _ENV.vars.paragraph %}{{ paragraph }}{% endif %}{% if _ENV.vars["text-align"] %} px2-text-align-{{ _context["text-align"] }}{% endif %}"{% endif %}>
 {{ main }}
 </div>

@@ -264,7 +264,8 @@
                                         "label": "標準ビュレット付きのリンク",
                                         "class": "px2-a",
                                         "target": "",
-                                        "align": "right"
+                                        "align": "right",
+                                        "paragraph": "px2-p"
                                     },
                                     "anchor": "",
                                     "dec": ""
@@ -276,7 +277,8 @@
                                         "label": "標準ボタン風リンク",
                                         "class": "px2-btn",
                                         "target": "",
-                                        "align": "left"
+                                        "align": "left",
+                                        "paragraph": "px2-p"
                                     },
                                     "anchor": "",
                                     "dec": ""
@@ -288,7 +290,8 @@
                                         "label": "プライマリボタン風リンク",
                                         "class": "px2-btn px2-btn--primary",
                                         "target": "",
-                                        "align": "right"
+                                        "align": "right",
+                                        "paragraph": ""
                                     },
                                     "anchor": "",
                                     "dec": ""
@@ -299,7 +302,9 @@
                                         "href": "javascript:alert('クリックしました。');",
                                         "label": "セカンダリボタン風リンク",
                                         "class": "px2-btn px2-btn--secondary",
-                                        "target": ""
+                                        "target": "",
+                                        "align": "",
+                                        "paragraph": ""
                                     },
                                     "anchor": "",
                                     "dec": ""
@@ -310,7 +315,9 @@
                                         "href": "javascript:alert('クリックしました。');",
                                         "label": "危険ボタン風リンク",
                                         "class": "px2-btn px2-btn--danger",
-                                        "target": ""
+                                        "target": "",
+                                        "align": "",
+                                        "paragraph": ""
                                     },
                                     "anchor": "",
                                     "dec": ""
@@ -321,7 +328,9 @@
                                         "href": "javascript:alert('クリックしました。');",
                                         "label": "ダウンロードボタン風リンク",
                                         "class": "px2-btn px2-btn--download",
-                                        "target": ""
+                                        "target": "",
+                                        "align": "",
+                                        "paragraph": ""
                                     },
                                     "anchor": "",
                                     "dec": ""
@@ -1594,7 +1603,9 @@
                                         "main": {
                                             "src": "## 前後の自然なマージン\n\n`px2-p` は、段落要素と同じように前後に自然な改行を追加します。\n\n段落ユーティリティは、テキストの左右寄せの指定もできます。\n",
                                             "editor": "markdown"
-                                        }
+                                        },
+                                        "text-align": "",
+                                        "paragraph": "px2-p"
                                     },
                                     "anchor": "",
                                     "dec": ""
@@ -1802,7 +1813,8 @@
                                 "webUrl": ""
                             },
                             "alt_text": "中央揃え画像配置のサンプル",
-                            "align": "center"
+                            "align": "center",
+                            "paragraph": "px2-p"
                         },
                         "anchor": "",
                         "dec": ""
