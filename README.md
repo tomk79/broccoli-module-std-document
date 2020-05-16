@@ -5,6 +5,7 @@
 ### tomk79/broccoli-module-std-document v0.2.1 (リリース日未定)
 
 - フロートメディアモジュールのオプションのラベルを日本語表現に変更。
+- 各モジュールのテンプレートを Twig形式に変更。
 
 ### tomk79/broccoli-module-std-document v0.2.0 (2020年5月10日)
 
