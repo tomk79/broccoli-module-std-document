@@ -7,11 +7,26 @@
                 "type": "select",
                 "label": "見出しレベル",
                 "options": [
-                    {"value":"2", "label":"h2"},
-                    {"value":"3", "label":"h3"},
-                    {"value":"4", "label":"h4"},
-                    {"value":"5", "label":"h5"},
-                    {"value":"6", "label":"h6"}
+                    {
+                        "value": "2",
+                        "label": "h2"
+                    },
+                    {
+                        "value": "3",
+                        "label": "h3"
+                    },
+                    {
+                        "value": "4",
+                        "label": "h4"
+                    },
+                    {
+                        "value": "5",
+                        "label": "h5"
+                    },
+                    {
+                        "value": "6",
+                        "label": "h6"
+                    }
                 ],
                 "default": "2"
             },
