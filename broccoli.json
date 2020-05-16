@@ -17,7 +17,9 @@
             "dir": "fields/summernoteEditor/frontend/",
             "file": [
                 "frontend.css",
-                "frontend.js"
+                "frontend.js",
+                "summernote/summernote.min.css",
+                "summernote/summernote.min.js"
             ],
             "function" : "window.broccoliFieldStdDocumentSummernoteEditor"
         }

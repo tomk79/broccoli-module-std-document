@@ -1,14 +1,4 @@
-table.broccoli-field-std-document-summernote-editor__table{
-    border-collapse: collapse;
-    margin: 0px auto;
-}
-table.broccoli-field-std-document-summernote-editor__table td{
-    padding: 7px 9px;
-    border: 0px solid #999;
-}
-table.broccoli-field-std-document-summernote-editor__table td.broccoli-field-std-document-summernote-editor__margin{
-    background-color: #fdffcc;
-}
-table.broccoli-field-std-document-summernote-editor__table td.broccoli-field-std-document-summernote-editor__padding{
-    background-color: #fcdbff;
+.broccoli-field-std-document-summernote-editor{
+    border: 1px solid #000;
+    min-height: 20px;
 }

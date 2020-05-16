@@ -395,7 +395,9 @@ return call_user_func( function(){
 				'dir' => '../../../fields/summernoteEditor/frontend/',
 				'file' => array(
 					'frontend.css',
-					'frontend.js'
+					'frontend.js',
+	                "summernote/summernote.min.css",
+					"summernote/summernote.min.js",
 				),
 				'function' => 'window.broccoliFieldStdDocumentSummernoteEditor'
 			),
