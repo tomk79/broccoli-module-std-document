@@ -2588,6 +2588,44 @@ dl{
 </div>
 
 
+<div class="module-preview tabs">
+<label class="tab_item" for="preview">Preview</label>
+<div id="preview_content">
+<iframe src="index_files/coding-example/pickles2/notice/notice/default.html"></iframe>
+<pre><code>&lt;div class=&#34;px2-notice&#34;&gt;	&lt;div&gt;
+&lt;p&gt;お知らせします。&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;&lt;!-- /.px2-notice --&gt;
+&lt;div class=&#34;px2-notice px2-notice--success&#34;&gt;	&lt;div&gt;
+&lt;p&gt;成功しました。&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;&lt;!-- /.px2-notice --&gt;
+&lt;div class=&#34;px2-notice px2-notice--warning&#34;&gt;	&lt;div&gt;
+&lt;p&gt;警告します。&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;&lt;!-- /.px2-notice --&gt;
+&lt;div class=&#34;px2-notice px2-notice--danger&#34;&gt;	&lt;div&gt;
+&lt;p&gt;エラー、または危険な操作をお知らせします。&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;&lt;!-- /.px2-notice --&gt;
+&lt;div class=&#34;px2-notice px2-notice--info&#34;&gt;	&lt;div&gt;
+&lt;p&gt;情報欄です。&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;&lt;!-- /.px2-notice --&gt;
+</code></pre>
+</div>
+</div>
+
 
 <div class="module-src-codes">
 
@@ -2601,15 +2639,10 @@ dl{
 
 	<ul class="panels">
 		<li id="cont1_pickles2_notice_notice" class="panel active">
-			<pre><code>{&amp;{&#34;input&#34;:{&#34;type&#34;:&#34;select&#34;, &#34;name&#34;:&#34;type&#34;, &#34;label&#34;:&#34;お知らせの種類&#34;, &#34;display&#34;:&#34;select&#34;, &#34;options&#34;:[
-    {&#34;value&#34;:&#34;&#34;, &#34;label&#34;:&#34;お知らせ&#34;},
-    {&#34;value&#34;:&#34;px2-notice--success&#34;, &#34;label&#34;:&#34;成功&#34;},
-    {&#34;value&#34;:&#34;px2-notice--warning&#34;, &#34;label&#34;:&#34;警告&#34;},
-    {&#34;value&#34;:&#34;px2-notice--danger&#34;, &#34;label&#34;:&#34;エラー・危険&#34;},
-    {&#34;value&#34;:&#34;px2-notice--info&#34;, &#34;label&#34;:&#34;情報&#34;}
-],&#34;hidden&#34;:true}}&amp;}
-&lt;div class=&#34;px2-notice{&amp;{&#34;if&#34;:{&#34;is_set&#34;:&#34;type&#34;}}&amp;} {&amp;{&#34;echo&#34;:{&#34;ref&#34;:&#34;type&#34;}}&amp;}{&amp;&#34;endif&#34;&amp;}&#34;&gt;{&amp;{&#34;if&#34;:{&#34;cond&#34;:[[&#34;is_mode:canvas&#34;]]}}&amp;}&lt;div style=&#34;height: 3px;&#34;&gt;&lt;/div&gt;{&amp;&#34;endif&#34;&amp;}
-	{&amp;{&#34;module&#34;:{&#34;name&#34;:&#34;main&#34;,&#34;label&#34;:&#34;内容&#34;}}&amp;}
+			<pre><code>&lt;div class=&#34;px2-notice{% if type %} {{ type }}{% endif %}&#34;&gt;{% if _ENV.mode == &#39;canvas&#39; %}&lt;div style=&#34;height: 3px;&#34;&gt;&lt;/div&gt;{% endif %}
+
+{{ main }}
+
 &lt;/div&gt;&lt;!-- /.px2-notice --&gt;
 </code></pre>
 		</li>
