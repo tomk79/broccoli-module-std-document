@@ -1550,7 +1550,10 @@
                                                 "anchor": "",
                                                 "dec": ""
                                             }
-                                        ]
+                                        ],
+                                        "column-width-lg": "",
+                                        "column-width-md": "",
+                                        "column-width-sm": "1of1"
                                     },
                                     "subModName": "col",
                                     "anchor": "",
@@ -1572,7 +1575,10 @@
                                                 "anchor": "",
                                                 "dec": ""
                                             }
-                                        ]
+                                        ],
+                                        "column-width-lg": "",
+                                        "column-width-md": "",
+                                        "column-width-sm": "1of3"
                                     },
                                     "subModName": "col",
                                     "anchor": "",
@@ -1594,7 +1600,10 @@
                                                 "anchor": "",
                                                 "dec": ""
                                             }
-                                        ]
+                                        ],
+                                        "column-width-lg": "",
+                                        "column-width-md": "",
+                                        "column-width-sm": "1of3"
                                     },
                                     "subModName": "col",
                                     "anchor": "",
@@ -1609,14 +1618,20 @@
                                                 "modId": "pickles2:basics/text",
                                                 "fields": {
                                                     "main": {
-                                                        "src": "## Column 1\n\nLeft Column.\n",
+                                                        "src": "## Column 4\n\nLeft Column.\n",
                                                         "editor": "markdown"
-                                                    }
+                                                    },
+                                                    "paragraph": "px2-p",
+                                                    "text-align": "",
+                                                    "font-size": ""
                                                 },
                                                 "anchor": "",
                                                 "dec": ""
                                             }
-                                        ]
+                                        ],
+                                        "column-width-lg": "",
+                                        "column-width-md": "",
+                                        "column-width-sm": "1of3"
                                     },
                                     "subModName": "col",
                                     "anchor": "",
@@ -1631,14 +1646,20 @@
                                                 "modId": "pickles2:basics/text",
                                                 "fields": {
                                                     "main": {
-                                                        "src": "## Column 2\n\nCenter Column.\n",
+                                                        "src": "## Column 5\n\nCenter Column.\n",
                                                         "editor": "markdown"
-                                                    }
+                                                    },
+                                                    "paragraph": "px2-p",
+                                                    "text-align": "",
+                                                    "font-size": ""
                                                 },
                                                 "anchor": "",
                                                 "dec": ""
                                             }
-                                        ]
+                                        ],
+                                        "column-width-lg": "",
+                                        "column-width-md": "",
+                                        "column-width-sm": "1of2"
                                     },
                                     "subModName": "col",
                                     "anchor": "",
@@ -1653,14 +1674,20 @@
                                                 "modId": "pickles2:basics/text",
                                                 "fields": {
                                                     "main": {
-                                                        "src": "## Column 3\n\nRight Column.\n",
+                                                        "src": "## Column 6\n\nRight Column.\n",
                                                         "editor": "markdown"
-                                                    }
+                                                    },
+                                                    "paragraph": "px2-p",
+                                                    "text-align": "",
+                                                    "font-size": ""
                                                 },
                                                 "anchor": "",
                                                 "dec": ""
                                             }
-                                        ]
+                                        ],
+                                        "column-width-lg": "",
+                                        "column-width-md": "",
+                                        "column-width-sm": "1of2"
                                     },
                                     "subModName": "col",
                                     "anchor": "",
