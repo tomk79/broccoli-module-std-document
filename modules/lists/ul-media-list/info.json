@@ -1,0 +1,65 @@
+{
+    "name": "メディアリスト - Media List",
+    "interface": {
+        "fields": {
+            "class": {
+                "fieldType": "input",
+                "type": "select",
+                "label": "リストスタイル",
+                "options": [
+                    {
+                        "value": "",
+                        "label": "標準リスト"
+                    }
+                ]
+            },
+            "loop": {
+                "fieldType": "loop",
+                "label": "リストアイテム"
+            }
+        },
+        "subModule": {
+            "loop": {
+                "fields": {
+                    "href": {
+                        "fieldType": "input",
+                        "type": "href",
+                        "rows": 1,
+                        "label": "リンク先"
+                    },
+                    "label": {
+                        "fieldType": "input",
+                        "type": "text",
+                        "label": "ラベル",
+                        "rows": 1
+                    },
+                    "target": {
+                        "fieldType": "input",
+                        "type": "select",
+                        "label": "ターゲットウィンドウ",
+                        "options": [
+                            {
+                                "value": "",
+                                "label": "デフォルト"
+                            },
+                            {
+                                "value": "_blank",
+                                "label": "新規ウィンドウ (_blank)"
+                            }
+                        ]
+                    },
+                    "image": {
+                        "fieldType": "input",
+                        "type": "image",
+                        "label": "画像メディア"
+                    },
+                    "description": {
+                        "fieldType": "input",
+                        "type": "multitext",
+                        "label": "リンクの説明"
+                    }
+                }
+            }
+        }
+    }
+}

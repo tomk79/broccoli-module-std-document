@@ -1,0 +1,17 @@
+<div class="px2-medialist"{% if _ENV.mode == 'canvas' %} style="padding-top: 3px;"{% endif %}>
+<ul{% if _ENV.vars.class %} class="{{ class }}"{% endif %}>
+
+{% for row in loop %}
+{{ loopitem_start('loop') }}
+	<li>{% if row.href %}<a href="{{ row.href }}"{% if row.target %} target="{{ row.target }}"{% endif %}>{% endif %}
+<div class="px2-medialist__list-item">
+  <div class="px2-medialist__image"><img src="{{ row.image }}" alt="" /></div>
+  <div class="px2-medialist__body">
+    <div class="px2-medialist__label">{{ row.label }}</div>
+    <div class="px2-medialist__description">{{ row.description }}</div>
+  </div>
+</div>
+{% if row.href %}</a>{% endif %}</li>
+{{ loopitem_end() }}{% endfor %}{{ appender('loop') }}
+</ul>
+</div>

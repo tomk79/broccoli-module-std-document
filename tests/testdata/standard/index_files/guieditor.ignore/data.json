@@ -931,6 +931,77 @@
                         "dec": ""
                     },
                     {
+                        "modId": "pickles2:lists/ul-media-list",
+                        "fields": {
+                            "class": "",
+                            "loop": [
+                                {
+                                    "modId": "pickles2:lists/ul-media-list",
+                                    "fields": {
+                                        "href": "",
+                                        "label": "メディアリストラベル (リンクではない)",
+                                        "target": "",
+                                        "image": {
+                                            "resKey": "36069bdb43212cd3e4c09790eef5e2fe",
+                                            "path": "./index_files/resources/photo009_thumb.jpg",
+                                            "resType": "",
+                                            "webUrl": ""
+                                        },
+                                        "description": {
+                                            "src": "このリストアイテムは、リンクではありません。",
+                                            "editor": "markdown"
+                                        }
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:lists/ul-media-list",
+                                    "fields": {
+                                        "href": "javascript:alert('clicked');",
+                                        "label": "メディアリストアイテム",
+                                        "target": "",
+                                        "image": {
+                                            "resKey": "ee5527c2461cd3b3acc7ba85bd31ffd3",
+                                            "resType": "",
+                                            "webUrl": "",
+                                            "path": "./index_files/resources/photo001_thumb.jpg"
+                                        },
+                                        "description": {
+                                            "src": "リンク説明。",
+                                            "editor": "markdown"
+                                        }
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:lists/ul-media-list",
+                                    "fields": {
+                                        "href": "javascript:alert('clicked');",
+                                        "label": "メディアリストラベル",
+                                        "target": "",
+                                        "image": {
+                                            "resKey": "d2d998d3caf414400aab9629b6aaeb3d",
+                                            "resType": "",
+                                            "webUrl": "",
+                                            "path": "./index_files/resources/photo003_thumb.jpg"
+                                        },
+                                        "description": {
+                                            "src": "メディアリンクの説明欄テキスト。\n\nメディアリンクの説明欄テキスト。",
+                                            "editor": "markdown"
+                                        }
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ]
+                        }
+                    },
+                    {
                         "modId": "pickles2:basics/text",
                         "fields": {
                             "main": {
