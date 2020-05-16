@@ -2817,7 +2817,7 @@ dl{
 
 	<ul class="panels">
 		<li id="cont1_pickles2_utils_responsive" class="panel active">
-			<pre><code>&lt;div class=&#34;px2-responsive&#34;{&amp;{&#34;if&#34;:{&#34;cond&#34;:[[&#34;is_mode:canvas&#34;]]}}&amp;} style=&#34;padding-top: 3px;&#34;{&amp;&#34;endif&#34;&amp;}&gt;{&amp;{&#34;module&#34;:{&#34;name&#34;:&#34;main&#34;,&#34;label&#34;:&#34;コンテンツ&#34;}}&amp;}&lt;/div&gt;
+			<pre><code>&lt;div class=&#34;px2-responsive&#34;{% if _ENV.mode == &#39;canvas&#39; %} style=&#34;padding-top: 3px;&#34;{% endif %}&gt;{{ main }}&lt;/div&gt;
 </code></pre>
 		</li>
 		<li id="cont2_pickles2_utils_responsive" class="panel">
