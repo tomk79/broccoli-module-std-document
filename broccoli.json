@@ -1,6 +1,27 @@
-{
-    "id": "std-document",
-    "name": "Standard Document Modules",
-    "type": "module",
-    "path": "modules/"
-}
+[
+    {
+        "id": "std-document",
+        "name": "Standard Document Modules",
+        "type": "module",
+        "path": "modules/"
+    },
+    {
+        "id": "std-document-summernote-editor",
+        "name": "Summernote Editor",
+        "type": "field",
+        "backend": {
+            "class": "tomk79\\broccoliFieldStdDocument\\fields\\summernoteEditor",
+            "require": "fields/summernoteEditor/backend.js"
+        },
+        "frontend": {
+            "dir": "fields/summernoteEditor/frontend/",
+            "file": [
+                "frontend.css",
+                "frontend.js",
+                "summernote/summernote.min.css",
+                "summernote/summernote.min.js"
+            ],
+            "function" : "window.broccoliFieldStdDocumentSummernoteEditor"
+        }
+    }
+]

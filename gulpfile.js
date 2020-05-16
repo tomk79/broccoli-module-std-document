@@ -1,28 +1,35 @@
-var gulp = require('gulp');
-var plumber = require("gulp-plumber");//コンパイルエラーが起きても watch を抜けないようになる
-var concat  = require('gulp-concat');
-var browserify = require("gulp-browserify");//NodeJSのコードをブラウザ向けコードに変換
-var _tasks = [
-	'carousel'
-];
+let gulp = require('gulp');
+let plumber = require("gulp-plumber");//コンパイルエラーが起きても watch を抜けないようになる
+let concat  = require('gulp-concat');
+let browserify = require("gulp-browserify");//NodeJSのコードをブラウザ向けコードに変換
 
-// src 中の *.js を処理
-gulp.task('carousel', function(){
-	gulp.src(["./src_gulp/interactives/carousel/module.js", "./node_modules/tiny-slider/dist/min/tiny-slider.js"])
+
+// summernoteEditor フィールド を処理
+gulp.task('summernoteEditor:js', function(){
+	return gulp.src(["./src_gulp/fields/summernoteEditor/frontend.js"])
 		.pipe(plumber())
-		.pipe(concat('module.js'))
-		.pipe(gulp.dest( './modules/interactives/carousel/' ))
+		.pipe(browserify({}))
+		.pipe(concat('frontend.js'))
+		.pipe(gulp.dest( './fields/summernoteEditor/frontend/' ))
 	;
-	gulp.src(["./src_gulp/interactives/carousel/module.css.scss","./node_modules/tiny-slider/dist/tiny-slider.css"])
+});
+gulp.task('summernoteEditor:css', function(){
+	return gulp.src(["./src_gulp/fields/summernoteEditor/frontend.css"])
 		.pipe(plumber())
-		.pipe(concat('module.css.scss'))
-		.pipe(gulp.dest( './modules/interactives/carousel/' ))
+		.pipe(concat('frontend.css'))
+		.pipe(gulp.dest( './fields/summernoteEditor/frontend/' ))
 	;
 });
 
+
+let _tasks = gulp.parallel(
+	'summernoteEditor:js',
+	'summernoteEditor:css'
+);
+
 // src 中のすべての拡張子を監視して処理
 gulp.task("watch", function() {
-	gulp.watch(["src_gulp/**/*"], _tasks);
+	return gulp.watch(["src_gulp/**/*"], _tasks);
 });
 
 
