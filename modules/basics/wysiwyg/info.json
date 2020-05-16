@@ -1,0 +1,12 @@
+{
+    "name": "WYSYWIGテキスト - WYSYWIG Text",
+    "interface": {
+        "fields": {
+            "main": {
+                "fieldType": "input",
+                "type": "std-document-summernote-editor",
+                "label": "テキスト"
+            }
+        }
+    }
+}

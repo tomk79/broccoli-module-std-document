@@ -5,6 +5,12 @@
             "fields": {
                 "main": [
                     {
+                        "modId": "pickles2:basics/wysiwyg",
+                        "fields": {
+                            "main": ""
+                        }
+                    },
+                    {
                         "modId": "pickles2:headings/hx",
                         "fields": {
                             "hx": "2",
