@@ -10890,7 +10890,7 @@ window.broccoliFieldStdDocumentSummernoteEditor = function(broccoli){
 			rtn.src = '';
 		}
 		if(typeof(rtn.editor) != typeof('')){
-			rtn.editor = 'html';
+			rtn.editor = '';
 		}
 		return rtn;
 	}
@@ -10979,7 +10979,7 @@ window.broccoliFieldStdDocumentSummernoteEditor = function(broccoli){
 		var rtn = {};
 
 		rtn.src = $dom.find('.broccoli-field-std-document-summernote-editor').eq(0).summernote('code');
-		rtn.editor = 'html';
+		rtn.editor = '';
 
 
 		rtn = JSON.parse( JSON.stringify(rtn) );
