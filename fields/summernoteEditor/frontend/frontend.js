@@ -10875,6 +10875,7 @@ return jQuery;
 },{}],2:[function(require,module,exports){
 window.broccoliFieldStdDocumentSummernoteEditor = function(broccoli){
 	var $ = require('jquery');
+	var isGlobalJQuery = ( window.jQuery ? true : false );
 
 	/**
 	 * データを正規化する (Client Side)
@@ -10934,22 +10935,31 @@ window.broccoliFieldStdDocumentSummernoteEditor = function(broccoli){
 
 		$(elm).html($rtn);
 
-		window.$('.broccoli-field-std-document-summernote-editor').eq(0).summernote({
-			// TODO: 隠蔽したい。
-			placeholder: data.src,
-			tabsize: 2,
-			height: 300,
-			toolbar: [
-				['style', ['style']],
-				['font', ['bold', 'underline', 'clear']],
-				['color', ['color']],
-				['para', ['ul', 'ol', 'paragraph']],
-				['table', ['table']],
-				['insert', ['link', 'picture', 'video']],
-				['view', ['fullscreen', 'codeview', 'help']]
-			]
-		});
-		window.$('.broccoli-field-std-document-summernote-editor').eq(0).summernote('code', data.src);
+		if( isGlobalJQuery ){
+			// jQuery がある場合
+			window.jQuery('.broccoli-field-std-document-summernote-editor').eq(0).summernote({
+				// TODO: 隠蔽したい。
+				placeholder: '',
+				tabsize: 2,
+				height: 300,
+				toolbar: [
+					['style', ['style']],
+					['font', ['bold', 'underline', 'clear']],
+					['color', ['color']],
+					['para', ['ul', 'ol', 'paragraph']],
+					['table', ['table']],
+					['insert', ['link', 'picture', 'video']],
+					['view', ['fullscreen', 'codeview', 'help']]
+				]
+			});
+			window.jQuery('.broccoli-field-std-document-summernote-editor').eq(0).summernote('code', data.src);
+		}else{
+			// jQuery がない場合
+			console.error('std-document-summernote-editorフィールドで Summernote (WYSIWYG)を利用するには、グローバルスコープに jQuery がロードされている必要があります。');
+			$(elm).find('.broccoli-field-std-document-summernote-editor').append( $('<textarea>')
+				.val(data.src)
+			);
+		}
 
 		new Promise(function(rlv){rlv();}).then(function(){ return new Promise(function(rlv, rjt){
 			callback();
@@ -10975,10 +10985,17 @@ window.broccoliFieldStdDocumentSummernoteEditor = function(broccoli){
 	this.saveEditorContent = function( elm, data, mod, callback, options ){
 		options = options || {};
 		options.message = options.message || function(msg){};//ユーザーへのメッセージテキストを送信
-		var $dom = window.$(elm); // TODO: 隠蔽したい。
 		var rtn = {};
 
-		rtn.src = $dom.find('.broccoli-field-std-document-summernote-editor').eq(0).summernote('code');
+		if( isGlobalJQuery ){
+			// jQuery がある場合
+			rtn.src = window.jQuery(elm).find('.broccoli-field-std-document-summernote-editor').eq(0).summernote('code');
+				// TODO: 隠蔽したい。
+
+		}else{
+			// jQuery がない場合
+			rtn.src =$(elm).find('.broccoli-field-std-document-summernote-editor textarea').val();
+		}
 		rtn.editor = '';
 
 
