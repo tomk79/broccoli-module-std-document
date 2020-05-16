@@ -10890,7 +10890,7 @@ window.broccoliFieldStdDocumentSummernoteEditor = function(broccoli){
 			rtn.src = '';
 		}
 		if(typeof(rtn.editor) != typeof('')){
-			rtn.editor = 'wysiwyg';
+			rtn.editor = 'html';
 		}
 		return rtn;
 	}
@@ -10934,7 +10934,7 @@ window.broccoliFieldStdDocumentSummernoteEditor = function(broccoli){
 
 		$(elm).html($rtn);
 
-		window.$('.broccoli-field-std-document-summernote-editor').summernote({
+		window.$('.broccoli-field-std-document-summernote-editor').eq(0).summernote({
 			// TODO: 隠蔽したい。
 			placeholder: data.src,
 			tabsize: 2,
@@ -10949,6 +10949,7 @@ window.broccoliFieldStdDocumentSummernoteEditor = function(broccoli){
 				['view', ['fullscreen', 'codeview', 'help']]
 			]
 		});
+		window.$('.broccoli-field-std-document-summernote-editor').eq(0).summernote('code', data.src);
 
 		new Promise(function(rlv){rlv();}).then(function(){ return new Promise(function(rlv, rjt){
 			callback();
@@ -10974,11 +10975,11 @@ window.broccoliFieldStdDocumentSummernoteEditor = function(broccoli){
 	this.saveEditorContent = function( elm, data, mod, callback, options ){
 		options = options || {};
 		options.message = options.message || function(msg){};//ユーザーへのメッセージテキストを送信
-		var $dom = $(elm);
+		var $dom = window.$(elm); // TODO: 隠蔽したい。
 		var rtn = {};
 
-		rtn.src = $dom.find('.broccoli-field-std-document-summernote-editor').eq(1).summernote('code');
-		rtn.editor = 'wysiwyg';
+		rtn.src = $dom.find('.broccoli-field-std-document-summernote-editor').eq(0).summernote('code');
+		rtn.editor = 'html';
 
 
 		rtn = JSON.parse( JSON.stringify(rtn) );
