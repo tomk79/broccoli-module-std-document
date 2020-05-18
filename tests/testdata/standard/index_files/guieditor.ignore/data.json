@@ -933,7 +933,7 @@
                     {
                         "modId": "pickles2:lists/ul-media-list",
                         "fields": {
-                            "class": "",
+                            "class": "card",
                             "loop": [
                                 {
                                     "modId": "pickles2:lists/ul-media-list",
@@ -998,8 +998,14 @@
                                     "anchor": "",
                                     "dec": ""
                                 }
-                            ]
-                        }
+                            ],
+                            "list-item-width": "1of3",
+                            "list-item-width-lg": "",
+                            "list-item-width-md": "",
+                            "list-item-width-sm": ""
+                        },
+                        "anchor": "",
+                        "dec": ""
                     },
                     {
                         "modId": "pickles2:basics/text",
