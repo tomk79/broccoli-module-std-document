@@ -5435,6 +5435,7 @@ function () {
 
       // bind custom events
       this.$editable.on('keydown', function (event) {
+        event.stopPropagation();
         if (event.keyCode === core_key.code.ENTER) {
           _this2.context.triggerEvent('enter', event);
         }
