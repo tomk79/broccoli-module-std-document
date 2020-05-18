@@ -62,7 +62,8 @@ window.broccoliFieldStdDocumentSummernoteEditor = function(broccoli){
 
 		if( isGlobalJQuery ){
 			// jQuery がある場合
-			window.jQuery('.broccoli-field-std-document-summernote-editor').eq(0).summernote({
+			var $targetElm = window.jQuery(elm).find('.broccoli-field-std-document-summernote-editor').eq(0);
+			$targetElm.summernote({
 				// TODO: 隠蔽したい。
 				placeholder: '',
 				tabsize: 2,
@@ -77,7 +78,7 @@ window.broccoliFieldStdDocumentSummernoteEditor = function(broccoli){
 					['view', ['fullscreen', 'codeview', 'help']]
 				]
 			});
-			window.jQuery('.broccoli-field-std-document-summernote-editor').eq(0).summernote('code', data.src);
+			$targetElm.summernote('code', data.src);
 		}else{
 			// jQuery がない場合
 			console.error('std-document-summernote-editorフィールドで Summernote (WYSIWYG)を利用するには、グローバルスコープに jQuery がロードされている必要があります。');
@@ -114,8 +115,10 @@ window.broccoliFieldStdDocumentSummernoteEditor = function(broccoli){
 
 		if( isGlobalJQuery ){
 			// jQuery がある場合
-			rtn.src = window.jQuery(elm).find('.broccoli-field-std-document-summernote-editor').eq(0).summernote('code');
+			var $targetElm = window.jQuery(elm).find('.broccoli-field-std-document-summernote-editor').eq(0);
 				// TODO: 隠蔽したい。
+
+			rtn.src = $targetElm.summernote('code');
 
 		}else{
 			// jQuery がない場合
