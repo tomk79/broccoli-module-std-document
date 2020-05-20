@@ -989,6 +989,83 @@
                                         "label": "メディアリストラベル (リンクではない)",
                                         "target": "",
                                         "image": {
+                                            "resKey": "7d5385a8dad8fdc9a99365158a936499",
+                                            "path": "./index_files/resources/photo009_thumb.jpg",
+                                            "resType": "",
+                                            "webUrl": ""
+                                        },
+                                        "description": {
+                                            "src": "このリストアイテムは、リンクではありません。",
+                                            "editor": "markdown"
+                                        }
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:lists/ul-media-list",
+                                    "fields": {
+                                        "href": "javascript:alert('clicked');",
+                                        "label": "メディアリストアイテム",
+                                        "target": "",
+                                        "image": {
+                                            "resKey": "d7fb1353d62cf1966f1bb7b98a566649",
+                                            "resType": "",
+                                            "webUrl": "",
+                                            "path": "./index_files/resources/photo001_thumb.jpg"
+                                        },
+                                        "description": {
+                                            "src": "リンク説明。",
+                                            "editor": "markdown"
+                                        }
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "pickles2:lists/ul-media-list",
+                                    "fields": {
+                                        "href": "javascript:alert('clicked');",
+                                        "label": "メディアリストラベル",
+                                        "target": "",
+                                        "image": {
+                                            "resKey": "8da6113daa8e32f27d2c68e16b9004a3",
+                                            "resType": "",
+                                            "webUrl": "",
+                                            "path": "./index_files/resources/photo003_thumb.jpg"
+                                        },
+                                        "description": {
+                                            "src": "メディアリンクの説明欄テキスト。\n\nメディアリンクの説明欄テキスト。",
+                                            "editor": "markdown"
+                                        }
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ],
+                            "list-item-width": "1of3",
+                            "list-item-width-lg": "",
+                            "list-item-width-md": "",
+                            "list-item-width-sm": ""
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:lists/ul-media-list",
+                        "fields": {
+                            "class": "",
+                            "loop": [
+                                {
+                                    "modId": "pickles2:lists/ul-media-list",
+                                    "fields": {
+                                        "href": "",
+                                        "label": "メディアリストラベル (リンクではない)",
+                                        "target": "",
+                                        "image": {
                                             "resKey": "36069bdb43212cd3e4c09790eef5e2fe",
                                             "path": "./index_files/resources/photo009_thumb.jpg",
                                             "resType": "",
