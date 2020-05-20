@@ -744,11 +744,18 @@
     overflow: hidden; }
   .contents .px2-float-media__body-rect *:first-child {
     margin-top: 0; }
-  @media (max-width: 544px) {
+  @media (max-width: 768px) {
   .contents .px2-float-media__r1of3, .contents .px2-float-media__c1of3, .contents .px2-float-media__l1of3, .contents .px2-float-media__r1of4, .contents .px2-float-media__c1of4, .contents .px2-float-media__l1of4 {
     width: 50%; } }
-  @media (max-width: 440px) {
+  @media (max-width: 544px) {
   .contents .px2-float-media__r2of3, .contents .px2-float-media__c2of3, .contents .px2-float-media__l2of3 {
+    float: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px; } }
+  @media (max-width: 440px) {
+  .contents .px2-float-media__r1of1, .contents .px2-float-media__c1of1, .contents .px2-float-media__l1of1, .contents .px2-float-media__r2of3, .contents .px2-float-media__c2of3, .contents .px2-float-media__l2of3, .contents .px2-float-media__r1of2, .contents .px2-float-media__c1of2, .contents .px2-float-media__l1of2, .contents .px2-float-media__r1of3, .contents .px2-float-media__c1of3, .contents .px2-float-media__l1of3, .contents .px2-float-media__r1of4, .contents .px2-float-media__c1of4, .contents .px2-float-media__l1of4 {
     float: none;
     width: 100%;
     margin-left: auto;

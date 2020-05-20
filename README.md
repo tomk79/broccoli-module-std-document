@@ -10,6 +10,7 @@
 - カスタムフィールド `std-document-summernote-editor` を追加。
 - リンクモジュールにディスプレイタイプオプションを追加。
 - いくつかのモジュールのテンプレートを Twig形式に移行。
+- その他の細かい修正。
 
 ### tomk79/broccoli-module-std-document v0.2.0 (2020年5月10日)
 
