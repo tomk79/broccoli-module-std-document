@@ -452,7 +452,7 @@
     list-style-type: none;
     border-top: 1px solid #ddd;
     padding: 0;
-    margin: 0; }
+    margin: 0 2px; }
   .contents .px2-linklist > ul > li a {
     display: block;
     padding: 0.5em 1em; }
@@ -616,9 +616,14 @@
   .contents .px2-horizontal-list > ul > li, .contents .px2-horizontal-list > ul > ul > li, .contents .px2-horizontal-list > li {
     list-style-type: none;
     padding-left: 0;
-    padding-right: 1em; }
+    padding-right: 1em;
+    margin: 0 2px; }
   .contents .px2-horizontal-list > ul > li > p, .contents .px2-horizontal-list > ul > ul > li > p, .contents .px2-horizontal-list > li > p {
     margin: 0; }
+  .contents .px2-horizontal-list > ul > li:first-child, .contents .px2-horizontal-list > ul > ul > li:first-child, .contents .px2-horizontal-list > li:first-child {
+    margin-left: 0; }
+  .contents .px2-horizontal-list > ul > li:last-child, .contents .px2-horizontal-list > ul > ul > li:last-child, .contents .px2-horizontal-list > li:last-child {
+    margin-right: 0; }
   .contents .px2-horizontal-list--left {
     justify-content: flex-start; }
   .contents .px2-horizontal-list--center {
