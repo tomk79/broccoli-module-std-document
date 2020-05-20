@@ -65,6 +65,22 @@
                     }
                 ]
             },
+            "display": {
+                "fieldType": "input",
+                "type": "select",
+                "name": "display",
+                "label": "ディスプレイタイプ",
+                "options": [
+                    {
+                        "value": "",
+                        "label": "標準"
+                    },
+                    {
+                        "value": "block",
+                        "label": "ブロック"
+                    }
+                ]
+            },
             "paragraph": {
                 "fieldType": "input",
                 "type": "select",

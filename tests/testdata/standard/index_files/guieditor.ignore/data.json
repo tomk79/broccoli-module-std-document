@@ -254,7 +254,9 @@
                                         "label": "標準的なテストリンク",
                                         "class": "",
                                         "target": "",
-                                        "align": "center"
+                                        "align": "center",
+                                        "display": "",
+                                        "paragraph": "px2-p"
                                     },
                                     "anchor": "",
                                     "dec": ""
@@ -280,7 +282,8 @@
                                         "class": "px2-btn",
                                         "target": "",
                                         "align": "left",
-                                        "paragraph": "px2-p"
+                                        "paragraph": "px2-p",
+                                        "display": ""
                                     },
                                     "anchor": "",
                                     "dec": ""
@@ -343,6 +346,48 @@
                         "dec": ""
                     },
                     {
+                        "modId": "pickles2:basics/a",
+                        "fields": {
+                            "href": "javascript:alert('クリックしました。');",
+                            "label": "標準的なテキストリンク (ブロック)",
+                            "class": "",
+                            "target": "",
+                            "align": "",
+                            "paragraph": "px2-p",
+                            "display": "block"
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:basics/a",
+                        "fields": {
+                            "href": "javascript:alert('クリックしました。');",
+                            "label": "標準ビュレット付きリンク (ブロック)",
+                            "class": "px2-a",
+                            "target": "",
+                            "align": "",
+                            "paragraph": "px2-p",
+                            "display": "block"
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:basics/a",
+                        "fields": {
+                            "href": "javascript:alert('クリックしました。');",
+                            "label": "標準ボタン風リンク (ブロック)",
+                            "class": "px2-btn",
+                            "target": "",
+                            "align": "",
+                            "paragraph": "px2-p",
+                            "display": "block"
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
                         "modId": "pickles2:lists/ul-module",
                         "fields": {
                             "class": "px2-horizontal-list px2-horizontal-list--right",
@@ -358,7 +403,9 @@
                                                     "label": "リンク",
                                                     "class": "px2-a",
                                                     "target": "",
-                                                    "align": ""
+                                                    "align": "",
+                                                    "display": "",
+                                                    "paragraph": "px2-p"
                                                 },
                                                 "anchor": "",
                                                 "dec": ""
