@@ -51,6 +51,38 @@ window.broccoliFieldStdDocumentSummernoteEditor = function(broccoli){
 		if(typeof(data.src) != typeof('')){
 			data.src = '';
 		}
+		if(typeof(data.editor) != typeof('')){
+			data.editor = '';
+		}
+
+		switch( data.editor ){
+			case 'markdown':
+				var marked = require('marked');
+				marked.setOptions({
+					renderer: new marked.Renderer(),
+					gfm: true,
+					headerIds: false,
+					tables: true,
+					breaks: false,
+					pedantic: false,
+					sanitize: false,
+					smartLists: true,
+					smartypants: false,
+					xhtml: true
+				});
+				data.src = marked(data.src);
+				break;
+			case 'text':
+				// HTML特殊文字変換
+				data.src = data.src.split(/\&/g).join('&amp;');
+				data.src = data.src.split(/\</g).join('&lt;');
+				data.src = data.src.split(/\>/g).join('&gt;');
+				data.src = data.src.split(/\"/g).join('&quot;');
+
+				// 改行コードは改行タグに変換
+				data.src = data.src.split(/\r\n|\r|\n/g).join('<br />');
+				break;
+		}
 
 		var $rtn = $('<div>');
 		$rtn.append(
