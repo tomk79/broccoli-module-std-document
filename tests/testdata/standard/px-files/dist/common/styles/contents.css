@@ -119,9 +119,9 @@
     background-color: #00a0e6;
     color: #fff; }
   .contents .px2-btn.px2-btn--secondary {
-    border-color: #999;
+    border-color: #666;
     background: #fff;
-    color: #999; }
+    color: #666; }
   .contents .px2-btn.px2-btn--secondary:focus, .contents .px2-btn.px2-btn--secondary:hover {
     background-color: #f9f9f9; }
   .contents .px2-btn.px2-btn--secondary:hover {
