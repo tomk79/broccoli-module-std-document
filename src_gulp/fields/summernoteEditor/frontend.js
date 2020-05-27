@@ -10,7 +10,10 @@ window.broccoliFieldStdDocumentSummernoteEditor = function(broccoli){
 		// 編集画面用にデータを初期化。
 		var rtn = fieldData;
 		if(!rtn || typeof(rtn) != typeof({})){
-			rtn = {};
+			data = {
+				src: '',
+				editor: ''
+			};
 		}
 		if(typeof(rtn.src) != typeof('')){
 			rtn.src = '';
@@ -29,7 +32,9 @@ window.broccoliFieldStdDocumentSummernoteEditor = function(broccoli){
 		var rtn = '';
 		new Promise(function(rlv){rlv();})
 			.then(function(){ return new Promise(function(rlv, rjt){
-				rtn += fieldData.src;
+				if( fieldData && typeof(fieldData.src) == typeof('') ){
+					rtn += fieldData.src;
+				}
 				rlv();
 
 			}); })
@@ -45,7 +50,10 @@ window.broccoliFieldStdDocumentSummernoteEditor = function(broccoli){
 	 */
 	this.mkEditor = function( mod, data, elm, callback ){
 		if(!data || typeof(data) != typeof({})){
-			data = {};
+			data = {
+				src: '',
+				editor: ''
+			};
 		}
 
 		if(typeof(data.src) != typeof('')){
