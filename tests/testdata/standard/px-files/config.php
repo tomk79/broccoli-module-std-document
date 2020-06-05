@@ -386,22 +386,6 @@ return call_user_func( function(){
 	// $conf->plugins->px2dt->guieditor->path_resource_dir = '{$dirname}/{$filename}_files/resources/';
 
 	@$conf->plugins->px2dt->guieditor->custom_fields = array(
-		'std-document-summernote-editor'=>array(
-			'backend'=>array(
-				'class' => 'tomk79\\broccoliFieldStdDocument\\fields\\summernoteEditor',
-				'require' => '../../../fields/summernoteEditor/backend.js',
-			),
-			'frontend'=>array(
-				'dir' => '../../../fields/summernoteEditor/frontend/',
-				'file' => array(
-					'frontend.css',
-					'frontend.js',
-	                "summernote/summernote.min.css",
-					"summernote/summernote.min.js",
-				),
-				'function' => 'window.broccoliFieldStdDocumentSummernoteEditor'
-			),
-		),
 	);
 
 

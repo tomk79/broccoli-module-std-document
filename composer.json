@@ -22,7 +22,6 @@
     },
     "autoload": {
         "files": [
-            "fields/summernoteEditor/backend.php"
         ]
     }
 }
