@@ -4,27 +4,15 @@ let concat  = require('gulp-concat');
 let browserify = require("gulp-browserify");//NodeJSのコードをブラウザ向けコードに変換
 
 
-// summernoteEditor フィールド を処理
-gulp.task('summernoteEditor:js', function(){
-	return gulp.src(["./src_gulp/fields/summernoteEditor/frontend.js"])
-		.pipe(plumber())
-		.pipe(browserify({}))
-		.pipe(concat('frontend.js'))
-		.pipe(gulp.dest( './fields/summernoteEditor/frontend/' ))
-	;
-});
-gulp.task('summernoteEditor:css', function(){
-	return gulp.src(["./src_gulp/fields/summernoteEditor/frontend.css"])
-		.pipe(plumber())
-		.pipe(concat('frontend.css'))
-		.pipe(gulp.dest( './fields/summernoteEditor/frontend/' ))
-	;
+// 何もしない
+gulp.task('doNothing', function(callback){
+	setTimeout(callback, 1000);
+	return ;
 });
 
 
 let _tasks = gulp.parallel(
-	'summernoteEditor:js',
-	'summernoteEditor:css'
+	'doNothing'
 );
 
 // src 中のすべての拡張子を監視して処理
