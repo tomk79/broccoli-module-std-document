@@ -1,4 +1,4 @@
-<ul{% if _ENV.vars.class %} class="{{ class }}"{% endif %}{% if _ENV.mode == 'canvas' %} style="padding-top: 3px;"{% endif %}>
+<ul{% if _ENV.vars.class %} class="{{ class }}"{% endif %}{% if _ENV.mode == 'canvas' %} style="padding-top: 12px;"{% endif %}>
 {% for row in loop %}
 {{ loopitem_start('loop') }}
 	<li>{{ row.text }}</li>
