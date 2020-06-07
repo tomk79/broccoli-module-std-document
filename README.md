@@ -2,7 +2,7 @@
 
 ## 更新履歴 - Change log
 
-### tomk79/broccoli-module-std-document v0.2.1 (リリース日未定)
+### tomk79/broccoli-module-std-document v0.2.1 (2020年6月7日)
 
 - メディアリストモジュールを追加。
 - グリッドモジュールに、画面サイズ別の幅指定オプションを追加。
