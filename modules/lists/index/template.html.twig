@@ -1,13 +1,5 @@
-{&{"if":{"cond":[
-    ["is_mode:finalize"]
-]}}&}
+{% if _ENV.mode == 'canvas' %}
 
-<!-- autoindex -->
-
-{& "endif" &}
-{&{"if":{"cond":[
-    ["is_mode:canvas"]
-]}}&}
 <div class="anchor_links">
 	<p class="anchor_links-heading">目次</p>
 	<ul>
@@ -21,4 +13,9 @@
 		<li><a href="javascript:;">3. ページ内リンク</a></li>
 	</ul>
 </div><!-- /.anchor_links -->
-{& "endif" &}
+
+{% else %}
+
+<!-- autoindex -->
+
+{% endif %}
