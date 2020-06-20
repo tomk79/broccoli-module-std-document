@@ -2,6 +2,10 @@
 
 ## 更新履歴 - Change log
 
+### tomk79/broccoli-module-std-document v0.2.2 (リリース日未定)
+
+- 画像ファイル用の Dropped File Operator を追加。
+
 ### tomk79/broccoli-module-std-document v0.2.1 (2020年6月7日)
 
 - メディアリストモジュールを追加。

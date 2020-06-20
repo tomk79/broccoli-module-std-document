@@ -342,7 +342,7 @@ return call_user_func( function(){
 
 	/** broccoliモジュールセットの登録 */
 	$conf->plugins->px2dt->paths_module_template = array(
-		'pickles2' => './../../../modules/',
+		'std-document' => './../../../modules/',
 	);
 
 	/** プロジェクト固有のモジュールセットの格納ディレクトリ */
@@ -386,6 +386,15 @@ return call_user_func( function(){
 	// $conf->plugins->px2dt->guieditor->path_resource_dir = '{$dirname}/{$filename}_files/resources/';
 
 	@$conf->plugins->px2dt->guieditor->custom_fields = array(
+	);
+
+	$droppedImageOperator = \tomk79\broccoliModuleStdDocument\utils::droppedFileOperator('image');
+	@$conf->plugins->px2dt->guieditor->dropped_file_operator = array(
+		'png' => $droppedImageOperator,
+		'gif' => $droppedImageOperator,
+		'jpg' => $droppedImageOperator,
+		'svg' => $droppedImageOperator,
+		'application/svg+xml' => $droppedImageOperator,
 	);
 
 

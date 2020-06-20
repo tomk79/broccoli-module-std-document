@@ -5,18 +5,18 @@
             "fields": {
                 "main": [
                     {
-                        "modId": "pickles2:headings/hx",
+                        "modId": "std-document:headings/hx",
                         "fields": {
                             "hx": "2",
                             "main": "見出しレベル2",
                             "shoulder": [
                                 {
-                                    "modId": "pickles2:lists/ul",
+                                    "modId": "std-document:lists/ul",
                                     "fields": {
                                         "class": "px2-horizontal-list",
                                         "loop": [
                                             {
-                                                "modId": "pickles2:lists/ul",
+                                                "modId": "std-document:lists/ul",
                                                 "fields": {
                                                     "text": {
                                                         "editor": "markdown",
@@ -28,7 +28,7 @@
                                                 "dec": ""
                                             },
                                             {
-                                                "modId": "pickles2:lists/ul",
+                                                "modId": "std-document:lists/ul",
                                                 "fields": {
                                                     "text": {
                                                         "editor": "markdown",
@@ -51,19 +51,19 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:headings/hx",
+                        "modId": "std-document:headings/hx",
                         "fields": {
                             "hx": "3",
                             "main": "見出しレベル3",
                             "sub": "",
                             "shoulder": [
                                 {
-                                    "modId": "pickles2:lists/ul-links",
+                                    "modId": "std-document:lists/ul-links",
                                     "fields": {
                                         "class": "px2-horizontal-list px2-horizontal-list--right",
                                         "loop": [
                                             {
-                                                "modId": "pickles2:lists/ul-links",
+                                                "modId": "std-document:lists/ul-links",
                                                 "fields": {
                                                     "href": "https://github.com/pickles2",
                                                     "target": "_blank",
@@ -74,7 +74,7 @@
                                                 "dec": ""
                                             },
                                             {
-                                                "modId": "pickles2:lists/ul-links",
+                                                "modId": "std-document:lists/ul-links",
                                                 "fields": {
                                                     "href": "javascript:alert('Clicked 2');",
                                                     "target": "",
@@ -95,7 +95,7 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:headings/hx",
+                        "modId": "std-document:headings/hx",
                         "fields": {
                             "hx": "4",
                             "main": "見出しレベル4",
@@ -106,7 +106,7 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:headings/hx",
+                        "modId": "std-document:headings/hx",
                         "fields": {
                             "hx": "5",
                             "main": "見出しレベル5",
@@ -117,7 +117,7 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:headings/hx",
+                        "modId": "std-document:headings/hx",
                         "fields": {
                             "hx": "6",
                             "main": "見出しレベル6",
@@ -128,11 +128,11 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:lists/index",
+                        "modId": "std-document:lists/index",
                         "fields": []
                     },
                     {
-                        "modId": "pickles2:basics/text",
+                        "modId": "std-document:basics/text",
                         "fields": {
                             "main": {
                                 "src": "## 基本モジュール\n\n汎用的なHTMLモジュール環境を提供します。\n\n- <a href=\"javascript:;\" class=\"px2-a\">標準的なビュレット付きリンク</a>\n",
@@ -146,14 +146,14 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:utils/p",
+                        "modId": "std-document:utils/p",
                         "fields": {
                             "paragraph": "px2-p",
                             "text-align": " px2-text-align-center",
                             "font-size": "",
                             "main": [
                                 {
-                                    "modId": "pickles2:basics/button",
+                                    "modId": "std-document:basics/button",
                                     "fields": {
                                         "label": "標準ボタン",
                                         "intention": "",
@@ -170,7 +170,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:basics/button",
+                                    "modId": "std-document:basics/button",
                                     "fields": {
                                         "onclick": {
                                             "src": "\nalert(\"html attributes\");\nreturn false;",
@@ -187,7 +187,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:basics/button",
+                                    "modId": "std-document:basics/button",
                                     "fields": {
                                         "label": "セカンダリ",
                                         "intention": "px2-btn--secondary",
@@ -204,7 +204,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:basics/button",
+                                    "modId": "std-document:basics/button",
                                     "fields": {
                                         "label": "危険",
                                         "intention": "px2-btn--danger",
@@ -220,7 +220,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:basics/button",
+                                    "modId": "std-document:basics/button",
                                     "fields": {
                                         "label": "ダウンロード",
                                         "intention": "px2-btn--download",
@@ -241,14 +241,14 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:utils/p",
+                        "modId": "std-document:utils/p",
                         "fields": {
                             "paragraph": "px2-p",
                             "text-align": " px2-text-align-center",
                             "font-size": "",
                             "main": [
                                 {
-                                    "modId": "pickles2:basics/a",
+                                    "modId": "std-document:basics/a",
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。');",
                                         "label": "標準的なテストリンク",
@@ -262,7 +262,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:basics/a",
+                                    "modId": "std-document:basics/a",
                                     "fields": {
                                         "href": "javascript:alert('Clicked');",
                                         "label": "標準ビュレット付きのリンク",
@@ -275,7 +275,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:basics/a",
+                                    "modId": "std-document:basics/a",
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。');",
                                         "label": "標準ボタン風リンク",
@@ -289,7 +289,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:basics/a",
+                                    "modId": "std-document:basics/a",
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。');",
                                         "label": "プライマリボタン風リンク",
@@ -302,7 +302,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:basics/a",
+                                    "modId": "std-document:basics/a",
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。');",
                                         "label": "セカンダリボタン風リンク",
@@ -315,7 +315,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:basics/a",
+                                    "modId": "std-document:basics/a",
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。');",
                                         "label": "危険ボタン風リンク",
@@ -328,7 +328,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:basics/a",
+                                    "modId": "std-document:basics/a",
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。');",
                                         "label": "ダウンロードボタン風リンク",
@@ -346,7 +346,7 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:basics/a",
+                        "modId": "std-document:basics/a",
                         "fields": {
                             "href": "javascript:alert('クリックしました。');",
                             "label": "標準的なテキストリンク (ブロック)",
@@ -360,7 +360,7 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:basics/a",
+                        "modId": "std-document:basics/a",
                         "fields": {
                             "href": "javascript:alert('クリックしました。');",
                             "label": "標準ビュレット付きリンク (ブロック)",
@@ -374,7 +374,7 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:basics/a",
+                        "modId": "std-document:basics/a",
                         "fields": {
                             "href": "javascript:alert('クリックしました。');",
                             "label": "標準ボタン風リンク (ブロック)",
@@ -388,16 +388,16 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:lists/ul-module",
+                        "modId": "std-document:lists/ul-module",
                         "fields": {
                             "class": "px2-horizontal-list px2-horizontal-list--right",
                             "loop": [
                                 {
-                                    "modId": "pickles2:lists/ul-module",
+                                    "modId": "std-document:lists/ul-module",
                                     "fields": {
                                         "modules": [
                                             {
-                                                "modId": "pickles2:basics/a",
+                                                "modId": "std-document:basics/a",
                                                 "fields": {
                                                     "href": "javascript:alert('Clicked');",
                                                     "label": "リンク",
@@ -415,11 +415,11 @@
                                     "subModName": "loop"
                                 },
                                 {
-                                    "modId": "pickles2:lists/ul-module",
+                                    "modId": "std-document:lists/ul-module",
                                     "fields": {
                                         "modules": [
                                             {
-                                                "modId": "pickles2:basics/a",
+                                                "modId": "std-document:basics/a",
                                                 "fields": {
                                                     "href": "javascript:alert('クリックしました。');",
                                                     "label": "リンク",
@@ -435,11 +435,11 @@
                                     "subModName": "loop"
                                 },
                                 {
-                                    "modId": "pickles2:lists/ul-module",
+                                    "modId": "std-document:lists/ul-module",
                                     "fields": {
                                         "modules": [
                                             {
-                                                "modId": "pickles2:basics/a",
+                                                "modId": "std-document:basics/a",
                                                 "fields": {
                                                     "href": "javascript:alert('Clicked');",
                                                     "label": "リンク",
@@ -460,18 +460,18 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:basics/hr",
+                        "modId": "std-document:basics/hr",
                         "fields": [],
                         "anchor": "",
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:lists/ul",
+                        "modId": "std-document:lists/ul",
                         "fields": {
                             "class": "px2-horizontal-list",
                             "loop": [
                                 {
-                                    "modId": "pickles2:lists/ul",
+                                    "modId": "std-document:lists/ul",
                                     "fields": {
                                         "text": {
                                             "editor": "text",
@@ -481,7 +481,7 @@
                                     "subModName": "loop"
                                 },
                                 {
-                                    "modId": "pickles2:lists/ul",
+                                    "modId": "std-document:lists/ul",
                                     "fields": {
                                         "text": {
                                             "editor": "text",
@@ -491,7 +491,7 @@
                                     "subModName": "loop"
                                 },
                                 {
-                                    "modId": "pickles2:lists/ul",
+                                    "modId": "std-document:lists/ul",
                                     "fields": {
                                         "text": {
                                             "editor": "markdown",
@@ -508,16 +508,16 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:utils/p",
+                        "modId": "std-document:utils/p",
                         "fields": {
                             "main": [
                                 {
-                                    "modId": "pickles2:lists/ul",
+                                    "modId": "std-document:lists/ul",
                                     "fields": {
                                         "class": "px2-note-list",
                                         "loop": [
                                             {
-                                                "modId": "pickles2:lists/ul",
+                                                "modId": "std-document:lists/ul",
                                                 "fields": {
                                                     "text": {
                                                         "editor": "text",
@@ -527,7 +527,7 @@
                                                 "subModName": "loop"
                                             },
                                             {
-                                                "modId": "pickles2:lists/ul",
+                                                "modId": "std-document:lists/ul",
                                                 "fields": {
                                                     "text": {
                                                         "editor": "text",
@@ -539,7 +539,7 @@
                                                 "dec": ""
                                             },
                                             {
-                                                "modId": "pickles2:lists/ul",
+                                                "modId": "std-document:lists/ul",
                                                 "fields": {
                                                     "text": {
                                                         "editor": "text",
@@ -554,7 +554,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:lists/changelog",
+                                    "modId": "std-document:lists/changelog",
                                     "fields": {
                                         "header": {
                                             "editor": "text",
@@ -562,7 +562,7 @@
                                         },
                                         "loop": [
                                             {
-                                                "modId": "pickles2:lists/changelog",
+                                                "modId": "std-document:lists/changelog",
                                                 "fields": {
                                                     "date": "2014年11月21日",
                                                     "contents": {
@@ -583,7 +583,7 @@
                         }
                     },
                     {
-                        "modId": "pickles2:notice/notice",
+                        "modId": "std-document:notice/notice",
                         "fields": {
                             "type": "px2-notice--info",
                             "heading": {
@@ -592,7 +592,7 @@
                             },
                             "main": [
                                 {
-                                    "modId": "pickles2:basics/text",
+                                    "modId": "std-document:basics/text",
                                     "fields": {
                                         "main": {
                                             "src": "お知らせいたします。\n\n- list 1\n- list 2",
@@ -603,7 +603,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:basics/a",
+                                    "modId": "std-document:basics/a",
                                     "fields": {
                                         "href": "https://pickles2.pxt.jp/",
                                         "label": "テストリンク",
@@ -619,13 +619,13 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:medias/float",
+                        "modId": "std-document:medias/float",
                         "fields": {
                             "lr": "l",
                             "image-size": "1of3",
                             "media": [
                                 {
-                                    "modId": "pickles2:basics/image",
+                                    "modId": "std-document:basics/image",
                                     "fields": {
                                         "href": "",
                                         "target": "_blank",
@@ -644,7 +644,7 @@
                             "body_rect": "",
                             "main": [
                                 {
-                                    "modId": "pickles2:basics/text",
+                                    "modId": "std-document:basics/text",
                                     "fields": {
                                         "main": {
                                             "src": "## Float Media Block\n\nこのモジュールは、テキストを回り込むメディア表示領域を作成します。\n\n回り込む方向を右か左のいずれかで選択します。 メディアの大きさは、幅 1/2、1/3、1/4 のサイズから選択することができます。\n\nまた、テキスト領域を回り込むか、矩形とするかを選択することもできます。\n",
@@ -655,7 +655,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:basics/table",
+                                    "modId": "std-document:basics/table",
                                     "fields": {
                                         "table": {
                                             "resKey": "428481aa6aef1f2a5cd4d36da21decc6",
@@ -676,13 +676,13 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:medias/float",
+                        "modId": "std-document:medias/float",
                         "fields": {
                             "lr": "r",
                             "image-size": "1of3",
                             "media": [
                                 {
-                                    "modId": "pickles2:medias/image-media",
+                                    "modId": "std-document:medias/image-media",
                                     "fields": {
                                         "image_src": {
                                             "resKey": "0c3ecdb8d4ba2b5ba0b0da96c7fdca3d",
@@ -703,7 +703,7 @@
                             "body_rect": "",
                             "main": [
                                 {
-                                    "modId": "pickles2:basics/text",
+                                    "modId": "std-document:basics/text",
                                     "fields": {
                                         "main": {
                                             "src": "## Float Media Block\n\nこのモジュールは、テキストを回り込むメディア表示領域を作成します。\n\n回り込む方向を右か左のいずれかで選択します。 メディアの大きさは、幅 1/2、1/3、1/4 のサイズから選択することができます。\n\nまた、テキスト領域を回り込むか、矩形とするかを選択することもできます。\n",
@@ -714,7 +714,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:basics/text",
+                                    "modId": "std-document:basics/text",
                                     "fields": {
                                         "main": {
                                             "src": "## Float Media Block\n\nこのモジュールは、テキストを回り込むメディア表示領域を作成します。\n\n回り込む方向を右か左のいずれかで選択します。 メディアの大きさは、幅 1/2、1/3、1/4 のサイズから選択することができます。\n\nまた、テキスト領域を回り込むか、矩形とするかを選択することもできます。\n",
@@ -725,7 +725,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:basics/text",
+                                    "modId": "std-document:basics/text",
                                     "fields": {
                                         "main": {
                                             "src": "## Block Quote Sample\n\n> Float Media Block\n>\n> このモジュールは、テキストを回り込むメディア表示領域を作成します。\n>\n> 回り込む方向を右か左のいずれかで選択します。 メディアの大きさは、幅 1/2、1/3、1/4 のサイズから選択することができます。\n>\n> また、テキスト領域を回り込むか、矩形とするかを選択することもできます。\n\n## Code Sample\n\n```\nFloat Media Block\n\nこのモジュールは、テキストを回り込むメディア表示領域を作成します。\n\n回り込む方向を右か左のいずれかで選択します。 メディアの大きさは、幅 1/2、1/3、1/4 のサイズから選択することができます。\n\nまた、テキスト領域を回り込むか、矩形とするかを選択することもできます。\n```\n\n## Inline Code Sample\n行の途中に `code` を挿入します。\n",
@@ -741,11 +741,11 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:lists/ul-links",
+                        "modId": "std-document:lists/ul-links",
                         "fields": {
                             "loop": [
                                 {
-                                    "modId": "pickles2:lists/ul-links",
+                                    "modId": "std-document:lists/ul-links",
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。');",
                                         "label": "Link List Item",
@@ -756,7 +756,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:lists/ul-links",
+                                    "modId": "std-document:lists/ul-links",
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。2');",
                                         "target": "",
@@ -773,11 +773,11 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:lists/ul-links",
+                        "modId": "std-document:lists/ul-links",
                         "fields": {
                             "loop": [
                                 {
-                                    "modId": "pickles2:lists/ul-links",
+                                    "modId": "std-document:lists/ul-links",
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。');",
                                         "label": "Link List Item",
@@ -788,7 +788,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:lists/ul-links",
+                                    "modId": "std-document:lists/ul-links",
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。2');",
                                         "target": "",
@@ -799,7 +799,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:lists/ul-links",
+                                    "modId": "std-document:lists/ul-links",
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。3');",
                                         "target": "",
@@ -816,11 +816,11 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:lists/ul-links",
+                        "modId": "std-document:lists/ul-links",
                         "fields": {
                             "loop": [
                                 {
-                                    "modId": "pickles2:lists/ul-links",
+                                    "modId": "std-document:lists/ul-links",
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。');",
                                         "label": "Link List Item",
@@ -831,7 +831,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:lists/ul-links",
+                                    "modId": "std-document:lists/ul-links",
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。2');",
                                         "target": "",
@@ -842,7 +842,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:lists/ul-links",
+                                    "modId": "std-document:lists/ul-links",
                                     "fields": {
                                         "href": "https://github.com/broccoli-html-editor",
                                         "target": "_blank",
@@ -859,11 +859,11 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:lists/ul-links",
+                        "modId": "std-document:lists/ul-links",
                         "fields": {
                             "loop": [
                                 {
-                                    "modId": "pickles2:lists/ul-links",
+                                    "modId": "std-document:lists/ul-links",
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。');",
                                         "label": "Link List Item",
@@ -874,7 +874,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:lists/ul-links",
+                                    "modId": "std-document:lists/ul-links",
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。2');",
                                         "target": "",
@@ -885,7 +885,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:lists/ul-links",
+                                    "modId": "std-document:lists/ul-links",
                                     "fields": {
                                         "href": "javascript:alert('クリックしました。3');",
                                         "target": "",
@@ -902,16 +902,16 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:lists/ul-module",
+                        "modId": "std-document:lists/ul-module",
                         "fields": {
                             "class": "",
                             "loop": [
                                 {
-                                    "modId": "pickles2:lists/ul-module",
+                                    "modId": "std-document:lists/ul-module",
                                     "fields": {
                                         "modules": [
                                             {
-                                                "modId": "pickles2:basics/a",
+                                                "modId": "std-document:basics/a",
                                                 "fields": {
                                                     "href": "javascript:alert('クリックしました。');",
                                                     "label": "List Item (link module)",
@@ -926,11 +926,11 @@
                                     "subModName": "loop"
                                 },
                                 {
-                                    "modId": "pickles2:lists/ul-module",
+                                    "modId": "std-document:lists/ul-module",
                                     "fields": {
                                         "modules": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "List Item (module)",
@@ -941,12 +941,12 @@
                                                 "dec": ""
                                             },
                                             {
-                                                "modId": "pickles2:lists/ul",
+                                                "modId": "std-document:lists/ul",
                                                 "fields": {
                                                     "class": "",
                                                     "loop": [
                                                         {
-                                                            "modId": "pickles2:lists/ul",
+                                                            "modId": "std-document:lists/ul",
                                                             "fields": {
                                                                 "text": {
                                                                     "editor": "text",
@@ -956,7 +956,7 @@
                                                             "subModName": "loop"
                                                         },
                                                         {
-                                                            "modId": "pickles2:lists/ul",
+                                                            "modId": "std-document:lists/ul",
                                                             "fields": {
                                                                 "text": {
                                                                     "editor": "text",
@@ -978,12 +978,12 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:lists/ul-media-list",
+                        "modId": "std-document:lists/ul-media-list",
                         "fields": {
                             "class": "card",
                             "loop": [
                                 {
-                                    "modId": "pickles2:lists/ul-media-list",
+                                    "modId": "std-document:lists/ul-media-list",
                                     "fields": {
                                         "href": "",
                                         "label": "メディアリストラベル (リンクではない)",
@@ -1004,7 +1004,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:lists/ul-media-list",
+                                    "modId": "std-document:lists/ul-media-list",
                                     "fields": {
                                         "href": "javascript:alert('clicked');",
                                         "label": "メディアリストアイテム",
@@ -1025,7 +1025,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:lists/ul-media-list",
+                                    "modId": "std-document:lists/ul-media-list",
                                     "fields": {
                                         "href": "javascript:alert('clicked');",
                                         "label": "メディアリストラベル",
@@ -1055,12 +1055,12 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:lists/ul-media-list",
+                        "modId": "std-document:lists/ul-media-list",
                         "fields": {
                             "class": "",
                             "loop": [
                                 {
-                                    "modId": "pickles2:lists/ul-media-list",
+                                    "modId": "std-document:lists/ul-media-list",
                                     "fields": {
                                         "href": "",
                                         "label": "メディアリストラベル (リンクではない)",
@@ -1081,7 +1081,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:lists/ul-media-list",
+                                    "modId": "std-document:lists/ul-media-list",
                                     "fields": {
                                         "href": "javascript:alert('clicked');",
                                         "label": "メディアリストアイテム",
@@ -1102,7 +1102,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:lists/ul-media-list",
+                                    "modId": "std-document:lists/ul-media-list",
                                     "fields": {
                                         "href": "javascript:alert('clicked');",
                                         "label": "メディアリストラベル",
@@ -1132,7 +1132,7 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:basics/text",
+                        "modId": "std-document:basics/text",
                         "fields": {
                             "main": {
                                 "src": "## Heading h2\n\n### Heading h3\n\n#### Heading h4\n\n##### Heading h5\n\n###### Heading h6\n",
@@ -1143,7 +1143,7 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:basics/text",
+                        "modId": "std-document:basics/text",
                         "fields": {
                             "main": {
                                 "src": "## カラムモジュール\n",
@@ -1154,16 +1154,16 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:grids/grid",
+                        "modId": "std-document:grids/grid",
                         "fields": {
                             "col": [
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of1",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "## Full Column\n\nSingle Column.\n",
@@ -1186,16 +1186,16 @@
                         }
                     },
                     {
-                        "modId": "pickles2:grids/grid",
+                        "modId": "std-document:grids/grid",
                         "fields": {
                             "col": [
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of2",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "### Column 1\n\nLeft Column.\n",
@@ -1212,12 +1212,12 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of2",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "### Column 2\n\nRight Column.\n",
@@ -1237,16 +1237,16 @@
                         }
                     },
                     {
-                        "modId": "pickles2:grids/grid",
+                        "modId": "std-document:grids/grid",
                         "fields": {
                             "col": [
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of3",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "#### Column 1\n\nLeft Column.\n",
@@ -1263,12 +1263,12 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of3",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "#### Column 2\n\nCenter Column.\n",
@@ -1285,12 +1285,12 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of3",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "#### Column 3\n\nRight Column.\n",
@@ -1310,16 +1310,16 @@
                         }
                     },
                     {
-                        "modId": "pickles2:grids/grid",
+                        "modId": "std-document:grids/grid",
                         "fields": {
                             "col": [
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of4",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "##### Column 1\n\n1/4 Column.\n",
@@ -1336,12 +1336,12 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of4",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "##### Column 2\n\n2/4 Column.\n",
@@ -1358,12 +1358,12 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of4",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "##### Column 3\n\n3/4 Column.\n",
@@ -1380,12 +1380,12 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of4",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "##### Column 4\n\n4/4 Column.\n",
@@ -1405,16 +1405,16 @@
                         }
                     },
                     {
-                        "modId": "pickles2:grids/grid",
+                        "modId": "std-document:grids/grid",
                         "fields": {
                             "col": [
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of5",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "###### Column 1\n\n1/5 Column.\n",
@@ -1431,12 +1431,12 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of5",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "###### Column 2\n\n2/5 Column.\n",
@@ -1453,12 +1453,12 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of5",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "###### Column 3\n\n3/5 Column.\n",
@@ -1475,12 +1475,12 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of5",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "###### Column 4\n\n4/5 Column.\n",
@@ -1497,12 +1497,12 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of5",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "###### Column 5\n\n5/5 Column.\n",
@@ -1522,16 +1522,16 @@
                         }
                     },
                     {
-                        "modId": "pickles2:grids/grid",
+                        "modId": "std-document:grids/grid",
                         "fields": {
                             "col": [
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of6",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "## Column 1\n\n1/6 Column.\n",
@@ -1548,12 +1548,12 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of6",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "## Column 2\n\n2/6 Column.\n",
@@ -1570,12 +1570,12 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of6",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "## Column 3\n\n3/6 Column.\n",
@@ -1592,12 +1592,12 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of6",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "## Column 4\n\n4/6 Column.\n",
@@ -1614,12 +1614,12 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of6",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "## Column 5\n\n5/6 Column.\n",
@@ -1636,12 +1636,12 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of6",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "## Column 6\n\n6/6 Column.\n",
@@ -1661,16 +1661,16 @@
                         }
                     },
                     {
-                        "modId": "pickles2:grids/grid",
+                        "modId": "std-document:grids/grid",
                         "fields": {
                             "col": [
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of3",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "## Column 1\n\nLeft Column.\n",
@@ -1690,12 +1690,12 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of3",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "## Column 2\n\nCenter Column.\n",
@@ -1715,12 +1715,12 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of3",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "## Column 3\n\nRight Column.\n",
@@ -1740,12 +1740,12 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of3",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "## Column 4\n\nLeft Column.\n",
@@ -1768,12 +1768,12 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of3",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "## Column 5\n\nCenter Column.\n",
@@ -1796,12 +1796,12 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:grids/grid",
+                                    "modId": "std-document:grids/grid",
                                     "fields": {
                                         "column-width": "1of3",
                                         "main": [
                                             {
-                                                "modId": "pickles2:basics/text",
+                                                "modId": "std-document:basics/text",
                                                 "fields": {
                                                     "main": {
                                                         "src": "## Column 6\n\nRight Column.\n",
@@ -1827,11 +1827,11 @@
                         }
                     },
                     {
-                        "modId": "pickles2:utils/p",
+                        "modId": "std-document:utils/p",
                         "fields": {
                             "main": [
                                 {
-                                    "modId": "pickles2:basics/text",
+                                    "modId": "std-document:basics/text",
                                     "fields": {
                                         "main": {
                                             "src": "## 前後の自然なマージン\n\n`px2-p` は、段落要素と同じように前後に自然な改行を追加します。\n\n段落ユーティリティは、テキストの左右寄せの指定もできます。\n",
@@ -1852,7 +1852,7 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:lists/changelog",
+                        "modId": "std-document:lists/changelog",
                         "fields": {
                             "header": {
                                 "editor": "markdown",
@@ -1860,7 +1860,7 @@
                             },
                             "loop": [
                                 {
-                                    "modId": "pickles2:lists/changelog",
+                                    "modId": "std-document:lists/changelog",
                                     "fields": {
                                         "date": "2019年2月10日",
                                         "contents": {
@@ -1873,7 +1873,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:lists/changelog",
+                                    "modId": "std-document:lists/changelog",
                                     "fields": {
                                         "date": "2019年2月11日",
                                         "contents": {
@@ -1891,11 +1891,11 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:lists/dl",
+                        "modId": "std-document:lists/dl",
                         "fields": {
                             "dl-loop": [
                                 {
-                                    "modId": "pickles2:lists/dl",
+                                    "modId": "std-document:lists/dl",
                                     "fields": {
                                         "dt": {
                                             "src": "説明用語1",
@@ -1911,7 +1911,7 @@
                                     "dec": ""
                                 },
                                 {
-                                    "modId": "pickles2:lists/dl",
+                                    "modId": "std-document:lists/dl",
                                     "fields": {
                                         "dt": {
                                             "src": "説明用語2",
@@ -1930,14 +1930,14 @@
                         }
                     },
                     {
-                        "modId": "pickles2:utils/p",
+                        "modId": "std-document:utils/p",
                         "fields": {
                             "paragraph": "px2-p",
                             "text-align": "",
                             "__error__": "",
                             "main": [
                                 {
-                                    "modId": "pickles2:basics/text",
+                                    "modId": "std-document:basics/text",
                                     "fields": {
                                         "main": {
                                             "src": "文字。とても大きい。",
@@ -1954,14 +1954,14 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:utils/p",
+                        "modId": "std-document:utils/p",
                         "fields": {
                             "paragraph": "px2-p",
                             "text-align": "",
                             "__error__": "",
                             "main": [
                                 {
-                                    "modId": "pickles2:basics/text",
+                                    "modId": "std-document:basics/text",
                                     "fields": {
                                         "main": {
                                             "src": "文字。少し大きい。",
@@ -1978,7 +1978,7 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:basics/text",
+                        "modId": "std-document:basics/text",
                         "fields": {
                             "main": {
                                 "src": "文字。普通。",
@@ -1989,14 +1989,14 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:utils/p",
+                        "modId": "std-document:utils/p",
                         "fields": {
                             "paragraph": "px2-p",
                             "text-align": "",
                             "font-size": " px2-font-size-s",
                             "main": [
                                 {
-                                    "modId": "pickles2:basics/text",
+                                    "modId": "std-document:basics/text",
                                     "fields": {
                                         "main": {
                                             "src": "文字。少し小さい。",
@@ -2012,14 +2012,14 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:utils/p",
+                        "modId": "std-document:utils/p",
                         "fields": {
                             "paragraph": "px2-p",
                             "text-align": "",
                             "font-size": " px2-font-size-ss",
                             "main": [
                                 {
-                                    "modId": "pickles2:basics/text",
+                                    "modId": "std-document:basics/text",
                                     "fields": {
                                         "main": {
                                             "src": "文字。とても小さい。",
@@ -2035,7 +2035,7 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:basics/image",
+                        "modId": "std-document:basics/image",
                         "fields": {
                             "href": "",
                             "target": "",
@@ -2053,7 +2053,7 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:basics/text",
+                        "modId": "std-document:basics/text",
                         "fields": {
                             "main": {
                                 "src": "とても大きい文字。",
@@ -2067,7 +2067,7 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:basics/text",
+                        "modId": "std-document:basics/text",
                         "fields": {
                             "main": {
                                 "src": "大きい文字。",
@@ -2081,7 +2081,7 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:basics/text",
+                        "modId": "std-document:basics/text",
                         "fields": {
                             "main": {
                                 "src": "普通の文字。",
@@ -2095,7 +2095,7 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:basics/text",
+                        "modId": "std-document:basics/text",
                         "fields": {
                             "main": {
                                 "src": "小さい文字。",
@@ -2109,7 +2109,7 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:basics/text",
+                        "modId": "std-document:basics/text",
                         "fields": {
                             "main": {
                                 "src": "とても小さい文字。",
