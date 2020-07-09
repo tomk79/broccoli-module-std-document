@@ -9,20 +9,6 @@
                         "fields": {
                             "column-width": "1of2",
                             "main": [
-                                {
-                                    "modId": ":basics/text",
-                                    "fields": {
-                                        "main": {
-                                            "src": "## Column 1\n\nLeft Column.\n",
-                                            "editor": "markdown"
-                                        },
-                                        "paragraph": "px2-p",
-                                        "text-align": "",
-                                        "font-size": ""
-                                    },
-                                    "anchor": "",
-                                    "dec": ""
-                                }
                             ]
                         },
                         "subModName": "col",
@@ -34,20 +20,6 @@
                         "fields": {
                             "column-width": "1of2",
                             "main": [
-                                {
-                                    "modId": ":basics/text",
-                                    "fields": {
-                                        "main": {
-                                            "src": "## Column 2\n\nRight Column.\n",
-                                            "editor": "markdown"
-                                        },
-                                        "paragraph": "px2-p",
-                                        "text-align": "",
-                                        "font-size": ""
-                                    },
-                                    "anchor": "",
-                                    "dec": ""
-                                }
                             ]
                         },
                         "subModName": "col",

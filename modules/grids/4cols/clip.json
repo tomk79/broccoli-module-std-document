@@ -9,20 +9,6 @@
       "fields": {
        "column-width": "1of4",
        "main": [
-        {
-         "modId": ":basics/text",
-         "fields": {
-          "main": {
-           "src": "## Column 1\n\n1/4 Column.\n",
-           "editor": "markdown"
-          },
-          "paragraph": "px2-p",
-          "text-align": "",
-          "font-size": ""
-         },
-         "anchor": "",
-         "dec": ""
-        }
        ]
       },
       "subModName": "col",
@@ -34,20 +20,6 @@
       "fields": {
        "column-width": "1of4",
        "main": [
-        {
-         "modId": ":basics/text",
-         "fields": {
-          "main": {
-           "src": "## Column 2\n\n2/4 Column.\n",
-           "editor": "markdown"
-          },
-          "paragraph": "px2-p",
-          "text-align": "",
-          "font-size": ""
-         },
-         "anchor": "",
-         "dec": ""
-        }
        ]
       },
       "subModName": "col",
@@ -59,20 +31,6 @@
       "fields": {
        "column-width": "1of4",
        "main": [
-        {
-         "modId": ":basics/text",
-         "fields": {
-          "main": {
-           "src": "## Column 3\n\n3/4 Column.\n",
-           "editor": "markdown"
-          },
-          "paragraph": "px2-p",
-          "text-align": "",
-          "font-size": ""
-         },
-         "anchor": "",
-         "dec": ""
-        }
        ]
       },
       "subModName": "col",
@@ -84,20 +42,6 @@
       "fields": {
        "column-width": "1of4",
        "main": [
-        {
-         "modId": ":basics/text",
-         "fields": {
-          "main": {
-           "src": "## Column 4\n\n4/4 Column.\n",
-           "editor": "markdown"
-          },
-          "paragraph": "px2-p",
-          "text-align": "",
-          "font-size": ""
-         },
-         "anchor": "",
-         "dec": ""
-        }
        ]
       },
       "subModName": "col",
