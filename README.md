@@ -5,6 +5,7 @@
 ### tomk79/broccoli-module-std-document v0.2.3 (リリース日未定)
 
 - グリッドモジュールに含まれていたサンプルのテキストを削除した。
+- フロートメディアモジュールに含まれていたサンプルのダミー画像を削除した。
 
 ### tomk79/broccoli-module-std-document v0.2.2 (2020年6月21日)
 
