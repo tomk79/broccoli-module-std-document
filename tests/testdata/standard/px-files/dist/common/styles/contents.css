@@ -1,58 +1,58 @@
 @charset 'UTF-8';
 .contents {
   /**
-   * module: pickles2:basics/a
+   * module: std-document:basics/a
    */
   /**
-   * module: pickles2:basics/button
+   * module: std-document:basics/button
    */
   /**
-   * module: pickles2:basics/image
+   * module: std-document:basics/image
    */
   /**
-   * module: pickles2:basics/table
+   * module: std-document:basics/table
    */
   /**
-   * module: pickles2:basics/text
+   * module: std-document:basics/text
    */
   /**
-   * module: pickles2:grids/grid
+   * module: std-document:grids/grid
    */
   /**
-   * module: pickles2:headings/hx
+   * module: std-document:headings/hx
    */
   /**
-   * module: pickles2:lists/changelog
+   * module: std-document:lists/changelog
    */
   /**
-   * module: pickles2:lists/dl
+   * module: std-document:lists/dl
    */
   /**
-   * module: pickles2:lists/index
+   * module: std-document:lists/index
    */
   /**
-   * module: pickles2:lists/ul-links
+   * module: std-document:lists/ul-links
    */
   /**
-   * module: pickles2:lists/ul-media-list
+   * module: std-document:lists/ul-media-list
    */
   /**
-   * module: pickles2:lists/ul
+   * module: std-document:lists/ul
    */
   /**
-   * module: pickles2:medias/float
+   * module: std-document:medias/float
    */
   /**
-   * module: pickles2:medias/image-media
+   * module: std-document:medias/image-media
    */
   /**
-   * module: pickles2:notice/notice
+   * module: std-document:notice/notice
    */
   /**
-   * module: pickles2:utils/p
+   * module: std-document:utils/p
    */
   /**
-   * module: pickles2:utils/responsive
+   * module: std-document:utils/responsive
    */ }
   .contents .px2-a:before {
     content: ' ';
@@ -444,19 +444,19 @@
   .contents .px2-linklist {
     padding: 0;
     margin: 1em 0; }
-  .contents .px2-linklist > ul {
+  .contents .px2-linklist ul {
     padding: 0;
     margin: 0;
     border-bottom: 1px solid #ddd; }
-  .contents .px2-linklist > ul > li {
+  .contents .px2-linklist ul li {
     list-style-type: none;
     border-top: 1px solid #ddd;
     padding: 0;
     margin: 0 2px; }
-  .contents .px2-linklist > ul > li a {
+  .contents .px2-linklist ul li a {
     display: block;
     padding: 0.5em 1em; }
-  .contents .px2-linklist > ul > li a:before {
+  .contents .px2-linklist ul li a:before {
     content: ' ';
     width: 0;
     height: 0;
@@ -467,6 +467,20 @@
     border-color: #00a0e6;
     border-top-color: transparent;
     border-bottom-color: transparent; }
+  .contents .px2-linklist ul li a:hover {
+    background-color: #f9f9f9; }
+  .contents .px2-linklist ul li ul {
+    border-bottom: none; }
+  .contents .px2-linklist ul li ul li {
+    border-top: 1px dashed #eee; }
+  .contents .px2-linklist ul li ul a {
+    padding-left: 2em; }
+  .contents .px2-linklist ul li ul ul a {
+    padding-left: 3em; }
+  .contents .px2-linklist ul li ul ul ul a {
+    padding-left: 4em; }
+  .contents .px2-linklist ul li ul ul ul ul a {
+    padding-left: 5em; }
   .contents h1 .px2-linklist, .contents .px2-h1 .px2-linklist, .contents h2 .px2-linklist, .contents .px2-h2 .px2-linklist, .contents h3 .px2-linklist, .contents .px2-h3 .px2-linklist, .contents h4 .px2-linklist, .contents .px2-h4 .px2-linklist, .contents h5 .px2-linklist, .contents .px2-h5 .px2-linklist, .contents h6 .px2-linklist, .contents .px2-h6 .px2-linklist {
     padding: 0;
     margin: 0; }

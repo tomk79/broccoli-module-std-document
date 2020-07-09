@@ -1,0 +1,45 @@
+<div class="px2-linklist"{% if _ENV.mode == 'canvas' %} style="padding-top: 12px;"{% endif %}>
+{% if _ENV.mode == 'canvas' %}
+<ul>
+<li><a href="#">ダミー</a></li>
+<li><a href="#">ダミー</a></li>
+<li><a href="#">ダミー</a></li>
+</ul>
+{% else %}
+
+<?php
+(function($px){
+    $parent = "{{ parent }}";
+    if( !strlen($parent) ){
+        $parent = null;
+    }
+    $list_flg = "{{ list_flg }}";
+    if($list_flg == 'hide'){
+        $list_flg = true;
+    }else{
+        $list_flg = false;
+    }
+    $depth = intval("{{ depth }}");
+    if( !$depth ){
+        $depth = 1;
+    }
+    $fnc_children_gen = function( $current_page_id, $depth ) use ( &$fnc_children_gen, $px, $list_flg ){
+        $depth --;
+        $children = $px->site()->get_children($current_page_id, array('filter'=>$list_flg));
+        $rtn = '';
+        $rtn .= '<ul>'."\n";
+        foreach( $children as $pid ){
+            $rtn .= '<li>'.$px->mk_link($pid, array());
+            if($depth){
+                $rtn .= $fnc_children_gen($pid, $depth);
+            }
+            $rtn .= '</li>'."\n";
+        }
+        $rtn .= '</ul>'."\n";
+        return $rtn;
+    };
+    echo $fnc_children_gen($parent, $depth);
+})($px);
+?>
+{% endif %}
+</div>

@@ -388,7 +388,43 @@ return false;" type="submit" class="px2-btn px2-btn--primary px2-btn--lg">プラ
 </li>
 
 </ul>
-<div class="px2-medialist px2-medialist--list-style-card px2-medialist--list-item-width-1of3">
+<div class="px2-linklist">
+
+<?php
+(function($px){
+    $parent = "/";
+    if( !strlen($parent) ){
+        $parent = null;
+    }
+    $list_flg = "hide";
+    if($list_flg == 'hide'){
+        $list_flg = true;
+    }else{
+        $list_flg = false;
+    }
+    $depth = intval("10");
+    if( !$depth ){
+        $depth = 1;
+    }
+    $fnc_children_gen = function( $current_page_id, $depth ) use ( &$fnc_children_gen, $px, $list_flg ){
+        $depth --;
+        $children = $px->site()->get_children($current_page_id, array('filter'=>$list_flg));
+        $rtn = '';
+        $rtn .= '<ul>'."\n";
+        foreach( $children as $pid ){
+            $rtn .= '<li>'.$px->mk_link($pid, array());
+            if($depth){
+                $rtn .= $fnc_children_gen($pid, $depth);
+            }
+            $rtn .= '</li>'."\n";
+        }
+        $rtn .= '</ul>'."\n";
+        return $rtn;
+    };
+    echo $fnc_children_gen($parent, $depth);
+})($px);
+?>
+</div><div class="px2-medialist px2-medialist--list-style-card px2-medialist--list-item-width-1of3">
 <ul>
 
 
