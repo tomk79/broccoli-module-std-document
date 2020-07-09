@@ -20,9 +20,11 @@
                         "fields": {
                             "style": "",
                             "parent": "",
-                            "list_flg": "",
+                            "list_flg": "hide",
                             "depth": "1"
-                        }
+                        },
+                        "anchor": "",
+                        "dec": ""
                     },
                     {
                         "modId": "std-document:headings/hx",
