@@ -982,7 +982,19 @@
                         "fields": {
                             "parent": "/",
                             "list_flg": "hide",
-                            "depth": "10"
+                            "depth": "10",
+                            "style": "withdescription"
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "std-document:lists/sub-page-list",
+                        "fields": {
+                            "parent": "/",
+                            "list_flg": "show",
+                            "depth": "10",
+                            "style": ""
                         },
                         "anchor": "",
                         "dec": ""

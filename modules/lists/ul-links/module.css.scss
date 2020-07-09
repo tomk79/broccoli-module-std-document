@@ -50,6 +50,14 @@
 			}
 		}
 	}
+	&__description {
+		font-size: 86%;
+		color: #999;
+		text-decoration: none;
+	}
+	a &__description {
+		text-decoration: none;
+	}
 }
 
 // 他のモジュールとの関係を解決

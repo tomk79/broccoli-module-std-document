@@ -481,6 +481,12 @@
     padding-left: 4em; }
   .contents .px2-linklist ul li ul ul ul ul a {
     padding-left: 5em; }
+  .contents .px2-linklist__description {
+    font-size: 86%;
+    color: #999;
+    text-decoration: none; }
+  .contents a .px2-linklist__description {
+    text-decoration: none; }
   .contents h1 .px2-linklist, .contents .px2-h1 .px2-linklist, .contents h2 .px2-linklist, .contents .px2-h2 .px2-linklist, .contents h3 .px2-linklist, .contents .px2-h3 .px2-linklist, .contents h4 .px2-linklist, .contents .px2-h4 .px2-linklist, .contents h5 .px2-linklist, .contents .px2-h5 .px2-linklist, .contents h6 .px2-linklist, .contents .px2-h6 .px2-linklist {
     padding: 0;
     margin: 0; }
@@ -803,7 +809,8 @@
   .contents .px2-embedded-media__caption {
     font-size: 0.77em;
     margin-top: 0.5em;
-    line-height: 1.3; }
+    line-height: 1.3;
+    color: #999; }
   .contents .px2-embedded-media__caption * {
     margin-top: 0;
     margin-bottom: 0; }

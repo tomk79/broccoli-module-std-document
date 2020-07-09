@@ -23,13 +23,25 @@
     if( !$depth ){
         $depth = 1;
     }
-    $fnc_children_gen = function( $current_page_id, $depth ) use ( &$fnc_children_gen, $px, $list_flg ){
+    $style = "{{ style }}";
+
+    $fnc_children_gen = function( $current_page_id, $depth ) use ( &$fnc_children_gen, $px, $list_flg, $style ){
         $depth --;
         $children = $px->site()->get_children($current_page_id, array('filter'=>$list_flg));
         $rtn = '';
         $rtn .= '<ul>'."\n";
         foreach( $children as $pid ){
-            $rtn .= '<li>'.$px->mk_link($pid, array());
+            $page_info = $px->site()->get_page_info($pid);
+            $description = '';
+            if( array_key_exists('description', $page_info) ){
+                $description = $page_info['description'];
+            }
+
+            $rtn .= '<li><a href="'.$px->href($pid).'">'.htmlspecialchars($page_info['title_label']);
+            if( $style == 'withdescription' ){
+                $rtn .= '<div class="px2-linklist__description">'.htmlspecialchars( $description ).'</div>';
+            }
+            $rtn .= '</a>'."\n";
             if($depth){
                 $rtn .= $fnc_children_gen($pid, $depth);
             }
