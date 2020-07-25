@@ -2878,6 +2878,8 @@ h6, .px2-h6{
 	<div class="module-readme">
 <p>説明リスト要素(<code>&lt;dl&gt;</code>, <code>&lt;dt&gt;</code>, <code>&lt;dd&gt;</code>)を配置します。</p>
 
+<p>このモジュールでは、緑色のアペンダー(loopフィールド)をダブルクリックしてリストアイテムを追加します。</p>
+
 	</div>
 
 </div>
@@ -2951,6 +2953,91 @@ dl{
 			<pre><code></code></pre>
 		</li>
 		<li id="cont5_std-document_lists_dl" class="panel">
+			<pre><code></code></pre>
+		</li>
+	</ul>
+
+</div>
+</div>
+
+
+<div class="module-content__h4-wrap">
+<div class="module-content__title-wrap">
+<span id="std-document:lists/dl-module"></span>
+<h4><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAH0CAMAAAD8CC+4AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDE0IDc5LjE1Njc5NywgMjAxNC8wOC8yMC0wOTo1MzowMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6ODE0RkU3N0FFNTg0MTFFNDg5MjJEODZDMjQ3MUY1RDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6ODE0RkU3NzlFNTg0MTFFNDg5MjJEODZDMjQ3MUY1RDAiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBMzBGNzEwM0E3QTgxMUU0OEJEMkUzODIxNEExMzVCQyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBMzBGNzEwNEE3QTgxMUU0OEJEMkUzODIxNEExMzVCQyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pt1u6JcAAAAzUExURW1t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" alt="" class="module-content__module-thumb" />説明リスト - Term Description Groups (モジュール挿入)<small>(std-document:lists/dl-module)</small></h4>
+
+	<div class="module-readme">
+<p>説明リスト要素(<code>&lt;dl&gt;</code>, <code>&lt;dt&gt;</code>, <code>&lt;dd&gt;</code>)を配置します。</p>
+
+<p>このモジュールでは、緑色のアペンダー(loopフィールド)をダブルクリックしてリストアイテムを追加します。</p>
+
+<p>次に、各リストアイテムの説明欄に、他のモジュールを挿入します。</p>
+
+<p>多階層のリスト構造や画像を用いた高度な説明などの表現に対応できます。</p>
+
+	</div>
+
+</div>
+
+
+<div class="module-preview tabs">
+<label class="tab_item" for="preview">Preview</label>
+<div id="preview_content">
+<iframe src="index_files/coding-example/std-document/lists/dl-module/default.html"></iframe>
+<pre><code>&lt;dl&gt;
+
+&lt;dt&gt;&lt;p&gt;説明用語1&lt;/p&gt;
+&lt;/dt&gt;
+&lt;dd&gt; &lt;p&gt;説明本文1。&lt;/p&gt;
+ &lt;/dd&gt;
+
+&lt;dt&gt;&lt;p&gt;説明用語2&lt;/p&gt;
+&lt;/dt&gt;
+&lt;dd&gt; &lt;p&gt;説明本文2。&lt;/p&gt;
+ &lt;/dd&gt;
+
+&lt;dt&gt;&lt;p&gt;説明用語3&lt;/p&gt;
+&lt;/dt&gt;
+&lt;dd&gt; &lt;p&gt;説明本文3。&lt;/p&gt;
+ &lt;/dd&gt;
+
+&lt;/dl&gt;
+</code></pre>
+</div>
+</div>
+
+
+<div class="module-src-codes">
+
+	<ul class="tabs">
+		<li id="tab1" class="tab_item active"><a href="#cont1_std-document_lists_dl-module">Template</a></li>
+		<li id="tab2" class="tab_item"><a href="#cont2_std-document_lists_dl-module">Style Sheet</a></li>
+		<li id="tab3" class="tab_item"><a href="#cont3_std-document_lists_dl-module">Java Script</a></li>
+		
+		
+	</ul>
+
+	<ul class="panels">
+		<li id="cont1_std-document_lists_dl-module" class="panel active">
+			<pre><code>&lt;dl{% if _ENV.mode == &#39;canvas&#39; %} style=&#34;padding-top: 12px;&#34;{% endif %}&gt;
+{% for row in _context[&#39;dl-loop&#39;] %}
+{{ loopitem_start(&#39;dl-loop&#39;) }}
+&lt;dt&gt;{{ row.dt }}&lt;/dt&gt;
+&lt;dd&gt; {{ row.dd }} &lt;/dd&gt;
+{{ loopitem_end() }}{% endfor %}{{ appender(&#39;dl-loop&#39;) }}
+&lt;/dl&gt;
+</code></pre>
+		</li>
+		<li id="cont2_std-document_lists_dl-module" class="panel">
+			<pre><code></code></pre>
+		</li>
+		<li id="cont3_std-document_lists_dl-module" class="panel">
+			<pre><code></code></pre>
+		</li>
+		<li id="cont4_std-document_lists_dl-module" class="panel">
+			<pre><code></code></pre>
+		</li>
+		<li id="cont5_std-document_lists_dl-module" class="panel">
 			<pre><code></code></pre>
 		</li>
 	</ul>
@@ -4156,10 +4243,10 @@ dl{
 
 
 	<div class="theme-counter">
-		<p><span class="theme-counter__heading">Total:</span> 30</p>
+		<p><span class="theme-counter__heading">Total:</span> 31</p>
 		<ul>
 		
-			<li><span class="theme-counter__heading">Standard Document Modules (std-document):</span> 30
+			<li><span class="theme-counter__heading">Standard Document Modules (std-document):</span> 31
 				<ul>
 				
 					<li><span class="theme-counter__heading">基本モジュール - Basic Modules (std-document:basics):</span> 6
@@ -4171,7 +4258,7 @@ dl{
 					<li><span class="theme-counter__heading">見出し (std-document:headings):</span> 1
 					</li>
 				
-					<li><span class="theme-counter__heading">リスト - Lists (std-document:lists):</span> 9
+					<li><span class="theme-counter__heading">リスト - Lists (std-document:lists):</span> 10
 					</li>
 				
 					<li><span class="theme-counter__heading">メディア - Media (std-document:medias):</span> 4
@@ -4299,6 +4386,9 @@ dl{
 								
 									
 									<li><a href="#std-document:lists/dl">説明リスト - Term Description Groups</a></li>
+								
+									
+									<li><a href="#std-document:lists/dl-module">説明リスト - Term Description Groups (モジュール挿入)</a></li>
 								
 									
 									<li><a href="#std-document:lists/changelog">更新履歴 - Change Log</a></li>

@@ -1,5 +1,5 @@
 {
-    "name": "説明リスト - Term Description Groups",
+    "name": "説明リスト - Term Description Groups (モジュール挿入)",
     "interface": {
         "fields": {
             "dl-loop": {
@@ -17,8 +17,7 @@
                         "rows": 1
                     },
                     "dd": {
-                        "fieldType": "input",
-                        "type": "multitext",
+                        "fieldType": "module",
                         "label": "説明"
                     }
                 }

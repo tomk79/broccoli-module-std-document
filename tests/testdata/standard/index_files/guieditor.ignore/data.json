@@ -1952,6 +1952,87 @@
                         }
                     },
                     {
+                        "modId": "std-document:lists/dl-module",
+                        "fields": {
+                            "dl-loop": [
+                                {
+                                    "modId": "std-document:lists/dl-module",
+                                    "fields": {
+                                        "dt": {
+                                            "src": "用語説明1",
+                                            "editor": "markdown"
+                                        },
+                                        "dd": [
+                                            {
+                                                "modId": "std-document:basics/text",
+                                                "fields": {
+                                                    "main": {
+                                                        "src": "用語を説明します。\n",
+                                                        "editor": "markdown"
+                                                    },
+                                                    "paragraph": "px2-p",
+                                                    "text-align": "",
+                                                    "font-size": ""
+                                                },
+                                                "anchor": "",
+                                                "dec": ""
+                                            },
+                                            {
+                                                "modId": "std-document:basics/image",
+                                                "fields": {
+                                                    "href": "",
+                                                    "target": "",
+                                                    "image_src": {
+                                                        "resKey": "845658e00e61185be43b5b6990e2d95d",
+                                                        "path": "./index_files/resources/teabug.gif",
+                                                        "resType": "",
+                                                        "webUrl": ""
+                                                    },
+                                                    "alt_text": "",
+                                                    "paragraph": "px2-p",
+                                                    "align": ""
+                                                },
+                                                "anchor": "",
+                                                "dec": ""
+                                            }
+                                        ]
+                                    },
+                                    "subModName": "dl-loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "std-document:lists/dl-module",
+                                    "fields": {
+                                        "dt": {
+                                            "src": "用語説明2",
+                                            "editor": "markdown"
+                                        },
+                                        "dd": [
+                                            {
+                                                "modId": "std-document:basics/text",
+                                                "fields": {
+                                                    "main": {
+                                                        "src": "用語を説明します。",
+                                                        "editor": "markdown"
+                                                    },
+                                                    "paragraph": "px2-p",
+                                                    "text-align": "",
+                                                    "font-size": ""
+                                                },
+                                                "anchor": "",
+                                                "dec": ""
+                                            }
+                                        ]
+                                    },
+                                    "subModName": "dl-loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ]
+                        }
+                    },
+                    {
                         "modId": "std-document:utils/p",
                         "fields": {
                             "paragraph": "px2-p",
