@@ -29,6 +29,14 @@
 <div class="module-list">
 	<div class="px2-responsive">
 <table class="px2-table">
+	<colgroup style="max-width:10%; min-width:10%; overflow: auto;">
+	<colgroup style="max-width:15%; min-width:15%; overflow: auto;">
+	<colgroup style="max-width:10%; min-width:10%; overflow: auto;">
+	<colgroup style="max-width:15%; min-width:15%; overflow: auto;">
+	<colgroup style="max-width:20%; min-width:20%; overflow: auto;">
+	<colgroup style="max-width:10%; min-width:10%; overflow: auto;">
+	<colgroup style="max-width:10%; min-width:10%; overflow: auto;">
+	<colgroup style="max-width:10%; min-width:10%; overflow: auto;">
 	<thead>
 		<tr>
 			<th>Category Name</th>
@@ -190,17 +198,25 @@ URLを含む場合は、 リンクに変換されます。</p>
 			<td>std-document:basics/a</td>
 			<td class="module-list__cell-readme"><article><p>リンクを配置します。</p>
 
-<h2>シンプルなリンク</h2>
+<h2>リンクスタイルのバリエーション</h2>
+
+<h3>シンプルなリンク</h3>
 
 <pre><code>&lt;a href="..."&gt;Label&lt;/a&gt;
 </code></pre>
 
-<h2>標準的なビュレットつきリンク</h2>
+<h3>標準的なビュレットつきリンク</h3>
 
 <pre><code>&lt;a href="..." class="px2-a"&gt;Label&lt;/a&gt;
 </code></pre>
 
+<h3>ボタン風リンク</h3>
+
+<p>その他、 ボタンモジュール <code>.px2-btn</code> と同様のスタイルを選択することができます。</p>
+
 <h2>新規ウィンドウで開くリンク</h2>
+
+<p>ターゲットウィンドウ で 新規ウィンドウ (_blank) を選択すると、 新規ウィンドウで開くアイコンが自動的に付与されます。</p>
 
 <pre><code>&lt;a href="..." target="_blank"&gt;&lt;span class="px2-open-in-new-window"&gt;Label&lt;/span&gt;&lt;/a&gt;
 </code></pre>
@@ -231,12 +247,19 @@ URLを含む場合は、 リンクに変換されます。</p>
 			<td>std-document:basics/button</td>
 			<td class="module-list__cell-readme"><article><p>ボタンを配置します。</p>
 
-<h2>シンプルなボタン</h2>
+<p>ボタンをクリックしたときのアクションは、 JavaScript で記述します。</p>
+
+<p>このモジュールは、主に フォームの送信や、特別な機能をトリガーするボタンとして使用します。
+単純にページを遷移したいだけの場合は、代わりに リンクモジュール を使用してください。</p>
+
+<h2>ボタンスタイルのバリエーション</h2>
+
+<h3>シンプルなボタン</h3>
 
 <pre><code>&lt;button class="px2-btn"&gt;Label&lt;/button&gt;
 </code></pre>
 
-<h2>ボタンスタイル</h2>
+<h3>ボタンスタイル</h3>
 
 <pre><code>プライマリ
 &lt;button class="px2-btn px2-btn--primary"&gt;Label&lt;/button&gt;
@@ -362,6 +385,8 @@ URLを含む場合は、 リンクに変換されます。</p>
 			<td class="module-list__cell-readme"><article><p>シンプルなカラムレイアウトを挿入します。</p>
 
 <p>1/1〜1/6幅のカラムの組み合わせで任意のレイアウトを組むことができます。</p>
+
+<p>各カラムのオプションで、画面幅ごとのカラムサイズを設定できます。</p>
 </article></td>
 			<td>n</td>
 			<td>n</td>
@@ -399,18 +424,35 @@ URLを含む場合は、 リンクに変換されます。</p>
 			<td>std-document:lists/ul</td>
 			<td class="module-list__cell-readme"><article><p>リストを表現します。</p>
 
+<p>このモジュールでは、緑色のアペンダー(loopフィールド)をダブルクリックしてリストアイテムを追加します。</p>
+
+<p>各リスト要素には、テキストを入力できます。</p>
+
+<p>他のモジュールを挿入したり、多階層のリストなど、複雑なリスト表現をしたい場合は、 <code>リスト - List (モジュール挿入)</code> が利用できます。</p>
+
+<h2>選択できるリスト表現の種類</h2>
+
 <p>標準的なリスト形式の他、いくつかのリスト表現形式を選択できます。</p>
 
-<h2>標準リスト</h2>
+<h3>標準リスト</h3>
 
 <pre><code>&lt;ul&gt;
-    &lt;li&gt;水平リストアイテム1&lt;/li&gt;
-    &lt;li&gt;水平リストアイテム2&lt;/li&gt;
-    &lt;li&gt;水平リストアイテム3&lt;/li&gt;
+    &lt;li&gt;リストアイテム1&lt;/li&gt;
+    &lt;li&gt;リストアイテム2&lt;/li&gt;
+    &lt;li&gt;リストアイテム3&lt;/li&gt;
 &lt;/ul&gt;
 </code></pre>
 
-<h2>水平リスト</h2>
+<h3>垂直リスト</h3>
+
+<pre><code>&lt;ul class="px2-horizontal-list"&gt;
+    &lt;li&gt;垂直リストアイテム1&lt;/li&gt;
+    &lt;li&gt;垂直リストアイテム2&lt;/li&gt;
+    &lt;li&gt;垂直リストアイテム3&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h3>水平リスト</h3>
 
 <pre><code>&lt;ul class="px2-horizontal-list"&gt;
     &lt;li&gt;水平リストアイテム1&lt;/li&gt;
@@ -419,7 +461,34 @@ URLを含む場合は、 リンクに変換されます。</p>
 &lt;/ul&gt;
 </code></pre>
 
-<h2>注釈リスト</h2>
+<h4>水平リスト (左寄せ)</h4>
+
+<pre><code>&lt;ul class="px2-horizontal-list px2-horizontal-list--left"&gt;
+    &lt;li&gt;水平リストアイテム1&lt;/li&gt;
+    &lt;li&gt;水平リストアイテム2&lt;/li&gt;
+    &lt;li&gt;水平リストアイテム3&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h4>水平リスト (中央寄せ)</h4>
+
+<pre><code>&lt;ul class="px2-horizontal-list px2-horizontal-list--center"&gt;
+    &lt;li&gt;水平リストアイテム1&lt;/li&gt;
+    &lt;li&gt;水平リストアイテム2&lt;/li&gt;
+    &lt;li&gt;水平リストアイテム3&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h4>水平リスト (右寄せ)</h4>
+
+<pre><code>&lt;ul class="px2-horizontal-list px2-horizontal-list--right"&gt;
+    &lt;li&gt;水平リストアイテム1&lt;/li&gt;
+    &lt;li&gt;水平リストアイテム2&lt;/li&gt;
+    &lt;li&gt;水平リストアイテム3&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h3>注釈リスト</h3>
 
 <pre><code>&lt;ul class="px2-note-list"&gt;
     &lt;li&gt;注釈リストアイテム1&lt;/li&gt;
@@ -441,9 +510,78 @@ URLを含む場合は、 リンクに変換されます。</p>
 			<td>std-document:lists/ul-module</td>
 			<td class="module-list__cell-readme"><article><p>リストを表現します。</p>
 
+<p>このモジュールでは、緑色のアペンダー(loopフィールド)をダブルクリックしてリストアイテムを追加します。</p>
+
+<p>次に、各リストアイテムとして他のモジュールを挿入します。</p>
+
+<p>多階層のリスト構造など、複雑なリスト表現にも対応できます。</p>
+
+<h2>選択できるリスト表現の種類</h2>
+
 <p>標準的なリスト形式の他、いくつかのリスト表現形式を選択できます。</p>
 
-<p>このモジュールでは、各リストアイテムとして他のモジュール読み込みます。より複雑なリスト表現が必要なときに使用できます。</p>
+<h3>標準リスト</h3>
+
+<pre><code>&lt;ul&gt;
+    &lt;li&gt;リストアイテム1&lt;/li&gt;
+    &lt;li&gt;リストアイテム2&lt;/li&gt;
+    &lt;li&gt;リストアイテム3&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h3>垂直リスト</h3>
+
+<pre><code>&lt;ul class="px2-horizontal-list"&gt;
+    &lt;li&gt;垂直リストアイテム1&lt;/li&gt;
+    &lt;li&gt;垂直リストアイテム2&lt;/li&gt;
+    &lt;li&gt;垂直リストアイテム3&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h3>水平リスト</h3>
+
+<pre><code>&lt;ul class="px2-horizontal-list"&gt;
+    &lt;li&gt;水平リストアイテム1&lt;/li&gt;
+    &lt;li&gt;水平リストアイテム2&lt;/li&gt;
+    &lt;li&gt;水平リストアイテム3&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h4>水平リスト (左寄せ)</h4>
+
+<pre><code>&lt;ul class="px2-horizontal-list px2-horizontal-list--left"&gt;
+    &lt;li&gt;水平リストアイテム1&lt;/li&gt;
+    &lt;li&gt;水平リストアイテム2&lt;/li&gt;
+    &lt;li&gt;水平リストアイテム3&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h4>水平リスト (中央寄せ)</h4>
+
+<pre><code>&lt;ul class="px2-horizontal-list px2-horizontal-list--center"&gt;
+    &lt;li&gt;水平リストアイテム1&lt;/li&gt;
+    &lt;li&gt;水平リストアイテム2&lt;/li&gt;
+    &lt;li&gt;水平リストアイテム3&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h4>水平リスト (右寄せ)</h4>
+
+<pre><code>&lt;ul class="px2-horizontal-list px2-horizontal-list--right"&gt;
+    &lt;li&gt;水平リストアイテム1&lt;/li&gt;
+    &lt;li&gt;水平リストアイテム2&lt;/li&gt;
+    &lt;li&gt;水平リストアイテム3&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h3>注釈リスト</h3>
+
+<pre><code>&lt;ul class="px2-note-list"&gt;
+    &lt;li&gt;注釈リストアイテム1&lt;/li&gt;
+    &lt;li&gt;注釈リストアイテム2&lt;/li&gt;
+    &lt;li&gt;注釈リストアイテム3&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
 </article></td>
 			<td>n</td>
 			<td>n</td>
@@ -458,7 +596,7 @@ URLを含む場合は、 リンクに変換されます。</p>
 			<td>std-document:lists/ul-html</td>
 			<td class="module-list__cell-readme"><article><p>リストを表現します。</p>
 
-<p>ドラッグ可能なモジュール形式ではなく、 Markdown などのソースの形式で記述できます。</p>
+<p>ドラッグ可能なモジュール形式ではなく、 Markdown などのHTMLソースの形式で記述します。</p>
 
 <p>HTML や Markdown テキストの扱いに慣れているユーザーにとって記述しやすいインターフェイスで入力できます。</p>
 
@@ -478,7 +616,29 @@ URLを含む場合は、 リンクに変換されます。</p>
 &lt;/ul&gt;
 </code></pre>
 
-<h2>水平リスト</h2>
+<h2>選択できるリスト表現の種類</h2>
+
+<p>標準的なリスト形式の他、いくつかのリスト表現形式を選択できます。</p>
+
+<h3>標準リスト</h3>
+
+<pre><code>&lt;ul&gt;
+    &lt;li&gt;リストアイテム1&lt;/li&gt;
+    &lt;li&gt;リストアイテム2&lt;/li&gt;
+    &lt;li&gt;リストアイテム3&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h3>垂直リスト</h3>
+
+<pre><code>&lt;ul class="px2-horizontal-list"&gt;
+    &lt;li&gt;垂直リストアイテム1&lt;/li&gt;
+    &lt;li&gt;垂直リストアイテム2&lt;/li&gt;
+    &lt;li&gt;垂直リストアイテム3&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h3>水平リスト</h3>
 
 <pre><code>&lt;ul class="px2-horizontal-list"&gt;
     &lt;li&gt;水平リストアイテム1&lt;/li&gt;
@@ -487,7 +647,34 @@ URLを含む場合は、 リンクに変換されます。</p>
 &lt;/ul&gt;
 </code></pre>
 
-<h2>注釈リスト</h2>
+<h4>水平リスト (左寄せ)</h4>
+
+<pre><code>&lt;ul class="px2-horizontal-list px2-horizontal-list--left"&gt;
+    &lt;li&gt;水平リストアイテム1&lt;/li&gt;
+    &lt;li&gt;水平リストアイテム2&lt;/li&gt;
+    &lt;li&gt;水平リストアイテム3&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h4>水平リスト (中央寄せ)</h4>
+
+<pre><code>&lt;ul class="px2-horizontal-list px2-horizontal-list--center"&gt;
+    &lt;li&gt;水平リストアイテム1&lt;/li&gt;
+    &lt;li&gt;水平リストアイテム2&lt;/li&gt;
+    &lt;li&gt;水平リストアイテム3&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h4>水平リスト (右寄せ)</h4>
+
+<pre><code>&lt;ul class="px2-horizontal-list px2-horizontal-list--right"&gt;
+    &lt;li&gt;水平リストアイテム1&lt;/li&gt;
+    &lt;li&gt;水平リストアイテム2&lt;/li&gt;
+    &lt;li&gt;水平リストアイテム3&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h3>注釈リスト</h3>
 
 <pre><code>&lt;ul class="px2-note-list"&gt;
     &lt;li&gt;注釈リストアイテム1&lt;/li&gt;
@@ -655,7 +842,7 @@ URLを含む場合は、 リンクに変換されます。</p>
 			<td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAH0CAMAAAD8CC+4AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQwIDc5LjE2MDQ1MSwgMjAxNy8wNS8wNi0wMTowODoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Q0I3ODUzREM2RTg4MTFFOTk5N0NBNzk1OTE4RkEzQzciIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Q0I3ODUzREI2RTg4MTFFOTk5N0NBNzk1OTE4RkEzQzciIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0ODM2NzU1RkE5MDUxMUU0QTA3MEQ5ODU0MUNBRUY0NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0ODM2NzU2MEE5MDUxMUU0QTA3MEQ5ODU0MUNBRUY0NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PuQz0JAAAAGAUExURUhI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" alt="" class="module-list__thumb" /></td>
 			<td>画像メディア - Image Media</td>
 			<td>std-document:medias/image-media</td>
-			<td class="module-list__cell-readme"><article><p>画像メディアを表現します。このモジュールは、 Floating Media モジュールと組み合わせて使用します。</p>
+			<td class="module-list__cell-readme"><article><p>画像メディアを表現します。このモジュールは、 フロートメディアモジュールと組み合わせて使用します。</p>
 
 <p>画像を挿入し、キャプションテキストを入力してください。</p>
 

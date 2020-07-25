@@ -8,8 +8,7 @@
                         "modId": ":grids/grid",
                         "fields": {
                             "column-width": "1of1",
-                            "main": [
-                            ]
+                            "main": []
                         },
                         "subModName": "col",
                         "anchor": "",

@@ -4,7 +4,7 @@
         "fields": {
             "dl-loop": {
                 "fieldType": "loop",
-                "label":"説明リスト"
+                "label": "説明リスト"
             }
         },
         "subModule": {
@@ -12,14 +12,14 @@
                 "fields": {
                     "dt": {
                         "fieldType": "input",
-                        "type":"multitext",
-                        "label":"用語",
-                        "rows":1
+                        "type": "multitext",
+                        "label": "用語",
+                        "rows": 1
                     },
                     "dd": {
                         "fieldType": "input",
-                        "type":"multitext",
-                        "label":"説明"
+                        "type": "multitext",
+                        "label": "説明"
                     }
                 }
             }

@@ -8,8 +8,7 @@
                         "modId": ":grids/grid",
                         "fields": {
                             "column-width": "1of2",
-                            "main": [
-                            ]
+                            "main": []
                         },
                         "subModName": "col",
                         "anchor": "",
@@ -19,8 +18,7 @@
                         "modId": ":grids/grid",
                         "fields": {
                             "column-width": "1of2",
-                            "main": [
-                            ]
+                            "main": []
                         },
                         "subModName": "col",
                         "anchor": "",
