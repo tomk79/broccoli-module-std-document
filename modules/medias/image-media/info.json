@@ -18,6 +18,22 @@
                 "type": "multitext",
                 "label": "キャプション",
                 "rows": 3
+            },
+            "framed": {
+                "fieldType": "input",
+                "type": "select",
+                "label": "枠で囲う",
+                "display": "radio",
+                "options": [
+                    {
+                        "value": "",
+                        "label": "枠で囲わない"
+                    },
+                    {
+                        "value": "framed",
+                        "label": "枠で囲う"
+                    }
+                ]
             }
         }
     }

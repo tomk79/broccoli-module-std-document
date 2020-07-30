@@ -694,7 +694,8 @@
                                         "caption": {
                                             "src": "使用したあとのティーバッグの袋",
                                             "editor": "markdown"
-                                        }
+                                        },
+                                        "framed": "framed"
                                     },
                                     "anchor": "",
                                     "dec": ""
@@ -1990,7 +1991,8 @@
                                                     },
                                                     "alt_text": "",
                                                     "paragraph": "px2-p",
-                                                    "align": ""
+                                                    "align": "",
+                                                    "framed": "framed"
                                                 },
                                                 "anchor": "",
                                                 "dec": ""

@@ -129,6 +129,13 @@
  */
 .px2-image img {
   max-width: 100%; }
+  .px2-image--framed img {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #bbb;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #f9f9f9; }
 
 /**
  * module: std-document:basics/table
@@ -828,6 +835,12 @@ ul > li > ul, ul > li > ol, ul > li > p {
     .px2-embedded-media__caption * {
       margin-top: 0;
       margin-bottom: 0; }
+  .px2-embedded-media--framed {
+    box-sizing: border-box;
+    border: 1px solid #bbb;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #f9f9f9; }
 
 /**
  * module: std-document:notice/notice

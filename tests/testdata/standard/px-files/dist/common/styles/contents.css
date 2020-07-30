@@ -171,6 +171,13 @@
     width: 100%; }
   .contents .px2-image img {
     max-width: 100%; }
+  .contents .px2-image--framed img {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #bbb;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #f9f9f9; }
   .contents table.px2-table {
     border: none;
     border-collapse: collapse;
@@ -815,6 +822,12 @@
   .contents .px2-embedded-media__caption * {
     margin-top: 0;
     margin-bottom: 0; }
+  .contents .px2-embedded-media--framed {
+    box-sizing: border-box;
+    border: 1px solid #bbb;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #f9f9f9; }
   .contents .px2-notice {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
