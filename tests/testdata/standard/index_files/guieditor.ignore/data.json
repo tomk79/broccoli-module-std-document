@@ -1885,9 +1885,22 @@
                                 {
                                     "modId": "std-document:lists/changelog",
                                     "fields": {
-                                        "date": "2019年2月10日",
+                                        "date": "リリース日未定",
                                         "contents": {
-                                            "src": "- list 1\n- list 2",
+                                            "src": "更新しました。長い文字列を表示させてみます。更新しました。長い文字列を表示させてみます。更新しました。長い文字列を表示させてみます。更新しました。長い文字列を表示させてみます。更新しました。長い文字列を表示させてみます。更新しました。長い文字列を表示させてみます。更新しました。長い文字列を表示させてみます。更新しました。長い文字列を表示させてみます。",
+                                            "editor": "markdown"
+                                        }
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "std-document:lists/changelog",
+                                    "fields": {
+                                        "date": "2020年8月5日",
+                                        "contents": {
+                                            "src": "更新しました。長い文字列を表示させてみます。更新しました。長い文字列を表示させてみます。更新しました。長い文字列を表示させてみます。更新しました。長い文字列を表示させてみます。更新しました。長い文字列を表示させてみます。更新しました。長い文字列を表示させてみます。更新しました。長い文字列を表示させてみます。更新しました。長い文字列を表示させてみます。",
                                             "editor": "markdown"
                                         }
                                     },
@@ -1901,6 +1914,19 @@
                                         "date": "2019年2月11日",
                                         "contents": {
                                             "src": "更新しました。",
+                                            "editor": "markdown"
+                                        }
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "std-document:lists/changelog",
+                                    "fields": {
+                                        "date": "2019年2月10日",
+                                        "contents": {
+                                            "src": "- list 1\n- list 2",
                                             "editor": "markdown"
                                         }
                                     },
