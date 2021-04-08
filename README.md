@@ -2,6 +2,10 @@
 
 ## 更新履歴 - Change log
 
+### tomk79/broccoli-module-std-document v0.2.4 (リリース日未定)
+
+- Broccoli v0.4 系で "リスト - List (ソースコード)" モジュールのリストスタイルオプションが無効になる不具合を修正。
+
 ### tomk79/broccoli-module-std-document v0.2.3 (2020年8月12日)
 
 - グリッドモジュールに含まれていたサンプルのテキストを削除した。
