@@ -2,7 +2,7 @@
 
 ## 更新履歴 - Change log
 
-### tomk79/broccoli-module-std-document v0.2.4 (リリース日未定)
+### tomk79/broccoli-module-std-document v0.2.4 (2021年4月10日)
 
 - Broccoli v0.4 系で "リスト - List (ソースコード)" モジュールのリストスタイルオプションが無効になる不具合を修正。
 
