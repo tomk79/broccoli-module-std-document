@@ -621,8 +621,12 @@
                     {
                         "modId": "std-document:medias/float",
                         "fields": {
-                            "lr": "l",
-                            "image-size": "1of3",
+                            "lr": {
+                                "src": "l"
+                            },
+                            "image-size": {
+                                "src": "1of3"
+                            },
                             "media": [
                                 {
                                     "modId": "std-document:basics/image",
@@ -641,7 +645,9 @@
                                     "dec": ""
                                 }
                             ],
-                            "body_rect": "",
+                            "body_rect": {
+                                "src": ""
+                            },
                             "main": [
                                 {
                                     "modId": "std-document:basics/text",
@@ -670,7 +676,11 @@
                                     "anchor": "",
                                     "dec": ""
                                 }
-                            ]
+                            ],
+                            "heading": {
+                                "src": "## 見出し",
+                                "editor": "markdown"
+                            }
                         },
                         "anchor": "",
                         "dec": ""
@@ -678,8 +688,12 @@
                     {
                         "modId": "std-document:medias/float",
                         "fields": {
-                            "lr": "r",
-                            "image-size": "1of3",
+                            "lr": {
+                                "src": "r"
+                            },
+                            "image-size": {
+                                "src": "2of3"
+                            },
                             "media": [
                                 {
                                     "modId": "std-document:medias/image-media",
@@ -701,7 +715,9 @@
                                     "dec": ""
                                 }
                             ],
-                            "body_rect": "",
+                            "body_rect": {
+                                "src": ""
+                            },
                             "main": [
                                 {
                                     "modId": "std-document:basics/text",
@@ -736,7 +752,11 @@
                                     "anchor": "",
                                     "dec": ""
                                 }
-                            ]
+                            ],
+                            "heading": {
+                                "src": "## 見出し\n\n見出しエリアは、スクリーン幅が狭いとき、画像メディアよりも先に表示される領域です。\n",
+                                "editor": "markdown"
+                            }
                         },
                         "anchor": "",
                         "dec": ""
