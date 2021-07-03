@@ -5,10 +5,118 @@
             "fields": {
                 "main": [
                     {
+                        "modId": "std-document:basics/text",
+                        "fields": {
+                            "main": {
+                                "src": "標準ドキュメントモジュールのレイアウトサンプルです。\n",
+                                "editor": "markdown"
+                            },
+                            "paragraph": {
+                                "src": "px2-p"
+                            },
+                            "text-align": {
+                                "src": ""
+                            },
+                            "font-size": {
+                                "src": ""
+                            }
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "std-document:lists/index",
+                        "fields": []
+                    },
+                    {
+                        "modId": "std-document:headings/hx-simple",
+                        "fields": {
+                            "hx": {
+                                "src": "2"
+                            },
+                            "main": {
+                                "src": "シンプルな見出し Level 2"
+                            },
+                            "sub": {
+                                "src": "シンプルな副見出し Level 2"
+                            }
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "std-document:headings/hx-simple",
+                        "fields": {
+                            "hx": {
+                                "src": "3"
+                            },
+                            "main": {
+                                "src": "シンプルな見出し Level 3"
+                            },
+                            "sub": {
+                                "src": "シンプルな副見出し Level 3"
+                            }
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "std-document:headings/hx-simple",
+                        "fields": {
+                            "hx": {
+                                "src": "4"
+                            },
+                            "main": {
+                                "src": "シンプルな見出し Level 4"
+                            },
+                            "sub": {
+                                "src": "シンプルな副見出し Level 4"
+                            }
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "std-document:headings/hx-simple",
+                        "fields": {
+                            "hx": {
+                                "src": "5"
+                            },
+                            "main": {
+                                "src": "シンプルな見出し Level 5"
+                            },
+                            "sub": {
+                                "src": "シンプルな副見出し Level 5"
+                            }
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "std-document:headings/hx-simple",
+                        "fields": {
+                            "hx": {
+                                "src": "6"
+                            },
+                            "main": {
+                                "src": "シンプルな見出し Level 6"
+                            },
+                            "sub": {
+                                "src": "シンプルな副見出し Level 6"
+                            }
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
                         "modId": "std-document:headings/hx",
                         "fields": {
-                            "hx": "2",
-                            "main": "見出しレベル2",
+                            "hx": {
+                                "src": "2"
+                            },
+                            "main": {
+                                "src": "ショルダーメニュー付き見出しレベル2"
+                            },
                             "shoulder": [
                                 {
                                     "modId": "std-document:lists/ul",
@@ -45,7 +153,9 @@
                                     "dec": ""
                                 }
                             ],
-                            "sub": "副見出し"
+                            "sub": {
+                                "src": "副見出し"
+                            }
                         },
                         "anchor": "",
                         "dec": ""
@@ -53,9 +163,15 @@
                     {
                         "modId": "std-document:headings/hx",
                         "fields": {
-                            "hx": "3",
-                            "main": "見出しレベル3",
-                            "sub": "",
+                            "hx": {
+                                "src": "3"
+                            },
+                            "main": {
+                                "src": "ショルダーメニュー付き見出しレベル3"
+                            },
+                            "sub": {
+                                "src": ""
+                            },
                             "shoulder": [
                                 {
                                     "modId": "std-document:lists/ul-links",
@@ -97,9 +213,15 @@
                     {
                         "modId": "std-document:headings/hx",
                         "fields": {
-                            "hx": "4",
-                            "main": "見出しレベル4",
-                            "sub": "見出しレベル4",
+                            "hx": {
+                                "src": "4"
+                            },
+                            "main": {
+                                "src": "ショルダーメニュー付き見出しレベル4"
+                            },
+                            "sub": {
+                                "src": "見出しレベル4"
+                            },
                             "shoulder": []
                         },
                         "anchor": "",
@@ -108,9 +230,15 @@
                     {
                         "modId": "std-document:headings/hx",
                         "fields": {
-                            "hx": "5",
-                            "main": "見出しレベル5",
-                            "sub": "見出しレベル5",
+                            "hx": {
+                                "src": "5"
+                            },
+                            "main": {
+                                "src": "ショルダーメニュー付き見出しレベル5"
+                            },
+                            "sub": {
+                                "src": "見出しレベル5"
+                            },
                             "shoulder": []
                         },
                         "anchor": "",
@@ -119,17 +247,19 @@
                     {
                         "modId": "std-document:headings/hx",
                         "fields": {
-                            "hx": "6",
-                            "main": "見出しレベル6",
-                            "sub": "見出しレベル6",
+                            "hx": {
+                                "src": "6"
+                            },
+                            "main": {
+                                "src": "ショルダーメニュー付き見出しレベル6"
+                            },
+                            "sub": {
+                                "src": "見出しレベル6"
+                            },
                             "shoulder": []
                         },
                         "anchor": "",
                         "dec": ""
-                    },
-                    {
-                        "modId": "std-document:lists/index",
-                        "fields": []
                     },
                     {
                         "modId": "std-document:basics/text",
