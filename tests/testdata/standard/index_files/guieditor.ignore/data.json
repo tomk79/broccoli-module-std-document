@@ -761,15 +761,33 @@
                                 {
                                     "modId": "std-document:basics/image",
                                     "fields": {
-                                        "href": "",
-                                        "target": "_blank",
+                                        "href": {
+                                            "src": ""
+                                        },
+                                        "target": {
+                                            "src": "_blank"
+                                        },
                                         "image_src": {
                                             "resKey": "cce7fc0133231ebe4c7e984336a67656",
                                             "path": "./index_files/resources/photo002.gif",
                                             "resType": "",
                                             "webUrl": ""
                                         },
-                                        "alt_text": ""
+                                        "alt_text": {
+                                            "src": ""
+                                        },
+                                        "framed": {
+                                            "src": ""
+                                        },
+                                        "paragraph": {
+                                            "src": "px2-p"
+                                        },
+                                        "width": {
+                                            "src": ""
+                                        },
+                                        "align": {
+                                            "src": ""
+                                        }
                                     },
                                     "anchor": "",
                                     "dec": ""
@@ -2318,17 +2336,33 @@
                     {
                         "modId": "std-document:basics/image",
                         "fields": {
-                            "href": "",
-                            "target": "",
+                            "href": {
+                                "src": ""
+                            },
+                            "target": {
+                                "src": ""
+                            },
                             "image_src": {
                                 "resKey": "380dd303edd927d18f2618a6fd98ed9d",
                                 "path": "./index_files/resources/sample-image-center.gif",
                                 "resType": "",
                                 "webUrl": ""
                             },
-                            "alt_text": "中央揃え画像配置のサンプル",
-                            "align": "center",
-                            "paragraph": "px2-p"
+                            "alt_text": {
+                                "src": "中央揃え画像配置のサンプル"
+                            },
+                            "align": {
+                                "src": "center"
+                            },
+                            "paragraph": {
+                                "src": "px2-p"
+                            },
+                            "framed": {
+                                "src": "framed"
+                            },
+                            "width": {
+                                "src": "1of2"
+                            }
                         },
                         "anchor": "",
                         "dec": ""

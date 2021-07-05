@@ -208,9 +208,21 @@
   display: inline-block;
   box-sizing: border-box;
   border: 1px solid #bbb;
-  padding: 5px;
-  border-radius: 3px;
+  padding: 8px;
+  border-radius: 5px;
   background-color: #f9f9f9;
+}
+.contents .px2-image--width-1of1 img {
+  width: 100%;
+}
+.contents .px2-image--width-3of4 img {
+  width: 75%;
+}
+.contents .px2-image--width-2of3 img {
+  width: 67%;
+}
+.contents .px2-image--width-1of2 img {
+  width: 50%;
 }
 .contents table.px2-table {
   border: none;
@@ -1163,8 +1175,8 @@
 .contents .px2-embedded-media--framed {
   box-sizing: border-box;
   border: 1px solid #bbb;
-  padding: 5px;
-  border-radius: 3px;
+  padding: 8px;
+  border-radius: 5px;
   background-color: #f9f9f9;
 }
 .contents .px2-notice {
