@@ -590,6 +590,37 @@
                         "dec": ""
                     },
                     {
+                        "modId": "std-document:utils/button-file-download",
+                        "fields": {
+                            "targetFile": {
+                                "resKey": "f1135e71a5b4cb4dfe4910081ea87911",
+                                "path": "./index_files/resources/download-image-file.xlsx",
+                                "resType": "",
+                                "webUrl": ""
+                            },
+                            "downloadFilename": {
+                                "src": "sample-image-file.xlsx"
+                            },
+                            "label": {
+                                "src": "画像ファイルをダウンロードするサンプル"
+                            },
+                            "class": {
+                                "src": "px2-btn px2-btn--download"
+                            },
+                            "display": {
+                                "src": ""
+                            },
+                            "paragraph": {
+                                "src": "px2-p"
+                            },
+                            "align": {
+                                "src": "center"
+                            }
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
                         "modId": "std-document:basics/hr",
                         "fields": [],
                         "anchor": "",
