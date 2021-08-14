@@ -5,6 +5,7 @@
 ### tomk79/broccoli-module-std-document v0.2.7 (リリース日未定)
 
 - `lists/index` が、レイアウトビュー上で横幅いっぱいに反応エリアが伸びるように改善した。
+- ボタンモジュールは、ユーティリティカテゴリに移した。
 
 ### tomk79/broccoli-module-std-document v0.2.6 (2021年7月10日)
 
