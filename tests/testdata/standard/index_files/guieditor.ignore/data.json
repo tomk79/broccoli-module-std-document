@@ -883,12 +883,16 @@
                                             "resType": "",
                                             "webUrl": ""
                                         },
-                                        "alt_text": "ティーバッグの袋",
+                                        "alt_text": {
+                                            "src": "ティーバッグの袋"
+                                        },
                                         "caption": {
                                             "src": "使用したあとのティーバッグの袋",
                                             "editor": "markdown"
                                         },
-                                        "framed": "framed"
+                                        "framed": {
+                                            "src": "framed"
+                                        }
                                     },
                                     "anchor": "",
                                     "dec": ""
@@ -2405,9 +2409,15 @@
                                 "src": "とても大きい文字。",
                                 "editor": "markdown"
                             },
-                            "font-size": "ll",
-                            "text-align": "",
-                            "paragraph": "px2-p"
+                            "font-size": {
+                                "src": "ll"
+                            },
+                            "text-align": {
+                                "src": ""
+                            },
+                            "paragraph": {
+                                "src": "px2-p"
+                            }
                         },
                         "anchor": "",
                         "dec": ""
@@ -2419,9 +2429,15 @@
                                 "src": "大きい文字。",
                                 "editor": "markdown"
                             },
-                            "font-size": "l",
-                            "text-align": "",
-                            "paragraph": "px2-p"
+                            "font-size": {
+                                "src": "l"
+                            },
+                            "text-align": {
+                                "src": ""
+                            },
+                            "paragraph": {
+                                "src": "px2-p"
+                            }
                         },
                         "anchor": "",
                         "dec": ""
@@ -2433,9 +2449,15 @@
                                 "src": "普通の文字。",
                                 "editor": "markdown"
                             },
-                            "font-size": "",
-                            "text-align": "",
-                            "paragraph": "px2-p"
+                            "font-size": {
+                                "src": ""
+                            },
+                            "text-align": {
+                                "src": ""
+                            },
+                            "paragraph": {
+                                "src": "px2-p"
+                            }
                         },
                         "anchor": "",
                         "dec": ""
@@ -2447,9 +2469,15 @@
                                 "src": "小さい文字。",
                                 "editor": "markdown"
                             },
-                            "font-size": "s",
-                            "text-align": "",
-                            "paragraph": "px2-p"
+                            "font-size": {
+                                "src": "s"
+                            },
+                            "text-align": {
+                                "src": ""
+                            },
+                            "paragraph": {
+                                "src": "px2-p"
+                            }
                         },
                         "anchor": "",
                         "dec": ""
@@ -2461,9 +2489,15 @@
                                 "src": "とても小さい文字。",
                                 "editor": "markdown"
                             },
-                            "font-size": "ss",
-                            "text-align": "",
-                            "paragraph": "px2-p"
+                            "font-size": {
+                                "src": "ss"
+                            },
+                            "text-align": {
+                                "src": ""
+                            },
+                            "paragraph": {
+                                "src": "px2-p"
+                            }
                         },
                         "anchor": "",
                         "dec": ""

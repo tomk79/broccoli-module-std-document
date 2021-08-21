@@ -5,7 +5,7 @@
     "md5": "08041aefaf4284eeffc1dbba11250fd0",
     "isPrivateMaterial": false,
     "publicFilename": "download-image-file",
-    "field": "image",
+    "field": "file",
     "fieldNote": [],
     "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
 }
