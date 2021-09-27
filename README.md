@@ -2,6 +2,10 @@
 
 ## 更新履歴 - Change log
 
+### tomk79/broccoli-module-std-document v0.2.8 (リリース日未定)
+
+- 見出しモジュールで、副見出しの改行に関する改善。
+
 ### tomk79/broccoli-module-std-document v0.2.7 (2021年8月21日)
 
 - `lists/index` が、レイアウトビュー上で横幅いっぱいに反応エリアが伸びるように改善した。
