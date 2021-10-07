@@ -5,6 +5,7 @@
 ### tomk79/broccoli-module-std-document v0.2.8 (リリース日未定)
 
 - 見出しモジュールで、副見出しの改行に関する改善。
+- フロートメディアモジュールの v2 を追加。見出しエリアを moduleフィールド に変更した。
 - 一部モジュールの多言語対応。
 
 ### tomk79/broccoli-module-std-document v0.2.7 (2021年8月21日)
