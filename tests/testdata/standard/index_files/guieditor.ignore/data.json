@@ -2299,6 +2299,61 @@
                         "dec": ""
                     },
                     {
+                        "modId": "std-document:lists/changelog-v2",
+                        "fields": {
+                            "header": [
+                                {
+                                    "modId": "std-document:headings/hx-simple",
+                                    "fields": {
+                                        "hx": {
+                                            "src": "2"
+                                        },
+                                        "main": {
+                                            "src": "更新履歴 v2"
+                                        },
+                                        "sub": {
+                                            "src": ""
+                                        }
+                                    },
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ],
+                            "loop": [
+                                {
+                                    "modId": "std-document:lists/changelog-v2",
+                                    "fields": {
+                                        "date": {
+                                            "src": "2021-10-08 00:00"
+                                        },
+                                        "contents": {
+                                            "src": "更新履歴モジュール v2 が追加されました。",
+                                            "editor": "markdown"
+                                        }
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                },
+                                {
+                                    "modId": "std-document:lists/changelog-v2",
+                                    "fields": {
+                                        "date": {
+                                            "src": "2021-01-08 00:00:00"
+                                        },
+                                        "contents": {
+                                            "src": "月と日は、先頭にゼロを付加しないフォーマットにしました。",
+                                            "editor": "markdown"
+                                        }
+                                    },
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ]
+                        }
+                    },
+                    {
                         "modId": "std-document:lists/dl",
                         "fields": {
                             "dl-loop": [
