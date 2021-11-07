@@ -127,6 +127,9 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+.contents .px2-image--imagescope img {
+  cursor: pointer;
+}
 .contents table.px2-table {
   border: none;
   border-collapse: collapse;
@@ -1037,6 +1040,13 @@
   width: 100%;
   height: auto;
 }
+.contents .px2-embedded-media--framed {
+  box-sizing: border-box;
+  border: 1px solid #bbb;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
 .contents .px2-embedded-media__caption {
   font-size: 0.77em;
   margin-top: 0.5em;
@@ -1047,12 +1057,8 @@
   margin-top: 0;
   margin-bottom: 0;
 }
-.contents .px2-embedded-media--framed {
-  box-sizing: border-box;
-  border: 1px solid #bbb;
-  padding: 8px;
-  border-radius: 5px;
-  background-color: #f9f9f9;
+.contents .px2-embedded-media--imagescope img {
+  cursor: pointer;
 }
 .contents .px2-notice {
   margin-top: 1.5em;

@@ -2806,6 +2806,9 @@
                                                     },
                                                     "width": {
                                                         "src": ""
+                                                    },
+                                                    "imagescope": {
+                                                        "src": "onclick"
                                                     }
                                                 },
                                                 "anchor": "",
@@ -2982,6 +2985,13 @@
                             },
                             "width": {
                                 "src": "1of2"
+                            },
+                            "caption": {
+                                "src": "",
+                                "editor": "markdown"
+                            },
+                            "imagescope": {
+                                "src": "onclick"
                             }
                         },
                         "anchor": "",
