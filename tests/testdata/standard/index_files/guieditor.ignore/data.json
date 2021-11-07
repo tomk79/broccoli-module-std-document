@@ -2776,18 +2776,37 @@
                                             {
                                                 "modId": "std-document:basics/image",
                                                 "fields": {
-                                                    "href": "",
-                                                    "target": "",
+                                                    "href": {
+                                                        "src": ""
+                                                    },
+                                                    "target": {
+                                                        "src": ""
+                                                    },
                                                     "image_src": {
                                                         "resKey": "845658e00e61185be43b5b6990e2d95d",
                                                         "path": "./index_files/resources/teabug.gif",
                                                         "resType": "",
                                                         "webUrl": ""
                                                     },
-                                                    "alt_text": "",
-                                                    "paragraph": "px2-p",
-                                                    "align": "",
-                                                    "framed": "framed"
+                                                    "alt_text": {
+                                                        "src": "紅茶が入っていた袋"
+                                                    },
+                                                    "paragraph": {
+                                                        "src": "px2-p"
+                                                    },
+                                                    "align": {
+                                                        "src": ""
+                                                    },
+                                                    "framed": {
+                                                        "src": "framed"
+                                                    },
+                                                    "caption": {
+                                                        "src": "紅茶が入っていた袋",
+                                                        "editor": "markdown"
+                                                    },
+                                                    "width": {
+                                                        "src": ""
+                                                    }
                                                 },
                                                 "anchor": "",
                                                 "dec": ""

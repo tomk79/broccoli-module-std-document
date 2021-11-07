@@ -1,8 +1,10 @@
 .px2-image{
 	img{
+		width: 100%;
 		max-width: 100%;
 	}
-	&--framed img{
+	&--framed > img, // <- fallback
+	&--framed &__img{
 		display: inline-block;
 		box-sizing: border-box;
 		border: 1px solid #bbb;
@@ -11,8 +13,25 @@
 		background-color: #f9f9f9;
 	}
 
-	&--width-1of1 img { width: 100%; }
-	&--width-3of4 img { width: 75%; }
-	&--width-2of3 img { width: 67%; }
-	&--width-1of2 img { width: 50%; }
+	&--width-1of1 &__img { width: 100%; }
+	&--width-3of4 &__img { width: 75%; }
+	&--width-2of3 &__img { width: 67%; }
+	&--width-1of2 &__img { width: 50%; }
+
+	&--width-1of1 > img { width: 100%; } // <- fallback
+	&--width-3of4 > img { width: 75%; } // <- fallback
+	&--width-2of3 > img { width: 67%; } // <- fallback
+	&--width-1of2 > img { width: 50%; } // <- fallback
+
+	&__caption{
+		font-size: 0.77em;
+		margin-top: 0.5em;
+		line-height: 1.3;
+		color: #999;
+		*{
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+	}
+
 }
