@@ -1035,7 +1035,9 @@
                                             }
                                         ]
                                     },
-                                    "subModName": "loop"
+                                    "subModName": "loop",
+                                    "anchor": "",
+                                    "dec": ""
                                 },
                                 {
                                     "modId": "std-document:lists/ul-module",
@@ -1113,6 +1115,15 @@
                                         "main": {
                                             "src": "お知らせいたします。\n\n- list 1\n- list 2",
                                             "editor": "markdown"
+                                        },
+                                        "paragraph": {
+                                            "src": "px2-p"
+                                        },
+                                        "text-align": {
+                                            "src": ""
+                                        },
+                                        "font-size": {
+                                            "src": ""
                                         }
                                     },
                                     "anchor": "",
