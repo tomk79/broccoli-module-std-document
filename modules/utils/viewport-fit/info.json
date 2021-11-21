@@ -1,0 +1,12 @@
+{
+    "name": "ビューポート幅に合わせる",
+    "areaSizeDetection": "deep",
+    "interface": {
+        "fields": {
+            "main": {
+                "fieldType": "module",
+                "label": "コンテンツ"
+            }
+        }
+    }
+}

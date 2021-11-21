@@ -1,0 +1,19 @@
+.px2-viewport-fit {
+	box-sizing: border-box;
+	width: 0;
+	margin: 0 auto;
+	position: relative;
+
+	&__inner {
+		box-sizing: border-box;
+		width: 100vw; // TODO: vw単位にはスクロールバーを含むので、これだと画面幅からはみ出してしまう。
+		position: relative;
+		left: -50vw;
+		background-color: #f3f3f3ab;
+	}
+	&__contents {
+		margin: 0 auto;
+		width: 800px;
+		max-width: calc(100% - 40px);
+	}
+}
