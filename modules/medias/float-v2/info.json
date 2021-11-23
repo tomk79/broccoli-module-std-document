@@ -79,5 +79,6 @@
                 "label": "本文"
             }
         }
-    }
+    },
+    "hidden": true
 }
