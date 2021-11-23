@@ -3111,9 +3111,15 @@
                     {
                         "modId": "std-document:utils/p",
                         "fields": {
-                            "paragraph": "px2-p",
-                            "text-align": "",
-                            "font-size": "",
+                            "paragraph": {
+                                "src": "px2-p"
+                            },
+                            "text-align": {
+                                "src": ""
+                            },
+                            "font-size": {
+                                "src": ""
+                            },
                             "main": [
                                 {
                                     "modId": "std-document:basics/text",
@@ -3135,8 +3141,35 @@
                                     "anchor": "",
                                     "dec": ""
                                 }
-                            ]
-                        }
+                            ],
+                            "margin-padding": {
+                                "marginTop": "100px",
+                                "marginRight": "",
+                                "marginBottom": "100px",
+                                "marginLeft": "",
+                                "paddingTop": "50px",
+                                "paddingRight": "1em",
+                                "paddingBottom": "50px",
+                                "paddingLeft": "1em"
+                            },
+                            "text-color": {
+                                "src": "#FFFFFF"
+                            },
+                            "background-color": {
+                                "src": "#FFC107"
+                            },
+                            "background-image": {
+                                "resKey": "46ce2bf53cf2a36893f35539fd66ef0a",
+                                "resType": "",
+                                "webUrl": "",
+                                "path": "./index_files/resources/background-sample.gif"
+                            },
+                            "min-height": {
+                                "src": "450px"
+                            }
+                        },
+                        "anchor": "",
+                        "dec": ""
                     },
                     {
                         "modId": "std-document:utils/responsive",
@@ -3216,7 +3249,9 @@
                                     "dec": ""
                                 }
                             ]
-                        }
+                        },
+                        "anchor": "",
+                        "dec": ""
                     },
                     {
                         "modId": "std-document:interactives/accordion",
@@ -3362,7 +3397,9 @@
                                     "dec": ""
                                 }
                             ]
-                        }
+                        },
+                        "anchor": "",
+                        "dec": ""
                     }
                 ]
             },
