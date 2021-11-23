@@ -386,6 +386,20 @@ return call_user_func( function(){
 	// $conf->plugins->px2dt->guieditor->path_resource_dir = '{$dirname}/{$filename}_files/resources/';
 
 	@$conf->plugins->px2dt->guieditor->custom_fields = array(
+		'std-document__css-margin-padding'=>array(
+			'backend'=>array(
+				'class' => 'tomk79\\broccoliModuleStdDocument\\fields\\cssMarginPadding\\backend',
+				'require' => '../../../fields/cssMarginPadding/backend.js',
+			),
+			'frontend'=>array(
+				'dir' => '../../../fields/cssMarginPadding/frontend/',
+				'file' => array(
+					'cssMarginPadding.css',
+					'cssMarginPadding.js',
+				),
+				'function' => 'window.broccoliModuleStdDocumentCssMarginPadding',
+			),
+		),
 	);
 
 	$droppedImageOperator = \tomk79\broccoliModuleStdDocument\utils::droppedFileOperator('image');

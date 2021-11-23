@@ -21,8 +21,13 @@
         "pickles2/px2-px2dthelper": "^2.0"
     },
     "autoload": {
-        "files": [
-            "php/utils.php"
-        ]
+        "psr-4": {
+            "tomk79\\broccoliModuleStdDocument\\": [
+                "php/"
+            ],
+            "tomk79\\broccoliModuleStdDocument\\fields\\": [
+                "fields/"
+            ]
+        }
     }
 }

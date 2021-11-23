@@ -4,15 +4,27 @@ let concat  = require('gulp-concat');
 let browserify = require("gulp-browserify");//NodeJSのコードをブラウザ向けコードに変換
 
 
-// 何もしない
-gulp.task('doNothing', function(callback){
-	setTimeout(callback, 1000);
-	return ;
+// src 中の *.js を処理
+gulp.task('carousel:js', function(){
+	return gulp.src(["./src_gulp/fields/cssMarginPadding/cssMarginPadding.js"])
+		.pipe(plumber())
+		.pipe(browserify({}))
+		.pipe(concat('cssMarginPadding.js'))
+		.pipe(gulp.dest( './fields/cssMarginPadding/frontend/' ))
+	;
+});
+gulp.task('carousel:css', function(){
+	return gulp.src(["./src_gulp/fields/cssMarginPadding/cssMarginPadding.css"])
+		.pipe(plumber())
+		.pipe(concat('cssMarginPadding.css'))
+		.pipe(gulp.dest( './fields/cssMarginPadding/frontend/' ))
+	;
 });
 
 
 let _tasks = gulp.parallel(
-	'doNothing'
+	'carousel:js',
+	'carousel:css'
 );
 
 // src 中のすべての拡張子を監視して処理
