@@ -11,6 +11,7 @@
 - フロートメディアモジュールの v2 を追加。見出しエリアを moduleフィールド に変更した。
 - 一部モジュールの多言語対応。
 - インタラクティブカテゴリを追加。
+- カスタムフィールド `std-document__css-margin-padding` を追加。
 - その他の細かい修正。
 
 ### tomk79/broccoli-module-std-document v0.2.7 (2021年8月21日)
