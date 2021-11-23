@@ -6,9 +6,9 @@
 
 	&__inner {
 		box-sizing: border-box;
-		width: 100vw; // TODO: vw単位にはスクロールバーを含むので、これだと画面幅からはみ出してしまう。
+		width: calc(100vw - 50px);
 		position: relative;
-		left: -50vw;
+		left: calc(-50vw + 25px);
 		background-color: #f3f3f3ab;
 	}
 	&__contents {
