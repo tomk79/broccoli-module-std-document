@@ -3109,6 +3109,63 @@
                         "dec": ""
                     },
                     {
+                        "modId": "std-document:utils/viewport-fit",
+                        "fields": {
+                            "text-color": {
+                                "src": "#3F51B5"
+                            },
+                            "background-color": {
+                                "src": "#8BC34AD9"
+                            },
+                            "background-image": {
+                                "resKey": "da0d7e027747c4e54574901450870d66",
+                                "path": "./index_files/resources/background-sample2.jpg",
+                                "resType": "",
+                                "webUrl": ""
+                            },
+                            "min-height": {
+                                "src": "560px"
+                            },
+                            "margin-padding": {
+                                "marginTop": "",
+                                "marginRight": "",
+                                "marginBottom": "",
+                                "marginLeft": "",
+                                "paddingTop": "4em",
+                                "paddingRight": "2em",
+                                "paddingBottom": "4em",
+                                "paddingLeft": "2em"
+                            },
+                            "fluid-contents": {
+                                "src": ""
+                            },
+                            "main": [
+                                {
+                                    "modId": "std-document:basics/text",
+                                    "fields": {
+                                        "main": {
+                                            "src": "このブロックは、コンテンツエリアのサイズに対して端から端まで貫通します。\n\n色を敷いて区切り感を表現したい場合などに活用できます。\n",
+                                            "editor": "markdown"
+                                        },
+                                        "paragraph": {
+                                            "src": "px2-p"
+                                        },
+                                        "text-align": {
+                                            "src": ""
+                                        },
+                                        "font-size": {
+                                            "src": ""
+                                        }
+                                    },
+                                    "anchor": "",
+                                    "dec": ""
+                                }
+                            ]
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
                         "modId": "std-document:utils/p",
                         "fields": {
                             "paragraph": {
