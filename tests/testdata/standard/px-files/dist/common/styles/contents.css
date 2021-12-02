@@ -24,7 +24,6 @@
   /**
  * module: std-document:interactives/carousel
  */
-  /*# sourceMappingURL=sourcemaps/tiny-slider.css.map */
   /**
  * module: std-document:interactives/tabs
  */
@@ -510,6 +509,16 @@
   clear: both;
   height: 0;
 }
+@keyframes px2-accordion__content--show-hide {
+  0% {
+    transform: scaleY(1) translateY(-5px);
+    opacity: 0;
+  }
+  100% {
+    transform: scaleY(1) translateY(0);
+    opacity: 1;
+  }
+}
 .contents .px2-accordion {
   margin-top: 1em;
   margin-bottom: 1em;
@@ -540,13 +549,16 @@
   background-color: #f9f9f9;
 }
 .contents .px2-accordion > .px2-accordion__unit > .px2-accordion__label a::before {
-  content: ">";
-  color: #999;
+  content: "";
+  display: inline-block;
+  border-right: 3px solid #a6acb3;
+  border-bottom: 3px solid #a6acb3;
+  width: 0.5em;
+  height: 0.5em;
   text-decoration: none;
   margin-right: 1em;
-  display: inline-block;
   transition: transform 0.1s ease-in;
-  transform: rotate(0deg);
+  transform: rotate(-45deg);
 }
 .contents .px2-accordion > .px2-accordion__unit > .px2-accordion__content {
   margin: 1rem;
@@ -554,9 +566,10 @@
 }
 .contents .px2-accordion > .px2-accordion--active > .px2-accordion__content {
   display: block;
+  animation: px2-accordion__content--show-hide 0.3s ease 0s 1 normal none running;
 }
 .contents .px2-accordion > .px2-accordion--active > .px2-accordion__label a::before {
-  transform: rotate(90deg);
+  transform: rotate(45deg) translate(-0.1em, -0.1em);
 }
 .contents .px2-carousel {
   margin-top: 1em;
@@ -633,6 +646,15 @@
   line-height: 1;
   text-align: center;
 }
+.contents .px2-carousel .tns-controls button[data-controls="prev"]::before, .contents .px2-carousel .tns-controls button[data-controls="next"]::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border-right: 3px solid #a6acb3;
+  border-bottom: 3px solid #a6acb3;
+  transition: transform 0.1s ease-in;
+}
 .contents .px2-carousel .tns-controls button[data-controls="prev"]:hover, .contents .px2-carousel .tns-controls button[data-controls="next"]:hover {
   opacity: 0.9;
   background: rgba(255, 255, 255, 0.4);
@@ -640,8 +662,14 @@
 .contents .px2-carousel .tns-controls button[data-controls="prev"] {
   left: 0;
 }
+.contents .px2-carousel .tns-controls button[data-controls="prev"]::before {
+  transform: rotate(135deg);
+}
 .contents .px2-carousel .tns-controls button[data-controls="next"] {
   right: 0;
+}
+.contents .px2-carousel .tns-controls button[data-controls="next"]::before {
+  transform: rotate(-45deg);
 }
 .contents .tns-outer {
   padding: 0 !important;

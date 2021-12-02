@@ -57,7 +57,7 @@ window.addEventListener('load', function(e){
 		tns({
 			container: carouselModules[idx],
 			nav: true,
-			controlsText: ['＜', '＞']
+			controlsText: ['', ''],
 		});
 	}
 });
