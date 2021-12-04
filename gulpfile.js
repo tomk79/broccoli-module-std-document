@@ -1,30 +1,64 @@
 let gulp = require('gulp');
+let webpack = require('webpack');
+let webpackStream = require('webpack-stream');
+let sass = require('gulp-sass');//CSSコンパイラ
+let autoprefixer = require("gulp-autoprefixer");//CSSにベンダープレフィックスを付与してくれる
+let minifyCss = require('gulp-minify-css');//CSSファイルの圧縮ツール
 let plumber = require("gulp-plumber");//コンパイルエラーが起きても watch を抜けないようになる
-let concat  = require('gulp-concat');
-let browserify = require("gulp-browserify");//NodeJSのコードをブラウザ向けコードに変換
+let rename = require("gulp-rename");//ファイル名の置き換えを行う
 
 
-// src 中の *.js を処理
-gulp.task('carousel:js', function(){
-	return gulp.src(["./src_gulp/fields/cssMarginPadding/cssMarginPadding.js"])
+// cssMarginPadding.js を処理
+gulp.task('cssMarginPadding:js', function(){
+	return webpackStream({
+		mode: 'production',
+		entry: "./src_gulp/fields/cssMarginPadding/cssMarginPadding.js",
+		devtool: 'source-map',
+		output: {
+			filename: "cssMarginPadding.js"
+		},
+		module:{
+			rules:[
+				{
+					test: /\.twig$/,
+					use: ['twig-loader']
+				},
+				{
+					test:/\.html$/,
+					use:['html-loader']
+				}
+			]
+		},
+		externals: {
+			fs: 'commonjs fs',
+		},
+	}, webpack)
 		.pipe(plumber())
-		.pipe(browserify({}))
-		.pipe(concat('cssMarginPadding.js'))
 		.pipe(gulp.dest( './fields/cssMarginPadding/frontend/' ))
 	;
 });
-gulp.task('carousel:css', function(){
-	return gulp.src(["./src_gulp/fields/cssMarginPadding/cssMarginPadding.css"])
+gulp.task('cssMarginPadding:css', function(){
+	return gulp.src("src_gulp/fields/cssMarginPadding/**/*.css.scss")
 		.pipe(plumber())
-		.pipe(concat('cssMarginPadding.css'))
+		.pipe(sass({
+			"sourceComments": false
+		}))
+		.pipe(autoprefixer())
+		.pipe(rename({
+			extname: '',
+		}))
+		.pipe(minifyCss({compatibility: 'ie8'}))
+		.pipe(rename({
+			extname: '.css'
+		}))
 		.pipe(gulp.dest( './fields/cssMarginPadding/frontend/' ))
 	;
 });
 
 
 let _tasks = gulp.parallel(
-	'carousel:js',
-	'carousel:css'
+	'cssMarginPadding:js',
+	'cssMarginPadding:css'
 );
 
 // src 中のすべての拡張子を監視して処理
