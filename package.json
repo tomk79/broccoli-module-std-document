@@ -7,6 +7,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^4.0.2",
     "jquery": "^3.6",
+    "keen-slider": "^6.2.4",
     "marked": "^1.1.0",
     "testcafe": "^1.17.1",
     "tiny-slider": "^2.9.1",
