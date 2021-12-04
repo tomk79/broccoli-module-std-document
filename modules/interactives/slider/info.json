@@ -1,0 +1,12 @@
+{
+    "name": "スライダー - Slider",
+    "interface": {
+        "fields": {
+            "slider": {
+                "fieldType": "input",
+                "type": "std-document__slider",
+                "label": "スライダー"
+            }
+        }
+    }
+}

@@ -400,6 +400,20 @@ return call_user_func( function(){
 				'function' => 'window.broccoliModuleStdDocumentCssMarginPadding',
 			),
 		),
+		'std-document__slider'=>array(
+			'backend'=>array(
+				'class' => 'tomk79\\broccoliModuleStdDocument\\fields\\slider\\backend',
+				'require' => '../../../fields/slider/backend.js',
+			),
+			'frontend'=>array(
+				'dir' => '../../../fields/slider/frontend/',
+				'file' => array(
+					'slider.css',
+					'slider.js',
+				),
+				'function' => 'window.broccoliModuleStdDocumentSlider',
+			),
+		),
 	);
 
 	$droppedImageOperator = \tomk79\broccoliModuleStdDocument\utils::droppedFileOperator('image');

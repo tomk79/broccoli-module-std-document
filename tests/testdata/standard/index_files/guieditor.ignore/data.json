@@ -3311,6 +3311,23 @@
                         "dec": ""
                     },
                     {
+                        "modId": "std-document:interactives/slider",
+                        "fields": {
+                            "slider": {
+                                "marginTop": "",
+                                "marginRight": "",
+                                "marginBottom": "",
+                                "marginLeft": "",
+                                "paddingTop": "10em",
+                                "paddingRight": "",
+                                "paddingBottom": "10em",
+                                "paddingLeft": ""
+                            }
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
                         "modId": "std-document:interactives/accordion",
                         "fields": {
                             "loop": [
