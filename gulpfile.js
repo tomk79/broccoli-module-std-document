@@ -8,7 +8,8 @@ let plumber = require("gulp-plumber");//コンパイルエラーが起きても 
 let rename = require("gulp-rename");//ファイル名の置き換えを行う
 
 
-// cssMarginPadding.js を処理
+// --------------------------------------
+// Custom Field "cssMarginPadding" を処理
 gulp.task('cssMarginPadding:js', function(){
 	return webpackStream({
 		mode: 'production',
@@ -56,9 +57,60 @@ gulp.task('cssMarginPadding:css', function(){
 });
 
 
+// --------------------------------------
+// Custom Field "slider" を処理
+gulp.task('slider:js', function(){
+	return webpackStream({
+		mode: 'production',
+		entry: "./src_gulp/fields/slider/slider.js",
+		devtool: 'source-map',
+		output: {
+			filename: "slider.js"
+		},
+		module:{
+			rules:[
+				{
+					test: /\.twig$/,
+					use: ['twig-loader']
+				},
+				{
+					test:/\.html$/,
+					use:['html-loader']
+				}
+			]
+		},
+		externals: {
+			fs: 'commonjs fs',
+		},
+	}, webpack)
+		.pipe(plumber())
+		.pipe(gulp.dest( './fields/slider/frontend/' ))
+	;
+});
+gulp.task('slider:css', function(){
+	return gulp.src("src_gulp/fields/slider/**/*.css.scss")
+		.pipe(plumber())
+		.pipe(sass({
+			"sourceComments": false
+		}))
+		.pipe(autoprefixer())
+		.pipe(rename({
+			extname: '',
+		}))
+		.pipe(minifyCss({compatibility: 'ie8'}))
+		.pipe(rename({
+			extname: '.css'
+		}))
+		.pipe(gulp.dest( './fields/slider/frontend/' ))
+	;
+});
+
+
 let _tasks = gulp.parallel(
 	'cssMarginPadding:js',
-	'cssMarginPadding:css'
+	'cssMarginPadding:css',
+	'slider:js',
+	'slider:css'
 );
 
 // src 中のすべての拡張子を監視して処理

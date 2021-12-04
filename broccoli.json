@@ -21,5 +21,22 @@
             ],
             "function" : "window.broccoliModuleStdDocumentCssMarginPadding"
         }
+    },
+    {
+        "id": "std-document__slider",
+        "name": "Slider",
+        "type": "field",
+        "backend": {
+            "class": "tomk79\\broccoliModuleStdDocument\\fields\\slider\\backend",
+            "require": "fields/slider/backend.js"
+        },
+        "frontend": {
+            "dir": "fields/slider/frontend/",
+            "file": [
+                "slider.css",
+                "slider.js"
+            ],
+            "function" : "window.broccoliModuleStdDocumentSlider"
+        }
     }
 ]
