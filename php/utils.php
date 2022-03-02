@@ -21,7 +21,7 @@ class utils{
 			$options = array();
 		}
 
-		if( !strlen($type) ){
+		if( !strlen(''.$type) ){
 			return null;
 		}
 

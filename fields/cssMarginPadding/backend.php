@@ -19,30 +19,30 @@ class backend extends \broccoliHtmlEditor\fieldBase{
 		$rtn = '';
 		if( is_array($fieldData) ){
 			// margin
-			if( is_string(@$fieldData['marginTop']) && strlen(@$fieldData['marginTop']) ){
+			if( is_string(@$fieldData['marginTop']) && strlen(''.@$fieldData['marginTop']) ){
 				$rtn .= 'margin-top:'.trim($fieldData['marginTop']).';';
 			}
-			if( is_string(@$fieldData['marginRight']) && strlen(@$fieldData['marginRight']) ){
+			if( is_string(@$fieldData['marginRight']) && strlen(''.@$fieldData['marginRight']) ){
 				$rtn .= 'margin-right:'.trim($fieldData['marginRight']).';';
 			}
-			if( is_string(@$fieldData['marginBottom']) && strlen(@$fieldData['marginBottom']) ){
+			if( is_string(@$fieldData['marginBottom']) && strlen(''.@$fieldData['marginBottom']) ){
 				$rtn .= 'margin-bottom:'.trim($fieldData['marginBottom']).';';
 			}
-			if( is_string(@$fieldData['marginLeft']) && strlen(@$fieldData['marginLeft']) ){
+			if( is_string(@$fieldData['marginLeft']) && strlen(''.@$fieldData['marginLeft']) ){
 				$rtn .= 'margin-left:'.trim($fieldData['marginLeft']).';';
 			}
 
 			// padding
-			if( is_string(@$fieldData['paddingTop']) && strlen(@$fieldData['paddingTop']) ){
+			if( is_string(@$fieldData['paddingTop']) && strlen(''.@$fieldData['paddingTop']) ){
 				$rtn .= 'padding-top:'.trim($fieldData['paddingTop']).';';
 			}
-			if( is_string(@$fieldData['paddingRight']) && strlen(@$fieldData['paddingRight']) ){
+			if( is_string(@$fieldData['paddingRight']) && strlen(''.@$fieldData['paddingRight']) ){
 				$rtn .= 'padding-right:'.trim($fieldData['paddingRight']).';';
 			}
-			if( is_string(@$fieldData['paddingBottom']) && strlen(@$fieldData['paddingBottom']) ){
+			if( is_string(@$fieldData['paddingBottom']) && strlen(''.@$fieldData['paddingBottom']) ){
 				$rtn .= 'padding-bottom:'.trim($fieldData['paddingBottom']).';';
 			}
-			if( is_string(@$fieldData['paddingLeft']) && strlen(@$fieldData['paddingLeft']) ){
+			if( is_string(@$fieldData['paddingLeft']) && strlen(''.@$fieldData['paddingLeft']) ){
 				$rtn .= 'padding-left:'.trim($fieldData['paddingLeft']).';';
 			}
 		}

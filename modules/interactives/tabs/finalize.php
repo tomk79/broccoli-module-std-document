@@ -7,10 +7,10 @@ return function( $html, $supply ){
     $src_tabs = '';
     foreach($data->fields->loop as $loop){
         $tabLabel = null;
-        if( is_object($loop->fields->{'tab-label'}) && is_string($loop->fields->{'tab-label'}->src) && strlen($loop->fields->{'tab-label'}->src) ){
+        if( is_object($loop->fields->{'tab-label'}) && is_string($loop->fields->{'tab-label'}->src) && strlen(''.$loop->fields->{'tab-label'}->src) ){
             // Broccoli v0.4.0〜 への対応
             $tabLabel = $loop->fields->{'tab-label'}->src;
-        }elseif( is_string($loop->fields->{'tab-label'}) && strlen($loop->fields->{'tab-label'}) ){
+        }elseif( is_string($loop->fields->{'tab-label'}) && strlen(''.$loop->fields->{'tab-label'}) ){
             // それより古い Broccoli への対応
             $tabLabel = $loop->fields->{'tab-label'};
         }
