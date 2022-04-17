@@ -1,4 +1,8 @@
 window.Px2BroccoliModuleStdDocument_ImageScope = function(imgElm){
+    let scope = document.querySelector('.px2-image-scope');
+    if( scope ){
+        scope.remove();
+    }
     let imgSrc = imgElm.src;
     let htmlSrc =
 `<div class="px2-image-scope">
