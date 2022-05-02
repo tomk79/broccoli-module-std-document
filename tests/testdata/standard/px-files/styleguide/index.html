@@ -2275,7 +2275,7 @@ module.exports = function( $html, callback, $supply ){
 return function( $html, $supply ){
     $data = $supply[&#39;data&#39;]; // モジュールに入力されたデータが供給される。
 
-    if(@strlen($data-&gt;fields-&gt;class)){
+    if(@strlen(''.$data-&gt;fields-&gt;class)){
         // 置換
         $html = preg_replace(
             &#39;/^&#39;.preg_quote(&#39;&lt;ul&gt;&#39;, &#39;/&#39;).&#39;/s&#39;,
@@ -3202,7 +3202,7 @@ dl{
 &lt;?php
 (function($px){
     $parent = &#34;{{ parent }}&#34;;
-    if( !strlen($parent) ){
+    if( !strlen(''.$parent) ){
         $parent = null;
     }
     $list_flg = &#34;{{ list_flg }}&#34;;
