@@ -2,6 +2,10 @@
 
 ## 更新履歴 - Change log
 
+### tomk79/broccoli-module-std-document v0.3.1 (リリース日未定)
+
+- 引用文モジュールを追加。
+
 ### tomk79/broccoli-module-std-document v0.3.0 (2022年5月2日)
 
 - サポートするPHPのバージョンを `>=7.3.0` に変更。
