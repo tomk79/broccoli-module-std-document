@@ -1684,6 +1684,12 @@
 .contents .px2-font-size-ll {
   font-size: 136%;
 }
+.contents .px2-error {
+  color: #e00;
+}
+.contents .px2-note {
+  color: #999;
+}
 .contents .px2-responsive {
   overflow: auto;
 }
