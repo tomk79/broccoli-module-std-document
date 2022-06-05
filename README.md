@@ -2,7 +2,7 @@
 
 ## 更新履歴 - Change log
 
-### tomk79/broccoli-module-std-document v0.3.1 (リリース日未定)
+### tomk79/broccoli-module-std-document v0.3.1 (2022年6月5日)
 
 - 引用文モジュールを追加。
 - `.px2-note`、 `.px2-error` を追加。
