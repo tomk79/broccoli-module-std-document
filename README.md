@@ -2,6 +2,10 @@
 
 ## 更新履歴 - Change log
 
+### tomk79/broccoli-module-std-document v0.3.2 (リリース日未定)
+
+- コードブロックに影響するスタイルを削除した。
+
 ### tomk79/broccoli-module-std-document v0.3.1 (2022年6月5日)
 
 - 引用文モジュールを追加。
