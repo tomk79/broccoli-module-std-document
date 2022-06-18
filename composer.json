@@ -9,16 +9,29 @@
             "email": "tomk79@gmail.com"
         }
     ],
+	"scripts": {
+		"start": [
+			"@php ./tests/testdata/standard/.px_execute.php \"/?PX=serve\""
+		],
+		"start-pub": [
+			"@php ./tests/testdata/standard/.px_execute.php \"/?PX=serve.pub\""
+		]
+	},
+    "config": {
+        "process-timeout": 0
+    },
+	"minimum-stability": "dev",
     "repositories": [
     ],
-	"minimum-stability": "dev",
     "require": {
         "php": ">=7.3.0"
     },
     "require-dev": {
         "pickles2/px-fw-2.x": "^2.0",
+        "pickles2/px2-clover": "~0.2.0",
         "pickles2/px2-multitheme": "^2.0",
-        "pickles2/px2-px2dthelper": "^2.0"
+        "pickles2/px2-px2dthelper": "^2.0",
+        "tomk79/px2-serve": "~0.1.3"
     },
     "autoload": {
         "psr-4": {
