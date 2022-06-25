@@ -10,6 +10,7 @@
 
 - 引用文モジュールを追加。
 - `.px2-note`、 `.px2-error` を追加。
+- その他の細かい修正。
 
 ### tomk79/broccoli-module-std-document v0.3.0 (2022年5月2日)
 
