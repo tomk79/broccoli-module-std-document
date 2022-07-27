@@ -56,23 +56,6 @@
                     }
                 ]
             },
-            "paragraph": {
-                "fieldType": "input",
-                "type": "select",
-                "label": "前後の自然なマージン",
-                "display": "radio",
-                "options": [
-                    {
-                        "value": "",
-                        "label": "なし"
-                    },
-                    {
-                        "value": "px2-p",
-                        "label": "前後の自然なマージン"
-                    }
-                ],
-                "default": "px2-p"
-            },
             "width": {
                 "fieldType": "input",
                 "type": "select",
@@ -140,6 +123,23 @@
                         "label": "クリックで拡大表示する"
                     }
                 ]
+            },
+            "paragraph": {
+                "fieldType": "input",
+                "type": "select",
+                "label": "前後の自然なマージン",
+                "display": "radio",
+                "options": [
+                    {
+                        "value": "",
+                        "label": "なし"
+                    },
+                    {
+                        "value": "px2-p",
+                        "label": "前後の自然なマージン"
+                    }
+                ],
+                "default": "px2-p"
             }
         }
     },

@@ -5,6 +5,7 @@
 ### tomk79/broccoli-module-std-document v0.3.3 (リリース日未定)
 
 - 画像モジュールを中央揃えに指定したときに、キャプションは左揃えのままにするようにした。
+- 入力欄の並べ替えなどのUI改善。
 
 ### tomk79/broccoli-module-std-document v0.3.2 (2022年7月11日)
 

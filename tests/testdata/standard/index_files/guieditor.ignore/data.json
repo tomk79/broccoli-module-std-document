@@ -2869,7 +2869,7 @@
                                                         "src": "px2-p"
                                                     },
                                                     "align": {
-                                                        "src": ""
+                                                        "src": "center"
                                                     },
                                                     "framed": {
                                                         "src": "framed"

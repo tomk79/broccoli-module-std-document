@@ -96,23 +96,6 @@
                 "escape": "html_attr_text",
                 "label": "ボタンアクション"
             },
-            "paragraph": {
-                "fieldType": "input",
-                "type": "select",
-                "label": "前後の自然なマージン",
-                "display": "radio",
-                "options": [
-                    {
-                        "value": "",
-                        "label": "なし"
-                    },
-                    {
-                        "value": "px2-p",
-                        "label": "前後の自然なマージン"
-                    }
-                ],
-                "default": "px2-p"
-            },
             "align": {
                 "fieldType": "input",
                 "type": "select",
@@ -136,6 +119,23 @@
                         "label": "右揃え"
                     }
                 ]
+            },
+            "paragraph": {
+                "fieldType": "input",
+                "type": "select",
+                "label": "前後の自然なマージン",
+                "display": "radio",
+                "options": [
+                    {
+                        "value": "",
+                        "label": "なし"
+                    },
+                    {
+                        "value": "px2-p",
+                        "label": "前後の自然なマージン"
+                    }
+                ],
+                "default": "px2-p"
             }
         }
     }

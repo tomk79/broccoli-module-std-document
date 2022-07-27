@@ -2,23 +2,6 @@
     "name": "ユーティリティブロック - Utility Block",
     "interface": {
         "fields": {
-            "paragraph": {
-                "fieldType": "input",
-                "type": "select",
-                "label": "前後の自然なマージン",
-                "display": "radio",
-                "options": [
-                    {
-                        "value": "",
-                        "label": "なし"
-                    },
-                    {
-                        "value": "px2-p",
-                        "label": "前後の自然なマージン"
-                    }
-                ],
-                "default": "px2-p"
-            },
             "text-align": {
                 "fieldType": "input",
                 "type": "select",
@@ -103,6 +86,23 @@
             "main": {
                 "fieldType": "module",
                 "label": "内容"
+            },
+            "paragraph": {
+                "fieldType": "input",
+                "type": "select",
+                "label": "前後の自然なマージン",
+                "display": "radio",
+                "options": [
+                    {
+                        "value": "",
+                        "label": "なし"
+                    },
+                    {
+                        "value": "px2-p",
+                        "label": "前後の自然なマージン"
+                    }
+                ],
+                "default": "px2-p"
             }
         }
     }
