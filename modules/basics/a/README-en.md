@@ -1,4 +1,4 @@
-Place the link.
+Insert a link.
 
 
 ## Link style variations

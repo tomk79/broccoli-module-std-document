@@ -1,4 +1,4 @@
-Place a simple table element.
+Insert a simple table element.
 
 If you prepare and select a table in one of the file formats `.csv` or` .xls`, `.xlsx`, it will be automatically converted to a` <table> `element with the same contents.
 

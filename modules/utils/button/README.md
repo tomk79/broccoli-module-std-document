@@ -10,13 +10,13 @@
 
 ### シンプルなボタン
 
-```
+```html
 <button class="px2-btn">Label</button>
 ```
 
 ### ボタンスタイル
 
-```
+```html
 プライマリ
 <button class="px2-btn px2-btn--primary">Label</button>
 
@@ -32,7 +32,7 @@
 
 ## ボタンサイズ
 
-```
+```html
 小さい
 <button class="px2-btn px2-btn--sm">Label</button>
 
@@ -42,7 +42,7 @@
 
 ## ディスプレイタイプ
 
-```
+```html
 ブロック要素
 <button class="px2-btn px2-btn--block">Label</button>
 ```
