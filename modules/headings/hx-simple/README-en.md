@@ -1,1 +1,1 @@
-Insert headings with `<h2>` through `<h6>` elements.
+Insert a heading. You can choose from heading level 2 to level 6.
