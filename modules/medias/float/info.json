@@ -1,5 +1,6 @@
 {
     "name": "フロートメディア - Floating Media (v1)",
+    "deprecated": true,
     "interface": {
         "fields": {
             "heading": {
@@ -80,6 +81,5 @@
                 "label": "本文"
             }
         }
-    },
-    "deprecated": true
+    }
 }

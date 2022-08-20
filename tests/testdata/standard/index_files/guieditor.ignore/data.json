@@ -1101,6 +1101,16 @@
                         "dec": ""
                     },
                     {
+                        "modId": "std-document:lists/ul-html",
+                        "fields": {
+                            "class": "",
+                            "main": {
+                                "editor": "markdown",
+                                "src": "- List Item 1\n- List Item 2\n- List Item 3"
+                            }
+                        }
+                    },
+                    {
                         "modId": "std-document:notice/notice",
                         "fields": {
                             "type": "px2-notice--info",
@@ -2819,7 +2829,9 @@
                                     "dec": ""
                                 }
                             ]
-                        }
+                        },
+                        "anchor": "",
+                        "dec": ""
                     },
                     {
                         "modId": "std-document:lists/dl-module",
