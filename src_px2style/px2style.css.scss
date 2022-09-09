@@ -11,20 +11,48 @@ $px2-background-color: #f9f7f5;
 
 @layer px2style {
 
+// broccoli-module-std-document
 @import '../modules/basics/a/module.css.scss';
-// @import './links/_links.css.scss';
-// @import './lists/_lists.css.scss';
-// @import './tables/_tables.css.scss';
-// @import './notice/_notice.css.scss';
-// @import './modal/_modal.css.scss';
-// @import './styles/_utils.css.scss';
-// @import './header/_header.css.scss';
-// @import './form/_form.css.scss';
-// @import './layouts/_grid.css.scss';
+@import '../modules/basics/blockquote/module.css.scss';
+@import '../modules/basics/image/module.css.scss';
+@import '../modules/basics/table/module.css.scss';
+@import '../modules/basics/text/module.css.scss';
+@import '../modules/grids/grid/module.css.scss';
+@import '../modules/headings/hx-simple/module.css.scss';
+@import '../modules/interactives/accordion/module.css.scss';
+@import '../modules/interactives/carousel/module.css.scss';
+@import '../modules/interactives/tabs/module.css.scss';
+@import '../modules/lists/changelog-v2/module.css.scss';
+@import '../modules/lists/dl-module/module.css.scss';
+@import '../modules/lists/index/module.css.scss';
+@import '../modules/lists/ul-links/module.css.scss';
+@import '../modules/lists/ul-media-list/module.css.scss';
+@import '../modules/lists/ul-module/module.css.scss';
+@import '../modules/medias/float-v2/module.css.scss';
+@import '../modules/medias/image-media/module.css.scss';
+@import '../modules/notice/notice/module.css.scss';
+@import '../modules/utils/button/module.css.scss';
+@import '../modules/utils/p/module.css.scss';
+@import '../modules/utils/responsive/module.css.scss';
+@import '../modules/utils/viewport-fit/module.css.scss';
 
-// // Darkmode
-// .px2-darkmode {
-// 	@import './themes/darkmode/_darkmode.css.scss';
-// }
+
+// px2style
+@import './_src/buttons/_buttons.css.scss';
+@import './_src/form/_form.css.scss';
+@import './_src/header/_header.css.scss';
+@import './_src/layouts/_grid.css.scss';
+@import './_src/links/_links.css.scss';
+@import './_src/lists/_lists.css.scss';
+@import './_src/modal/_modal.css.scss';
+@import './_src/notice/_notice.css.scss';
+@import './_src/styles/_utils.css.scss';
+@import './_src/tables/_tables.css.scss';
+
+
+// Darkmode
+.px2-darkmode {
+	@import './_src/themes/darkmode/_darkmode.css.scss';
+}
 
 }
