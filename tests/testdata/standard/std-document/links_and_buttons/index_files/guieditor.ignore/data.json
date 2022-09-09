@@ -5,83 +5,16 @@
             "fields": {
                 "main": [
                     {
-                        "modId": "std-document:basics/button",
+                        "modId": "std-document:headings/hx-simple",
                         "fields": {
-                            "label": "標準ボタン",
-                            "intention": "",
-                            "sizing": "",
-                            "display": "",
-                            "btntype": "button",
-                            "onclick": {
-                                "src": "alert('OK');",
-                                "lang": "javascript"
+                            "hx": {
+                                "src": "2"
                             },
-                            "align": "left"
-                        },
-                        "anchor": "",
-                        "dec": ""
-                    },
-                    {
-                        "modId": "std-document:basics/button",
-                        "fields": {
-                            "onclick": {
-                                "src": "\nalert(\"html attributes\");\nreturn false;",
-                                "lang": "javascript"
+                            "main": {
+                                "src": "リンク"
                             },
-                            "label": "プライマリボタン",
-                            "intention": "px2-btn--primary",
-                            "sizing": "px2-btn--lg",
-                            "display": "",
-                            "btntype": "submit",
-                            "align": "right"
-                        },
-                        "anchor": "",
-                        "dec": ""
-                    },
-                    {
-                        "modId": "std-document:basics/button",
-                        "fields": {
-                            "label": "セカンダリ",
-                            "intention": "px2-btn--secondary",
-                            "sizing": "",
-                            "display": "",
-                            "btntype": "button",
-                            "onclick": {
-                                "src": "",
-                                "lang": "javascript"
-                            },
-                            "align": "center"
-                        },
-                        "anchor": "",
-                        "dec": ""
-                    },
-                    {
-                        "modId": "std-document:basics/button",
-                        "fields": {
-                            "label": "危険",
-                            "intention": "px2-btn--danger",
-                            "sizing": "",
-                            "display": "",
-                            "btntype": "button",
-                            "onclick": {
-                                "src": "alert('危険');",
-                                "lang": "javascript"
-                            }
-                        },
-                        "anchor": "",
-                        "dec": ""
-                    },
-                    {
-                        "modId": "std-document:basics/button",
-                        "fields": {
-                            "label": "ダウンロード",
-                            "intention": "px2-btn--download",
-                            "sizing": "",
-                            "display": "",
-                            "btntype": "button",
-                            "onclick": {
-                                "src": "",
-                                "lang": "javascript"
+                            "sub": {
+                                "src": ""
                             }
                         },
                         "anchor": "",
@@ -90,13 +23,27 @@
                     {
                         "modId": "std-document:basics/a",
                         "fields": {
-                            "href": "javascript:alert('クリックしました。');",
-                            "label": "標準的なテストリンク",
-                            "class": "",
-                            "target": "",
-                            "align": "center",
-                            "display": "",
-                            "paragraph": "px2-p"
+                            "href": {
+                                "src": "javascript:void(0);"
+                            },
+                            "label": {
+                                "src": "標準的なテストリンク"
+                            },
+                            "class": {
+                                "src": ""
+                            },
+                            "target": {
+                                "src": ""
+                            },
+                            "align": {
+                                "src": ""
+                            },
+                            "display": {
+                                "src": ""
+                            },
+                            "paragraph": {
+                                "src": "px2-p"
+                            }
                         },
                         "anchor": "",
                         "dec": ""
@@ -104,12 +51,27 @@
                     {
                         "modId": "std-document:basics/a",
                         "fields": {
-                            "href": "javascript:alert('Clicked');",
-                            "label": "標準ビュレット付きのリンク",
-                            "class": "px2-a",
-                            "target": "",
-                            "align": "right",
-                            "paragraph": "px2-p"
+                            "href": {
+                                "src": "javascript:void(0);"
+                            },
+                            "label": {
+                                "src": "標準ビュレット付きのリンク"
+                            },
+                            "class": {
+                                "src": "px2-a"
+                            },
+                            "target": {
+                                "src": ""
+                            },
+                            "align": {
+                                "src": ""
+                            },
+                            "paragraph": {
+                                "src": "px2-p"
+                            },
+                            "display": {
+                                "src": ""
+                            }
                         },
                         "anchor": "",
                         "dec": ""
@@ -117,13 +79,27 @@
                     {
                         "modId": "std-document:basics/a",
                         "fields": {
-                            "href": "javascript:alert('クリックしました。');",
-                            "label": "標準ボタン風リンク",
-                            "class": "px2-btn",
-                            "target": "",
-                            "align": "left",
-                            "paragraph": "px2-p",
-                            "display": ""
+                            "href": {
+                                "src": "javascript:void(0);"
+                            },
+                            "label": {
+                                "src": "標準ボタン風リンク"
+                            },
+                            "class": {
+                                "src": "px2-btn"
+                            },
+                            "target": {
+                                "src": ""
+                            },
+                            "align": {
+                                "src": ""
+                            },
+                            "paragraph": {
+                                "src": "px2-p"
+                            },
+                            "display": {
+                                "src": ""
+                            }
                         },
                         "anchor": "",
                         "dec": ""
@@ -131,12 +107,27 @@
                     {
                         "modId": "std-document:basics/a",
                         "fields": {
-                            "href": "javascript:alert('クリックしました。');",
-                            "label": "プライマリボタン風リンク",
-                            "class": "px2-btn px2-btn--primary",
-                            "target": "",
-                            "align": "right",
-                            "paragraph": ""
+                            "href": {
+                                "src": "javascript:void(0);"
+                            },
+                            "label": {
+                                "src": "プライマリボタン風リンク"
+                            },
+                            "class": {
+                                "src": "px2-btn px2-btn--primary"
+                            },
+                            "target": {
+                                "src": ""
+                            },
+                            "align": {
+                                "src": ""
+                            },
+                            "paragraph": {
+                                "src": "px2-p"
+                            },
+                            "display": {
+                                "src": ""
+                            }
                         },
                         "anchor": "",
                         "dec": ""
@@ -144,12 +135,27 @@
                     {
                         "modId": "std-document:basics/a",
                         "fields": {
-                            "href": "javascript:alert('クリックしました。');",
-                            "label": "セカンダリボタン風リンク",
-                            "class": "px2-btn px2-btn--secondary",
-                            "target": "",
-                            "align": "",
-                            "paragraph": ""
+                            "href": {
+                                "src": "javascript:void(0);"
+                            },
+                            "label": {
+                                "src": "セカンダリボタン風リンク"
+                            },
+                            "class": {
+                                "src": "px2-btn px2-btn--secondary"
+                            },
+                            "target": {
+                                "src": ""
+                            },
+                            "align": {
+                                "src": ""
+                            },
+                            "paragraph": {
+                                "src": "px2-p"
+                            },
+                            "display": {
+                                "src": ""
+                            }
                         },
                         "anchor": "",
                         "dec": ""
@@ -157,12 +163,27 @@
                     {
                         "modId": "std-document:basics/a",
                         "fields": {
-                            "href": "javascript:alert('クリックしました。');",
-                            "label": "危険ボタン風リンク",
-                            "class": "px2-btn px2-btn--danger",
-                            "target": "",
-                            "align": "",
-                            "paragraph": ""
+                            "href": {
+                                "src": "javascript:void(0);"
+                            },
+                            "label": {
+                                "src": "危険ボタン風リンク"
+                            },
+                            "class": {
+                                "src": "px2-btn px2-btn--danger"
+                            },
+                            "target": {
+                                "src": ""
+                            },
+                            "align": {
+                                "src": ""
+                            },
+                            "paragraph": {
+                                "src": "px2-p"
+                            },
+                            "display": {
+                                "src": ""
+                            }
                         },
                         "anchor": "",
                         "dec": ""
@@ -170,12 +191,27 @@
                     {
                         "modId": "std-document:basics/a",
                         "fields": {
-                            "href": "javascript:alert('クリックしました。');",
-                            "label": "ダウンロードボタン風リンク",
-                            "class": "px2-btn px2-btn--download",
-                            "target": "",
-                            "align": "",
-                            "paragraph": ""
+                            "href": {
+                                "src": "javascript:void(0);"
+                            },
+                            "label": {
+                                "src": "ダウンロードボタン風リンク"
+                            },
+                            "class": {
+                                "src": "px2-btn px2-btn--download"
+                            },
+                            "target": {
+                                "src": ""
+                            },
+                            "align": {
+                                "src": ""
+                            },
+                            "paragraph": {
+                                "src": "px2-p"
+                            },
+                            "display": {
+                                "src": ""
+                            }
                         },
                         "anchor": "",
                         "dec": ""
@@ -183,13 +219,27 @@
                     {
                         "modId": "std-document:basics/a",
                         "fields": {
-                            "href": "javascript:alert('クリックしました。');",
-                            "label": "標準的なテキストリンク (ブロック)",
-                            "class": "",
-                            "target": "",
-                            "align": "",
-                            "paragraph": "px2-p",
-                            "display": "block"
+                            "href": {
+                                "src": "javascript:void(0);"
+                            },
+                            "label": {
+                                "src": "標準的なテキストリンク (ブロック)"
+                            },
+                            "class": {
+                                "src": ""
+                            },
+                            "target": {
+                                "src": ""
+                            },
+                            "align": {
+                                "src": ""
+                            },
+                            "paragraph": {
+                                "src": "px2-p"
+                            },
+                            "display": {
+                                "src": "block"
+                            }
                         },
                         "anchor": "",
                         "dec": ""
@@ -197,13 +247,27 @@
                     {
                         "modId": "std-document:basics/a",
                         "fields": {
-                            "href": "javascript:alert('クリックしました。');",
-                            "label": "標準ビュレット付きリンク (ブロック)",
-                            "class": "px2-a",
-                            "target": "",
-                            "align": "",
-                            "paragraph": "px2-p",
-                            "display": "block"
+                            "href": {
+                                "src": "javascript:void(0);"
+                            },
+                            "label": {
+                                "src": "標準ビュレット付きリンク (ブロック)"
+                            },
+                            "class": {
+                                "src": "px2-a"
+                            },
+                            "target": {
+                                "src": ""
+                            },
+                            "align": {
+                                "src": ""
+                            },
+                            "paragraph": {
+                                "src": "px2-p"
+                            },
+                            "display": {
+                                "src": "block"
+                            }
                         },
                         "anchor": "",
                         "dec": ""
@@ -211,13 +275,231 @@
                     {
                         "modId": "std-document:basics/a",
                         "fields": {
-                            "href": "javascript:alert('クリックしました。');",
-                            "label": "標準ボタン風リンク (ブロック)",
-                            "class": "px2-btn",
-                            "target": "",
-                            "align": "",
-                            "paragraph": "px2-p",
-                            "display": "block"
+                            "href": {
+                                "src": "javascript:void(0);"
+                            },
+                            "label": {
+                                "src": "標準ボタン風リンク (ブロック)"
+                            },
+                            "class": {
+                                "src": "px2-btn"
+                            },
+                            "target": {
+                                "src": ""
+                            },
+                            "align": {
+                                "src": ""
+                            },
+                            "paragraph": {
+                                "src": "px2-p"
+                            },
+                            "display": {
+                                "src": "block"
+                            }
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "std-document:basics/a",
+                        "fields": {
+                            "href": {
+                                "src": "javascript:void(0);"
+                            },
+                            "label": {
+                                "src": "新規ウィンドウへのリンク"
+                            },
+                            "class": {
+                                "src": "px2-a"
+                            },
+                            "target": {
+                                "src": "_blank"
+                            },
+                            "display": {
+                                "src": ""
+                            },
+                            "align": {
+                                "src": ""
+                            },
+                            "paragraph": {
+                                "src": "px2-p"
+                            }
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "std-document:headings/hx-simple",
+                        "fields": {
+                            "hx": {
+                                "src": "2"
+                            },
+                            "main": {
+                                "src": "ボタン"
+                            },
+                            "sub": {
+                                "src": ""
+                            }
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "std-document:basics/button",
+                        "fields": {
+                            "label": {
+                                "src": "標準ボタン"
+                            },
+                            "intention": {
+                                "src": ""
+                            },
+                            "sizing": {
+                                "src": ""
+                            },
+                            "display": {
+                                "src": ""
+                            },
+                            "btntype": {
+                                "src": "button"
+                            },
+                            "onclick": {
+                                "src": "void(0);",
+                                "lang": "javascript"
+                            },
+                            "align": {
+                                "src": "left"
+                            },
+                            "paragraph": {
+                                "src": "px2-p"
+                            }
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "std-document:basics/button",
+                        "fields": {
+                            "onclick": {
+                                "src": "void(0);",
+                                "lang": "javascript"
+                            },
+                            "label": {
+                                "src": "プライマリボタン"
+                            },
+                            "intention": {
+                                "src": "px2-btn--primary"
+                            },
+                            "sizing": {
+                                "src": ""
+                            },
+                            "display": {
+                                "src": ""
+                            },
+                            "btntype": {
+                                "src": "submit"
+                            },
+                            "align": {
+                                "src": ""
+                            },
+                            "paragraph": {
+                                "src": "px2-p"
+                            }
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "std-document:basics/button",
+                        "fields": {
+                            "label": {
+                                "src": "セカンダリ"
+                            },
+                            "intention": {
+                                "src": "px2-btn--secondary"
+                            },
+                            "sizing": {
+                                "src": ""
+                            },
+                            "display": {
+                                "src": ""
+                            },
+                            "btntype": {
+                                "src": "button"
+                            },
+                            "onclick": {
+                                "src": "void(0);",
+                                "lang": "javascript"
+                            },
+                            "align": {
+                                "src": ""
+                            },
+                            "paragraph": {
+                                "src": "px2-p"
+                            }
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "std-document:basics/button",
+                        "fields": {
+                            "label": {
+                                "src": "危険"
+                            },
+                            "intention": {
+                                "src": "px2-btn--danger"
+                            },
+                            "sizing": {
+                                "src": ""
+                            },
+                            "display": {
+                                "src": ""
+                            },
+                            "btntype": {
+                                "src": "button"
+                            },
+                            "onclick": {
+                                "src": "void(0);",
+                                "lang": "javascript"
+                            },
+                            "align": {
+                                "src": ""
+                            },
+                            "paragraph": {
+                                "src": "px2-p"
+                            }
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "std-document:basics/button",
+                        "fields": {
+                            "label": {
+                                "src": "ダウンロード"
+                            },
+                            "intention": {
+                                "src": "px2-btn--download"
+                            },
+                            "sizing": {
+                                "src": ""
+                            },
+                            "display": {
+                                "src": ""
+                            },
+                            "btntype": {
+                                "src": "button"
+                            },
+                            "onclick": {
+                                "src": "void(0);",
+                                "lang": "javascript"
+                            },
+                            "align": {
+                                "src": ""
+                            },
+                            "paragraph": {
+                                "src": "px2-p"
+                            }
                         },
                         "anchor": "",
                         "dec": ""
@@ -247,7 +529,7 @@
                                 "src": "px2-p"
                             },
                             "align": {
-                                "src": "center"
+                                "src": ""
                             }
                         },
                         "anchor": "",

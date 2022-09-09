@@ -1,16 +1,14 @@
 // Buttons
 .px2-btn{
 	display: inline-block;
-	border-radius: 3px;
+	border-radius: 4px;
 	background-color: #fff;
-	color: #666;
-	border: 1px solid #666;
-	box-shadow: 0 2px 0px rgba(0,0,0,0.1);
-	// text-shadow: 0px 0px 3px rgba(0,0,0,0.1);
-	padding: 0.5em 2em;
-	font-size:1em;
+	color: #000;
+	border: 1px solid #e5e5e5;
+    padding: .375rem .75rem;
+	font-size: 1em;
 	font-weight: normal;
-	line-height: 1;
+	line-height: 1.5;
 	text-decoration: none;
 	text-align: center;
 	cursor: pointer;
@@ -18,28 +16,29 @@
 	align-items: stretch;
 	transition:
 		color 0.1s,
-		background-color 0.1s,
-		transform 0.1s
+		background-color 0.1s
 	;
 
 	&:focus,
 	&:hover{
 		text-decoration: none;
 		font-weight: normal;
-		color: #666;
-		background-color: #f9f9f9;
-		outline: none;
-		// transform: scale(1.04, 1.04);
+		color: #333;
+		background-color: #f0f0f0;
+	}
+	&:focus{
+		color: #333;
+		background-color: #f0f0f0;
 	}
 	&:hover{
 		background-color: #f0f0f0;
 	}
 	&:active{
-		background-color: #333;
-		color: #fff;
+		background-color: #f0f0f0; // fallback
+		background-color: var(--px2-text-color, #f0f0f0);
+		color: #333; // fallback
+		color: var(--px2-background-color, #333);
 		box-shadow: inset 0 3px 15px rgba(0,0,0,0.3);
-		transform: translateY(1px);
-		// transform: translateY(1px) scale(1.04, 1.04);
 	}
 }
 
@@ -63,19 +62,24 @@
 		}
 	}
 	&.px2-btn--secondary{
-		border-color: #666;
-		background: #fff;
-		color: #666;
+		border-color: #f0f0f0; // fallback
+		border-color: var(--px2-text-color, #f0f0f0);
+		background: #333; // fallback
+		background: var(--px2-background-color, #333);
+		color: #f0f0f0; // fallback
+		color: var(--px2-text-color, #f0f0f0);
 		&:focus,
 		&:hover{
-			background-color: #f9f9f9;
+			background-color: #f3f3f3;
 		}
 		&:hover{
 			background-color: #f0f0f0;
 		}
 		&:active{
-			background-color: #333;
-			color: #fff;
+			background-color: #f0f0f0; // fallback
+			background-color: var(--px2-text-color, #f0f0f0);
+			color: #333; // fallback
+			color: var(--px2-background-color, #333);
 		}
 	}
 	&.px2-btn--danger{
@@ -116,13 +120,38 @@
 		background-color: rgba(153,153,153,0.05);
 		color: #ddd;
 		cursor: default;
-		transform: none;
 		&:focus,
-		&:hover{
+		&:hover,
+		&:active{
 			border-color: #ddd;
 			background-color: rgba(153,153,153,0.05);
 			color: #ddd;
 			cursor: default;
+			box-shadow: 0 2px 0px rgba(0,0,0,0.1);
+		}
+	}
+}
+
+
+// Toggle ON
+.px2-btn{
+	&--toggle-on{
+		box-shadow: inset 0 3px 15px rgba(0, 0, 0, 0.25);
+		opacity: 0.7;
+
+		&:focus,
+		&:hover,
+		&:active {
+			box-shadow: inset 0 3px 15px rgba(0, 0, 0, 0.25);
+		}
+
+		&[disabled]{
+			box-shadow: inset 0 3px 15px rgba(0, 0, 0, 0.25);
+			&:focus,
+			&:hover,
+			&:active {
+				box-shadow: inset 0 3px 15px rgba(0, 0, 0, 0.25);
+			}
 		}
 	}
 }
