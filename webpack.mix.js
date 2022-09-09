@@ -22,6 +22,10 @@ mix
 				{
 					test:/\.twig$/,
 					use:['twig-loader']
+				},
+				{
+					test: /\.(png|jpe?g|gif|svg|eot|ttf|woff|woff2)$/i,
+					type: "asset/inline"
 				}
 			]
 		},
@@ -34,11 +38,17 @@ mix
 			}
 		}
 	})
+	.sourceMaps(true, 'inline-source-map')
 
 
 	// --------------------------------------
 	// fields: cssMarginPadding
-	.js('./src_gulp/fields/cssMarginPadding/cssMarginPadding.js', './fields/cssMarginPadding/frontend/')
-	.sass('src_gulp/fields/cssMarginPadding/cssMarginPadding.css.scss', './fields/cssMarginPadding/frontend/cssMarginPadding.css')
+	.js('./src_mix/fields/cssMarginPadding/cssMarginPadding.js', './fields/cssMarginPadding/frontend/')
+	.sass('src_mix/fields/cssMarginPadding/cssMarginPadding.css.scss', './fields/cssMarginPadding/frontend/cssMarginPadding.css')
+
+	// --------------------------------------
+	// px2style
+	.js('./src_px2style/_src/main.js', './px2style/px2style.js')
+	.sass('src_px2style/px2style.css.scss', './px2style/px2style.css')
 
 ;
