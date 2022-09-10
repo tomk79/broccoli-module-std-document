@@ -60,7 +60,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	font-family: $px2-font-family;
+	font-family: var(--px2-font-family, $px2-font-family);
 
 	> form{
 		// display: inline;

@@ -104,7 +104,7 @@
                                                 "fields": {
                                                     "text": {
                                                         "editor": "markdown",
-                                                        "src": "[List Item 1](javascript:alert(123);)"
+                                                        "src": "[List Item 1](javascript:void(0);)"
                                                     }
                                                 },
                                                 "subModName": "loop",
@@ -116,7 +116,7 @@
                                                 "fields": {
                                                     "text": {
                                                         "editor": "markdown",
-                                                        "src": "[List Item 2](javascript:alert(456);)"
+                                                        "src": "[List Item 2](javascript:void(0);)"
                                                     }
                                                 },
                                                 "subModName": "loop",
@@ -168,9 +168,15 @@
                                             {
                                                 "modId": "std-document:lists/ul-links",
                                                 "fields": {
-                                                    "href": "javascript:alert('Clicked 2');",
-                                                    "target": "",
-                                                    "label": "Link Item"
+                                                    "href": {
+                                                        "src": "javascript:void(0);"
+                                                    },
+                                                    "target": {
+                                                        "src": ""
+                                                    },
+                                                    "label": {
+                                                        "src": "Link Item"
+                                                    }
                                                 },
                                                 "subModName": "loop",
                                                 "anchor": "",
